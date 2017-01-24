@@ -151,16 +151,14 @@ class ShopControl extends \oxSuperCfg
             $class = !is_null($class) ? $class : $this->_getStartController();
 
             $this->_process($class, $function, $parameters, $viewsChain);
-        } catch (\OxidEsales\EshopCommunity\Core\Exception\SystemComponentException $ex) {
-            $this->_handleSystemException($ex);
-        } catch (\OxidEsales\EshopCommunity\Core\Exception\CookieException $ex) {
-            $this->_handleCookieException($ex);
-        } catch (\OxidEsales\EshopCommunity\Core\Exception\DatabaseConnectionException $exception) {
-            $this->handleDbNotConfiguredException();
+        } catch (\OxidEsales\EshopCommunity\Core\Exception\SystemComponentException $exception) {
+            $this->_handleSystemException($exception);
+        } catch (\OxidEsales\EshopCommunity\Core\Exception\CookieException $exception) {
+            $this->_handleCookieException($exception);
         } catch (\OxidEsales\EshopCommunity\Core\Exception\DatabaseConnectionException $exception) {
             $this->handleDbConnectionException($exception);
-        } catch (\OxidEsales\EshopCommunity\Core\Exception\StandardException $ex) {
-            $this->_handleBaseException($ex);
+        } catch (\OxidEsales\EshopCommunity\Core\Exception\StandardException $exception) {
+            $this->_handleBaseException($exception);
         }
     }
 
@@ -751,7 +749,7 @@ class ShopControl extends \oxSuperCfg
     /**
      * Handling other not caught exceptions.
      *
-     * @param oxException $exception
+     * @param \OxidEsales\EshopCommunity\Core\Exception\StandardException $exception
      */
     protected function _handleBaseException($exception)
     {
