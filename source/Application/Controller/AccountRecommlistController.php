@@ -25,6 +25,7 @@ namespace OxidEsales\EshopCommunity\Application\Controller;
 use oxField;
 use oxObjectException;
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\AccountController;
 
 /**
  * Current user recommlist manager.
@@ -34,7 +35,7 @@ use oxRegistry;
  *
  * @deprecated since v5.3 (2016-06-17); Listmania will be moved to an own module.
  */
-class AccountRecommlistController extends \Account
+class AccountRecommlistController extends AccountController
 {
 
     /**

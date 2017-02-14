@@ -25,6 +25,8 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 use oxDb;
 use oxRegistry;
 use oxField;
+use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
+use OxidEsales\Eshop\Core\Contract\IUrl;
 
 /**
  * Category manager.
@@ -32,7 +34,7 @@ use oxField;
  * of categories nodes. By recursion methods are set structure of category.
  *
  */
-class Category extends \oxI18n implements \oxIUrl
+class Category extends MultiLanguageModel implements IUrl
 {
 
     /**

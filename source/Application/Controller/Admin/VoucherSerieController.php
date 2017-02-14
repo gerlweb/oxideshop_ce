@@ -22,13 +22,15 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
+use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
+
 /**
  * Admin voucherserie manager.
  * Returns template, that arranges two other templates ("voucherserie_list.tpl"
  * and "voucherserie_main.tpl") to frame.
  * Admin Menu: Shop Settings -> Vouchers.
  */
-class VoucherSerieController extends \oxAdminView
+class VoucherSerieController extends AdminController
 {
 
     /**

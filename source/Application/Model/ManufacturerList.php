@@ -24,13 +24,14 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxRegistry;
 use oxField;
+use OxidEsales\Eshop\Core\Model\ListModel;
 
 /**
  * Manufacturer list manager.
  * Collects list of manufacturers according to collection rules (activ, etc.).
  *
  */
-class ManufacturerList extends \oxList
+class ManufacturerList extends ListModel
 {
 
     /**

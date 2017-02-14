@@ -24,11 +24,12 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use oxField;
+use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 
 /**
  * Class controls article assignment to attributes
  */
-class ShopDefaultCategoryAjax extends \ajaxListComponent
+class ShopDefaultCategoryAjax extends ListComponentAjax
 {
 
     /**

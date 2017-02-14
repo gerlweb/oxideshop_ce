@@ -24,12 +24,13 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxRegistry;
 use oxDb;
+use OxidEsales\Eshop\Core\Model\ListModel;
 
 /**
  * Promotion List manager.
  *
  */
-class ActionList extends \oxList
+class ActionList extends ListModel
 {
 
     /**

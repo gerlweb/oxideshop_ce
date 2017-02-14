@@ -25,11 +25,13 @@ namespace OxidEsales\EshopCommunity\Application\Component;
 use oxRegistry;
 use oxSeoEncoderRecomm;
 use oxSeoEncoderCategory;
+use OxidEsales\Eshop\Core\Base;
+
 
 /**
  * Locator controller for: category, vendor, manufacturers and search lists.
  */
-class Locator extends \oxSuperCfg
+class Locator extends Base
 {
 
     /**

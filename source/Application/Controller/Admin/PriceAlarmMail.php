@@ -23,13 +23,14 @@
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxDb;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article main pricealarm manager.
  * Performs collection and updatind (on user submit) main item information.
  * Admin Menu: Customer Info -> pricealarm -> Main.
  */
-class PriceAlarmMail extends \oxAdminDetails
+class PriceAlarmMail extends AdminDetailsController
 {
 
     /**

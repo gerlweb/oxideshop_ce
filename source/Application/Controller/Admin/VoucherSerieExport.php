@@ -25,11 +25,12 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 use oxRegistry;
 use oxDb;
 use oxUtilsObject;
+use OxidEsales\Eshop\Application\Controller\Admin\VoucherSerieMain;
 
 /**
  * General export class.
  */
-class VoucherSerieExport extends \VoucherSerie_Main
+class VoucherSerieExport extends VoucherSerieMain
 {
 
     /**

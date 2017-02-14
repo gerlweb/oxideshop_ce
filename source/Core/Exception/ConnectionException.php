@@ -22,6 +22,8 @@
 
 namespace OxidEsales\EshopCommunity\Core\Exception;
 
+use OxidEsales\EshopCommunity\Core\Exception\StandardException;
+
 /**
  * exception class for all kind of connection problems to external servers, e.g.:
  * - no connection, proxy problem, wrong configuration, etc.
@@ -29,7 +31,7 @@ namespace OxidEsales\EshopCommunity\Core\Exception;
  * - online vat id check
  * - db server
  */
-class ConnectionException extends \oxException
+class ConnectionException extends StandardException
 {
     /**
      * Exception type, currently old class name is used.

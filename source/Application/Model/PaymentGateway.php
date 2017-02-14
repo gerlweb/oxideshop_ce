@@ -22,12 +22,14 @@
 
 namespace OxidEsales\EshopCommunity\Application\Model;
 
+use OxidEsales\Eshop\Core\Base;
+
 /**
  * Payment gateway manager.
  * Checks and sets payment method data, executes payment.
  *
  */
-class PaymentGateway extends \oxSuperCfg
+class PaymentGateway extends Base
 {
 
     /**

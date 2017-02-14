@@ -25,11 +25,12 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 use oxRegistry;
 use oxDb;
 use oxSysRequirements;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
 
 /**
  * Administrator GUI navigation manager class.
  */
-class NavigationController extends \oxAdminView
+class NavigationController extends AdminController
 {
 
     /**

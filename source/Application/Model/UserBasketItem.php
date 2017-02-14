@@ -23,13 +23,14 @@
 namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxField;
+use OxidEsales\Eshop\Core\Model\BaseModel;
 
 /**
  * Shopping basket item manager.
  * Manager class for shopping basket item (class may be overriden).
  *
  */
-class UserBasketItem extends \oxBase
+class UserBasketItem extends BaseModel
 {
 
     /**

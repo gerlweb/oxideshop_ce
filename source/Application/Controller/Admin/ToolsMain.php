@@ -23,13 +23,14 @@
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * CVS export manager.
  * Performs export function according to user chosen categories.
  * Admin Menu: Maine Menu -> Im/Export -> Export.
  */
-class ToolsMain extends \oxAdminDetails
+class ToolsMain extends AdminDetailsController
 {
 
     /**

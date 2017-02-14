@@ -22,12 +22,14 @@
 
 namespace OxidEsales\EshopCommunity\Core\Exception;
 
+use OxidEsales\EshopCommunity\Core\Exception\StandardException;
+
 /**
  * exception class for all kind of exceptions connected to a user e.g.:
  * - user doesn't exist
  * - wrong password
  */
-class UserException extends \oxException
+class UserException extends StandardException
 {
     /**
      * Exception type, currently old class name is used.

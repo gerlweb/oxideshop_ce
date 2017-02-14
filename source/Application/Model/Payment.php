@@ -24,13 +24,14 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxRegistry;
 use oxDb;
+use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
 
 /**
  * Payment manager.
  * Performs payment methods, such as assigning to someone, returning value etc.
  *
  */
-class Payment extends \oxI18n
+class Payment extends MultiLanguageModel
 {
 
     /**

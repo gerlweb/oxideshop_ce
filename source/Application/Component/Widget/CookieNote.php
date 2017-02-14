@@ -22,10 +22,12 @@
 
 namespace OxidEsales\EshopCommunity\Application\Component\Widget;
 
+use OxidEsales\Eshop\Application\Component\Widget\WidgetController;
+
 /**
  * Cookie note widget
  */
-class CookieNote extends \oxWidget
+class CookieNote extends WidgetController
 {
 
     /**

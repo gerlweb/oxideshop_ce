@@ -23,12 +23,13 @@
 namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxDb;
+use OxidEsales\Eshop\Core\Model\ListModel;
 
 /**
  * Article amount price list
  *
  */
-class AmountPriceList extends \oxList
+class AmountPriceList extends ListModel
 {
     /**
      * List Object class name

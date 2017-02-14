@@ -25,11 +25,12 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 use oxDb;
 use oxField;
 use Exception;
+use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 
 /**
  * Class manages deliveryset payment
  */
-class DeliverySetPaymentAjax extends \ajaxListComponent
+class DeliverySetPaymentAjax extends ListComponentAjax
 {
 
     /**

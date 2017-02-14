@@ -24,13 +24,14 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use oxSystemComponentException;
+use OxidEsales\Eshop\Application\Controller\Admin\ShopConfiguration;
 
 /**
  * Admin shop license setting manager.
  * Collects shop license settings, updates it on user submit, etc.
  * Admin Menu: Main Menu -> Core Settings -> License.
  */
-class ShopLicense extends \Shop_Config
+class ShopLicense extends ShopConfiguration
 {
     /**
      * Current class template.

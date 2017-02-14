@@ -24,6 +24,7 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use stdClass;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article main actions manager.
@@ -31,7 +32,7 @@ use stdClass;
  * this actions, etc.
  * Admin Menu: Manage Products -> actions -> Main.
  */
-class ActionsMain extends \oxAdminDetails
+class ActionsMain extends AdminDetailsController
 {
 
     /**

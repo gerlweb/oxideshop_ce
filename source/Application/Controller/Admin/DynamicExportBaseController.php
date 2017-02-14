@@ -25,6 +25,7 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 use oxRegistry;
 use oxDb;
 use stdClass;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Error constants
@@ -39,7 +40,7 @@ DEFINE("ERR_FILEIO", 1);
  *
  * @subpackage dyn
  */
-class DynamicExportBaseController extends \oxAdminDetails
+class DynamicExportBaseController extends AdminDetailsController
 {
 
     /**

@@ -22,6 +22,8 @@
 
 namespace OxidEsales\EshopCommunity\Application\Component;
 
+use OxidEsales\Eshop\Core\Controller\BaseController;
+
 /**
  * News list manager, loads some news informetion.
  *
@@ -30,7 +32,7 @@ namespace OxidEsales\EshopCommunity\Application\Component;
  * @deprecated since v.5.3.0 (2016-06-17); The Admin Menu: Customer Info -> News feature will be moved to a module in v6.0.0
  *
  */
-class NewsComponent extends \oxView
+class NewsComponent extends BaseController
 {
 
     /**

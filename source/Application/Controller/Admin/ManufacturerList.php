@@ -22,10 +22,12 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
+use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
+
 /**
  * Admin Manufacturer list manager.
  */
-class ManufacturerList extends \oxAdminList
+class ManufacturerList extends AdminListController
 {
 
     /**

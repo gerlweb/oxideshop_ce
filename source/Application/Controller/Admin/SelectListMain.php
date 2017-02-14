@@ -25,6 +25,7 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 use oxRegistry;
 use oxField;
 use stdClass;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 DEFINE("ERR_SUCCESS", 1);
 DEFINE("ERR_REQUIREDMISSING", -1);
@@ -34,7 +35,7 @@ DEFINE("ERR_POSOUTOFBOUNDS", -2);
  * Admin article main selectlist manager.
  * Performs collection and updatind (on user submit) main item information.
  */
-class SelectListMain extends \oxAdminDetails
+class SelectListMain extends AdminDetailsController
 {
     /**
      * Keeps all act. fields to store

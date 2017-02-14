@@ -24,13 +24,14 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use stdClass;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin links details manager.
  * Creates form for submitting new admin links or modifying old ones.
  * Admin Menu: Customer Info -> Links.
  */
-class AdminlinksMain extends \oxAdminDetails
+class AdminlinksMain extends AdminDetailsController
 {
 
     /**

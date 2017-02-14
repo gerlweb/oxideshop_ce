@@ -25,6 +25,7 @@ namespace OxidEsales\EshopCommunity\Core\Module;
 use oxModule;
 use oxModuleList;
 use oxModuleInstaller;
+use OxidEsales\Eshop\Core\Contract\IModuleValidator;
 
 /**
  * Module metadata equivalence with saved shop configuration validator class.
@@ -33,7 +34,7 @@ use oxModuleInstaller;
  * @internal Do not make a module extension for this class.
  * @see      http://oxidforge.org/en/core-oxid-eshop-classes-must-not-be-extended.html
  */
-class ModuleMetadataAgainstShopValidator implements \oxIModuleValidator
+class ModuleMetadataAgainstShopValidator implements IModuleValidator
 {
 
     /**

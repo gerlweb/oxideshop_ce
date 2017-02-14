@@ -28,6 +28,7 @@ use Exception;
 use oxDb;
 use OxidEsales\Eshop\Core\Registry;
 use OxidEsales\Eshop\Core\Database\Adapter\DatabaseInterface;
+use OxidEsales\Eshop\Core\Model\ListModel;
 use OxidEsales\EshopCommunity\Core\Exception\DatabaseException;
 
 /**
@@ -35,7 +36,7 @@ use OxidEsales\EshopCommunity\Core\Exception\DatabaseException;
  * Collects list of article according to collection rules (categories, etc.).
  *
  */
-class ArticleList extends \oxList
+class ArticleList extends ListModel
 {
 
     /**

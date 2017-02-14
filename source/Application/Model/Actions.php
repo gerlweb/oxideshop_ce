@@ -28,12 +28,13 @@ use oxRegistry;
 use oxUtilsUrl;
 use oxUtilsView;
 use oxUtilsFile;
+use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
 
 /**
  * Article actions manager. Collects and keeps actions of chosen article.
  *
  */
-class Actions extends \oxI18n
+class Actions extends MultiLanguageModel
 {
 
     /**

@@ -24,12 +24,14 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxRegistry;
 use oxPrice;
+use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
+use OxidEsales\Eshop\Core\Contract\IUrl;
 
 /**
  * Lightweight variant handler. Implemnets only absolutely needed oxArticle methods.
  *
  */
-class SimpleVariant extends \oxI18n implements \oxIUrl
+class SimpleVariant extends MultiLanguageModel implements IUrl
 {
 
     /**

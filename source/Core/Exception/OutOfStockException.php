@@ -23,11 +23,12 @@
 namespace OxidEsales\EshopCommunity\Core\Exception;
 
 use oxRegistry;
+use OxidEsales\EshopCommunity\Core\Exception\ArticleException;
 
 /**
  * exception class for an article which is out of stock
  */
-class OutOfStockException extends \oxArticleException
+class OutOfStockException extends ArticleException
 {
     /**
      * Exception type, currently old class name is used.

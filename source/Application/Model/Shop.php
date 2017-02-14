@@ -24,12 +24,13 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxRegistry;
 use oxDb;
+use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
 
 /**
  * Shop manager.
  * Performs configuration and object loading or deletion.
  */
-class Shop extends \oxI18n
+class Shop extends MultiLanguageModel
 {
     /** @var string Name of current class. */
     protected $_sClassName = 'oxshop';

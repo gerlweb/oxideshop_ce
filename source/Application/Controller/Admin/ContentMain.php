@@ -27,13 +27,14 @@ use oxDb;
 use oxField;
 use oxUtilsObject;
 use stdClass;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin content manager.
  * There is possibility to change content description, enter page text etc.
  * Admin Menu: Customerinformations -> Content.
  */
-class ContentMain extends \oxAdminDetails
+class ContentMain extends AdminDetailsController
 {
 
     /**

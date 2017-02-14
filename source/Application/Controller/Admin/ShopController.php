@@ -23,6 +23,7 @@
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use OxidEsales\EshopCommunity\Core\ShopIdCalculator;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
 
 /**
  * Admin shop manager.
@@ -30,7 +31,7 @@ use OxidEsales\EshopCommunity\Core\ShopIdCalculator;
  * and "shop_main.tpl") to frame.
  * Admin Menu: Main Menu -> Core Settings.
  */
-class ShopController extends \oxAdminView
+class ShopController extends AdminController
 {
     const CURRENT_TEMPLATE = 'shop.tpl';
 

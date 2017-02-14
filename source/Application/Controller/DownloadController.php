@@ -25,12 +25,13 @@ namespace OxidEsales\EshopCommunity\Application\Controller;
 use oxException;
 use oxExceptionToDisplay;
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * Article file download page.
  *
  */
-class DownloadController extends \oxUBase
+class DownloadController extends FrontendController
 {
     /**
      * Prevents from loading any component as this controller

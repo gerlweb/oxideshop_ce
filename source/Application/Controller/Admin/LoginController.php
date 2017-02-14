@@ -25,12 +25,13 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 use OxidEsales\Eshop\Application\Model\User;
 use oxRegistry;
 use oxView;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
 
 /**
  * Administrator login form.
  * Performs administrator login form data collection.
  */
-class LoginController extends \oxAdminView
+class LoginController extends AdminController
 {
     /** Login page view id. */
     const VIEW_ID = 'login';

@@ -24,6 +24,7 @@ namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxRegistry;
 use oxField;
+use OxidEsales\Eshop\Application\Controller\AccountController;
 
 /**
  * Current user wishlist manager.
@@ -34,7 +35,7 @@ use oxField;
  * login name in special field. OXID eShop -> MY ACCOUNT
  *  -> Newsletter.
  */
-class AccountWishlistController extends \Account
+class AccountWishlistController extends AccountController
 {
 
     /**

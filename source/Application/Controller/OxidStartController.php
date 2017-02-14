@@ -23,11 +23,12 @@
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * Encapsulates methods for application initialization.
  */
-class OxidStartController extends \oxUBase
+class OxidStartController extends FrontendController
 {
     /**
      * Initializes globals and environment vars

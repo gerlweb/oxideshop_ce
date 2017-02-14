@@ -26,6 +26,7 @@ use oxRegistry;
 use oxConfig;
 use oxAdminDetails;
 use oxException;
+use OxidEsales\Eshop\Application\Controller\Admin\ShopConfiguration;
 
 /**
  * Admin article main deliveryset manager.
@@ -33,7 +34,7 @@ use oxException;
  * and etc.
  * Admin Menu: Shop settings -> Shipping & Handling -> Main Sets.
  */
-class ThemeConfiguration extends \Shop_Config
+class ThemeConfiguration extends ShopConfiguration
 {
 
     protected $_sTheme = null;

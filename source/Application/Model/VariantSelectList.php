@@ -22,11 +22,13 @@
 
 namespace OxidEsales\EshopCommunity\Application\Model;
 
+use OxidEsales\Eshop\Core\Contract\ISelectList;
+
 /**
  * Variant selection lists manager class
  *
  */
-class VariantSelectList implements \oxISelectList
+class VariantSelectList implements ISelectList
 {
 
     /**

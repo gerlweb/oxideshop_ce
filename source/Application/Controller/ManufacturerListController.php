@@ -25,6 +25,7 @@ namespace OxidEsales\EshopCommunity\Application\Controller;
 use oxManufacturer;
 use oxRegistry;
 use oxUBase;
+use OxidEsales\Eshop\Application\Controller\ArticleListController;
 
 /**
  * List of articles for a selected Manufacturer.
@@ -32,7 +33,7 @@ use oxUBase;
  * metatags (for search engines). Result - "manufacturerlist.tpl" template.
  * OXID eShop -> (Any selected shop product category).
  */
-class ManufacturerListController extends \AList
+class ManufacturerListController extends ArticleListController
 {
 
     /**

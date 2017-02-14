@@ -23,11 +23,12 @@
 namespace OxidEsales\EshopCommunity\Core;
 
 use oxRegistry;
+use OxidEsales\Eshop\Core\Base;
 
 /**
  * class for pictures processing
  */
-class PictureHandler extends \oxSuperCfg
+class PictureHandler extends Base
 {
 
     /**

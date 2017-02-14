@@ -26,11 +26,12 @@ use oxRegistry;
 use oxDb;
 use oxField;
 use Exception;
+use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 
 /**
  * Class manages article select lists configuration
  */
-class SelectListMainAjax extends \ajaxListComponent
+class SelectListMainAjax extends ListComponentAjax
 {
 
     /**

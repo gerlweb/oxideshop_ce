@@ -22,10 +22,12 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
+
 /**
  * Class reserved for extending (for customization - you can add you own fields, etc.).
  */
-class ArticleUserdef extends \oxAdminDetails
+class ArticleUserdef extends AdminDetailsController
 {
 
     /**

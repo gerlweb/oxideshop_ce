@@ -24,12 +24,13 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxRegistry;
 use oxDb;
+use OxidEsales\Eshop\Core\Base;
 
 /**
  * VariantHandler encapsulates methods dealing with multidimensional variant and variant names.
  *
  */
-class VariantHandler extends \oxSuperCfg
+class VariantHandler extends Base
 {
 
     /**

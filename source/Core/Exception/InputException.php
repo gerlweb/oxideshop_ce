@@ -22,12 +22,14 @@
 
 namespace OxidEsales\EshopCommunity\Core\Exception;
 
+use OxidEsales\EshopCommunity\Core\Exception\StandardException;
+
 /**
  * exception class for all kind of exceptions connected to an input done by the user e.g.:
  * - not valid email adress
  * - negative value
  */
-class InputException extends \oxException
+class InputException extends StandardException
 {
     /**
      * Exception type, currently old class name is used.

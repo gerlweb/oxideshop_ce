@@ -25,12 +25,13 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 use oxRegistry;
 use oxDb;
 use oxField;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
 
 /**
  * pricealarm sending manager.
  * Performs sending of pricealarm to selected iAllCnt groups.
  */
-class PriceAlarmSend extends \oxAdminList
+class PriceAlarmSend extends AdminListController
 {
 
     /**

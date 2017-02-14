@@ -23,6 +23,7 @@
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\AccountController;
 
 /**
  * Current user notice list manager.
@@ -31,7 +32,7 @@ use oxRegistry;
  * store them to shopping basket, view detail information.
  * OXID eShop -> MY ACCOUNT -> Newsletter.
  */
-class AccountNoticeListController extends \Account
+class AccountNoticeListController extends AccountController
 {
     /**
      * Current class template name.

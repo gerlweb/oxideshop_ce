@@ -26,12 +26,13 @@ use oxRegistry;
 use oxDb;
 use oxNoJsValidator;
 use Exception;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article main selectlist manager.
  * Performs collection and updatind (on user submit) main item information.
  */
-class LanguageMain extends \oxAdminDetails
+class LanguageMain extends AdminDetailsController
 {
 
     /**

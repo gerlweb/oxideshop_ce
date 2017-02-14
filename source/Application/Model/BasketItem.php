@@ -27,12 +27,13 @@ use oxArticleInputException;
 use oxOutOfStockException;
 use oxNoArticleException;
 use stdClass;
+use OxidEsales\Eshop\Core\Base;
 
 /**
  * UserBasketItem class, responsible for storing most important fields
  *
  */
-class BasketItem extends \oxSuperCfg
+class BasketItem extends Base
 {
 
     /**

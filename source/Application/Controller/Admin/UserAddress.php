@@ -23,13 +23,14 @@
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin user address setting manager.
  * Collects user address settings, updates it on user submit, etc.
  * Admin Menu: User Administration -> Users -> Addresses.
  */
-class UserAddress extends \oxAdminDetails
+class UserAddress extends AdminDetailsController
 {
 
     /**

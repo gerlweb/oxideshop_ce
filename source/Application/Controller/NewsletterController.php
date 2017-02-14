@@ -24,6 +24,7 @@ namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxField;
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * Newsletter opt-in/out.
@@ -31,7 +32,7 @@ use oxRegistry;
  * user opt-in or remove user from newsletter list. OXID eShop ->
  * (Newsletter).
  */
-class NewsletterController extends \oxUBase
+class NewsletterController extends FrontendController
 {
     /**
      * Action articlelist

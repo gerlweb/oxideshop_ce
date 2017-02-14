@@ -23,12 +23,13 @@
 namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxDb;
+use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
 
 /**
  * Country manager
  *
  */
-class Country extends \oxI18n
+class Country extends MultiLanguageModel
 {
 
     /**

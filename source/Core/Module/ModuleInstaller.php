@@ -22,6 +22,7 @@
 namespace OxidEsales\EshopCommunity\Core\Module;
 
 use OxidEsales\Eshop\Core\SettingsHandler;
+use OxidEsales\Eshop\Core\Base;
 use oxModuleCache;
 use oxModule;
 use oxDb;
@@ -33,7 +34,7 @@ use oxUtilsObject;
  * @internal Do not make a module extension for this class.
  * @see      http://oxidforge.org/en/core-oxid-eshop-classes-must-not-be-extended.html
  */
-class ModuleInstaller extends \oxSuperCfg
+class ModuleInstaller extends Base
 {
     /**
      * @var oxModuleCache

@@ -28,6 +28,8 @@ use oxRegistry;
 use oxList;
 use oxUtilsObject;
 use oxField;
+use OxidEsales\Eshop\Core\Model\BaseModel;
+use OxidEsales\Eshop\Core\Contract\IUrl;
 
 /**
  * Recommendation list manager class.
@@ -35,7 +37,7 @@ use oxField;
  * @deprecated since v5.3 (2016-06-17); Listmania will be moved to an own module.
  *
  */
-class RecommendationList extends \oxBase implements \oxIUrl
+class RecommendationList extends BaseModel implements IUrl
 {
 
     /**

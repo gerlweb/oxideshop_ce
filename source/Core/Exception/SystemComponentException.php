@@ -22,6 +22,8 @@
 
 namespace OxidEsales\EshopCommunity\Core\Exception;
 
+use OxidEsales\EshopCommunity\Core\Exception\StandardException;
+
 /**
  * exceptions for missing components e.g.:
  * - missing class
@@ -29,7 +31,7 @@ namespace OxidEsales\EshopCommunity\Core\Exception;
  * - missing template
  * - missing field in object
  */
-class SystemComponentException extends \oxException
+class SystemComponentException extends StandardException
 {
     /**
      * Exception type, currently old class name is used.

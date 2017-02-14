@@ -22,13 +22,15 @@
 
 namespace OxidEsales\EshopCommunity\Application\Component\Widget;
 
+use OxidEsales\Eshop\Application\Component\Widget\WidgetController;
+
 /**
  * Recomendation list.
  * Forms recomendation list.
  *
  * @deprecated since v5.3 (2016-06-17); Listmania will be moved to an own module.
  */
-class Recommendation extends \oxWidget
+class Recommendation extends WidgetController
 {
 
     /**

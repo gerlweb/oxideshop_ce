@@ -23,13 +23,14 @@
 namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxDb;
+use OxidEsales\Eshop\Core\Model\ListModel;
 
 /**
  * Discount list manager.
  * Organizes list of discount objects.
  *
  */
-class DiscountList extends \oxList
+class DiscountList extends ListModel
 {
 
     /**

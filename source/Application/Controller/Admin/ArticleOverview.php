@@ -24,6 +24,7 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use oxDb;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article overview manager.
@@ -31,7 +32,7 @@ use oxDb;
  * last modification date, sales rating and etc.
  * Admin Menu: Manage Products -> Articles -> Overview.
  */
-class ArticleOverview extends \oxAdminDetails
+class ArticleOverview extends AdminDetailsController
 {
 
     /**

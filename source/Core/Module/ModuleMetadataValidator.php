@@ -23,6 +23,7 @@
 namespace OxidEsales\EshopCommunity\Core\Module;
 
 use oxModule;
+use OxidEsales\Eshop\Core\Contract\IModuleValidator;
 
 /**
  * Module metadata validation class.
@@ -31,7 +32,7 @@ use oxModule;
  * @internal Do not make a module extension for this class.
  * @see      http://oxidforge.org/en/core-oxid-eshop-classes-must-not-be-extended.html
  */
-class ModuleMetadataValidator implements \oxIModuleValidator
+class ModuleMetadataValidator implements IModuleValidator
 {
 
     /**

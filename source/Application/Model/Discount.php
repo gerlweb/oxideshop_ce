@@ -25,13 +25,14 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 use oxDb;
 use OxidEsales\EshopCommunity\Core\Database\Adapter\Doctrine\Database;
 use OxidEsales\EshopCommunity\Core\Exception\StandardException;
+use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
 use stdClass;
 
 /**
  * Discounts manager.
  *
  */
-class Discount extends \oxI18n
+class Discount extends MultiLanguageModel
 {
 
     /**

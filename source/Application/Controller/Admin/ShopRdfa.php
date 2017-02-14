@@ -23,6 +23,7 @@
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\Admin\ShopConfiguration;
 
 /**
  * Admin shop system RDFa manager.
@@ -30,7 +31,7 @@ use oxRegistry;
  * Admin Menu: Main Menu -> Core Settings -> RDFa.
  *
  */
-class ShopRdfa extends \Shop_Config
+class ShopRdfa extends ShopConfiguration
 {
 
     /**

@@ -22,12 +22,14 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
+use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
+
 /**
  * Admin pricealarm list manager.
  * Performs collection and managing (such as filtering or deleting) function.
  * Admin Menu: Customer Info -> pricealarm.
  */
-class PriceAlarmList extends \oxAdminList
+class PriceAlarmList extends AdminListController
 {
 
     /**

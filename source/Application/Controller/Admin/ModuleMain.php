@@ -27,6 +27,7 @@ use oxException;
 use oxModule;
 use oxModuleCache;
 use oxModuleInstaller;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article main deliveryset manager.
@@ -34,7 +35,7 @@ use oxModuleInstaller;
  * and etc.
  * Admin Menu: Shop settings -> Shipping & Handling -> Main Sets.
  */
-class ModuleMain extends \oxAdminDetails
+class ModuleMain extends AdminDetailsController
 {
 
     /**

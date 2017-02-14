@@ -22,6 +22,7 @@
 
 namespace OxidEsales\EshopCommunity\Application\Model;
 
+use OxidEsales\Eshop\Core\Model\BaseModel;
 use OxidEsales\EshopCommunity\Application\Model\Contract\ArticleInterface;
 use oxRegistry;
 use oxField;
@@ -32,7 +33,7 @@ use oxDb;
  * Performs copying of article.
  *
  */
-class OrderArticle extends \oxBase implements ArticleInterface
+class OrderArticle extends BaseModel implements ArticleInterface
 {
 
     /**

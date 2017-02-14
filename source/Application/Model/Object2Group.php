@@ -25,11 +25,12 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 use oxField;
 use OxidEsales\EshopCommunity\Core\Exception\DatabaseException;
 use OxidEsales\Eshop\Core\Database\Adapter\Doctrine\Database;
+use OxidEsales\Eshop\Core\Model\BaseModel;
 
 /**
  * Manages object (users, discounts, deliveries...) assignment to groups.
  */
-class Object2Group extends \oxBase
+class Object2Group extends BaseModel
 {
     /** @var boolean Load the relation even if from other shop */
     protected $_blDisableShopCheck = true;

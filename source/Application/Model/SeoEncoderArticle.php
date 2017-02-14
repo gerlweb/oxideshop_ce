@@ -27,12 +27,13 @@ use oxRegistry;
 use oxUBase;
 use oxDb;
 use oxCategory;
+use OxidEsales\Eshop\Core\SeoEncoder;
 
 /**
  * Seo encoder for articles
  *
  */
-class SeoEncoderArticle extends \oxSeoEncoder
+class SeoEncoderArticle extends SeoEncoder
 {
 
     /**

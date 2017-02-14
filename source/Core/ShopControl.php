@@ -26,6 +26,7 @@ use OxidEsales\Eshop\Application\Controller\FrontendController;
 use OxidEsales\EshopCommunity\Core\Exception\DatabaseConnectionException;
 use OxidEsales\EshopCommunity\Core\Exception\DatabaseNotConfiguredException;
 use OxidEsales\EshopCommunity\Core\Exception\StandardException;
+use OxidEsales\Eshop\Core\Base;
 use OxidEsales\EshopEnterprise\Core\Cache\DynamicContent\ContentCache;
 use oxOutput;
 use oxRegistry;
@@ -38,7 +39,7 @@ use ReflectionMethod;
  * them (if needed), controls output, redirects according to
  * processed methods logic. This class is initialized from index.php
  */
-class ShopControl extends \oxSuperCfg
+class ShopControl extends Base
 {
     /**
      * Used to force handling, it allows other place like widget controller to skip it.

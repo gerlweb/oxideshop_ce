@@ -25,13 +25,14 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 use oxRegistry;
 use oxDb;
 use oxField;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin user history settings manager.
  * Collects user history settings, updates it on user submit, etc.
  * Admin Menu: User Administration -> Users -> History.
  */
-class UserRemark extends \oxAdminDetails
+class UserRemark extends AdminDetailsController
 {
 
     /**

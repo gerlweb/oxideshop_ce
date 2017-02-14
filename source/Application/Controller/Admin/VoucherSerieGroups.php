@@ -23,6 +23,7 @@
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin voucherserie groups manager.
@@ -30,7 +31,7 @@ use oxRegistry;
  * serie of vouchers.
  * Admin Menu: Shop Settings -> Vouchers -> Groups.
  */
-class VoucherSerieGroups extends \oxAdminDetails
+class VoucherSerieGroups extends AdminDetailsController
 {
 
     /**

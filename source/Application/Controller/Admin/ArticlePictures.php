@@ -24,6 +24,7 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use oxField;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article picture manager.
@@ -31,7 +32,7 @@ use oxField;
  * upload any other picture, etc.
  * Admin Menu: Manage Products -> Articles -> Pictures.
  */
-class ArticlePictures extends \oxAdminDetails
+class ArticlePictures extends AdminDetailsController
 {
     /**
      * Loads article information - pictures, passes data to Smarty

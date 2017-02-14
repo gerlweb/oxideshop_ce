@@ -24,11 +24,12 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxDb;
 use oxField;
+use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 
 /**
  * Class manages newsletter user groups rights
  */
-class NewsletterSelectionAjax extends \ajaxListComponent
+class NewsletterSelectionAjax extends ListComponentAjax
 {
 
     /**

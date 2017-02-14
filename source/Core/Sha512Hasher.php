@@ -22,10 +22,12 @@
 
 namespace OxidEsales\EshopCommunity\Core;
 
+use OxidEsales\Eshop\Core\Hasher;
+
 /**
  * Encrypt string with sha512 algorithm.
  */
-class Sha512Hasher extends \oxHasher
+class Sha512Hasher extends Hasher
 {
 
     /** Algorithm name. */

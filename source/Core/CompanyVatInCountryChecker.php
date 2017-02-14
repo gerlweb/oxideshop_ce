@@ -24,11 +24,13 @@ namespace OxidEsales\EshopCommunity\Core;
 
 use OxidEsales\Eshop\Application\Model\CompanyVatIn;
 use OxidEsales\Eshop\Application\Model\Country;
+use OxidEsales\Eshop\Core\CompanyVatInChecker;
+use OxidEsales\Eshop\Core\Contract\ICountryAware;
 
 /**
  * Company VAT identification number checker. Check if number belongs to the country.
  */
-class CompanyVatInCountryChecker extends \oxCompanyVatInChecker implements \oxICountryAware
+class CompanyVatInCountryChecker extends CompanyVatInChecker implements ICountryAware
 {
 
     /**

@@ -22,11 +22,13 @@
 
 namespace OxidEsales\EshopCommunity\Application\Model;
 
+use OxidEsales\Eshop\Core\Model\ListModel;
+
 /**
  * Voucher list manager.
  *
  */
-class VoucherList extends \oxList
+class VoucherList extends ListModel
 {
 
     /**

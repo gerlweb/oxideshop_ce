@@ -24,13 +24,14 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use oxDb;
+use OxidEsales\Eshop\Core\Base;
 
 /**
  * AJAX call processor class
  *
  * @internal This class should not be directly extended, instead of it ajaxListComponent class should be used.
  */
-class ListComponentAjax extends \oxSuperCfg
+class ListComponentAjax extends Base
 {
 
     /**

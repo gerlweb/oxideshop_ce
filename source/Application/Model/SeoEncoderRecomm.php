@@ -23,13 +23,14 @@
 namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxRegistry;
+use OxidEsales\Eshop\Core\SeoEncoder;
 
 /**
  * Seo encoder base
  *
  * @deprecated since v5.3 (2016-06-17); Listmania will be moved to an own module.
  */
-class SeoEncoderRecomm extends \oxSeoEncoder
+class SeoEncoderRecomm extends SeoEncoder
 {
     /**
      * Returns SEO uri for tag.

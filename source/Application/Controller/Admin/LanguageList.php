@@ -25,11 +25,12 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 use oxRegistry;
 use oxDb;
 use Exception;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
 
 /**
  * Admin selectlist list manager.
  */
-class LanguageList extends \oxAdminList
+class LanguageList extends AdminListController
 {
 
     /**

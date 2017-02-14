@@ -24,6 +24,7 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use oxDb;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
 
 /**
  * Admin article list manager.
@@ -33,7 +34,7 @@ use oxDb;
  *
  * @internal This class should not be directly extended, instead of it oxAdminList class should be used.
  */
-class ArticleList extends \oxAdminList
+class ArticleList extends AdminListController
 {
     /**
      * Name of chosen object class (default null).

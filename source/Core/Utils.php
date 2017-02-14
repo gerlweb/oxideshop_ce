@@ -27,12 +27,13 @@ use oxPrice;
 use oxRegistry;
 use stdClass;
 use Exception;
+use OxidEsales\Eshop\Core\Base;
 
 /**
  * General utils class
  *
  */
-class Utils extends \oxSuperCfg
+class Utils extends Base
 {
 
     /**

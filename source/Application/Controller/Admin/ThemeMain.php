@@ -25,6 +25,7 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 use oxRegistry;
 use oxTheme;
 use oxException;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article main deliveryset manager.
@@ -32,7 +33,7 @@ use oxException;
  * and etc.
  * Admin Menu: Shop settings -> Shipping & Handling -> Main Sets.
  */
-class ThemeMain extends \oxAdminDetails
+class ThemeMain extends AdminDetailsController
 {
 
     /**

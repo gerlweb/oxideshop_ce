@@ -23,11 +23,12 @@
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * Displays exception errors
  */
-class ExceptionErrorController extends \oxUBase
+class ExceptionErrorController extends FrontendController
 {
     /**
      * Current class template name.

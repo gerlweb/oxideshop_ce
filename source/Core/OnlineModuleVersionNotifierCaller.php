@@ -23,6 +23,7 @@
 namespace OxidEsales\EshopCommunity\Core;
 
 use oxOnlineModulesNotifierRequest;
+use OxidEsales\Eshop\Core\OnlineCaller;
 
 /**
  * Class makes call to given URL address and sends request parameter.
@@ -36,7 +37,7 @@ use oxOnlineModulesNotifierRequest;
  *
  * @ignore   This class will not be included in documentation.
  */
-class OnlineModuleVersionNotifierCaller extends \oxOnlineCaller
+class OnlineModuleVersionNotifierCaller extends OnlineCaller
 {
 
     /** Online Module Version Notifier web service url. */

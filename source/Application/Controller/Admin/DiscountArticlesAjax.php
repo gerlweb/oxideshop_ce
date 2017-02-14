@@ -24,11 +24,12 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxDb;
 use oxField;
+use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 
 /**
  * Class manages discount articles
  */
-class DiscountArticlesAjax extends \ajaxListComponent
+class DiscountArticlesAjax extends ListComponentAjax
 {
     /**  */
     const NEW_DISCOUNT_LIST_ID = "-1";
