@@ -22,12 +22,12 @@
 
 namespace OxidEsales\EshopCommunity\Core\Exception;
 
-use oxException;
+use OxidEsales\Eshop\Core\Exception\StandardException;
 
 /**
  * Exception to be thrown on database errors
  */
-class DatabaseException extends oxException
+class DatabaseException extends StandardException
 {
 
     /**

@@ -22,7 +22,7 @@
 
 namespace OxidEsales\EshopCommunity\Core\Exception;
 
-use OxidEsales\EshopCommunity\Core\Exception\ArticleException;
+use OxidEsales\Eshop\Core\Exception\ArticleException;
 
 /**
  * Article input exception..

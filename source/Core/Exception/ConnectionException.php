@@ -22,7 +22,7 @@
 
 namespace OxidEsales\EshopCommunity\Core\Exception;
 
-use OxidEsales\EshopCommunity\Core\Exception\StandardException;
+use OxidEsales\Eshop\Core\Exception\StandardException;
 
 /**
  * exception class for all kind of connection problems to external servers, e.g.:
