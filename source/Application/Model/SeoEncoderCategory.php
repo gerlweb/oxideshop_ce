@@ -23,11 +23,12 @@
 namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxDb;
+use OxidEsales\Eshop\Core\SeoEncoder;
 
 /**
  * Seo encoder category
  */
-class SeoEncoderCategory extends \oxSeoEncoder
+class SeoEncoderCategory extends SeoEncoder
 {
     /** @var array _aCatCache cache for categories. */
     protected $_aCatCache = array();

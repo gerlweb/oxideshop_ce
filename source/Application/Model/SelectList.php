@@ -24,12 +24,14 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxRegistry;
 use oxDb;
+use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
+use OxidEsales\Eshop\Core\Contract\ISelectList;
 
 /**
  * Select list manager
  *
  */
-class SelectList extends \oxI18n implements \oxISelectList
+class SelectList extends MultiLanguageModel implements ISelectList
 {
     /**
      * Select list fields array

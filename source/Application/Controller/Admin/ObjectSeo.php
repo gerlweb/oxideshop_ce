@@ -25,11 +25,12 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 use oxRegistry;
 use oxDb;
 use stdClass;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Base seo config class.
  */
-class ObjectSeo extends \oxAdminDetails
+class ObjectSeo extends AdminDetailsController
 {
     /**
      * Executes parent method parent::render(),

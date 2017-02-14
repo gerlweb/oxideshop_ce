@@ -23,11 +23,12 @@
 namespace OxidEsales\EshopCommunity\Core;
 
 use DOMDocument;
+use OxidEsales\Eshop\Core\Base;
 
 /**
  * XML document handler
  */
-class UtilsXml extends \oxSuperCfg
+class UtilsXml extends Base
 {
 
     /**

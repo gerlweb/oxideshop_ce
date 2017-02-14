@@ -25,6 +25,7 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 use oxRegistry;
 use stdClass;
 use oxField;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article main delivery manager.
@@ -32,7 +33,7 @@ use oxField;
  * and etc.
  * Admin Menu: Shop settings -> Shipping & Handling -> Main.
  */
-class DeliveryMain extends \oxAdminDetails
+class DeliveryMain extends AdminDetailsController
 {
 
     /**

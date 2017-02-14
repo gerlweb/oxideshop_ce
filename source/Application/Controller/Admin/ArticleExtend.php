@@ -27,6 +27,7 @@ use oxDb;
 use oxField;
 use stdClass;
 use Exception;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article extended parameters manager.
@@ -35,7 +36,7 @@ use Exception;
  * to any chosen article group.
  * Admin Menu: Manage Products -> Articles -> Extended.
  */
-class ArticleExtend extends \oxAdminDetails
+class ArticleExtend extends AdminDetailsController
 {
 
     /**

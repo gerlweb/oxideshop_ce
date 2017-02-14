@@ -23,12 +23,13 @@
 namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxField;
+use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
 
 /**
  * Links manager.
  * Collects stored in DB links data (URL, description).
  */
-class Links extends \oxI18n
+class Links extends MultiLanguageModel
 {
 
     /**

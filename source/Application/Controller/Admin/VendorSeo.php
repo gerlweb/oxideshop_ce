@@ -24,11 +24,12 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use oxField;
+use OxidEsales\Eshop\Application\Controller\Admin\ObjectSeo;
 
 /**
  * Vendor seo config class
  */
-class VendorSeo extends \Object_Seo
+class VendorSeo extends ObjectSeo
 {
 
     /**

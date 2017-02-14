@@ -23,13 +23,14 @@
 namespace OxidEsales\EshopCommunity\Application\Component;
 
 use oxRegistry;
+use OxidEsales\Eshop\Core\Controller\BaseController;
 
 /**
  * Transparent category manager class (executed automatically).
  *
  * @subpackage oxcmp
  */
-class CategoriesComponent extends \oxView
+class CategoriesComponent extends BaseController
 {
 
     /**

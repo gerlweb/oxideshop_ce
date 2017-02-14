@@ -24,12 +24,12 @@ namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxList;
 use oxRegistry;
-use oxUBase;
+use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * Managing Gift Wrapping
  */
-class WrappingController extends oxUBase
+class WrappingController extends FrontendController
 {
 
     /**

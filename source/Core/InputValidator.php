@@ -25,11 +25,12 @@ namespace OxidEsales\EshopCommunity\Core;
 
 use oxRegistry;
 use oxDb;
+use OxidEsales\Eshop\Core\Base;
 
 /**
  * Class for validating input
  */
-class InputValidator extends \oxSuperCfg
+class InputValidator extends Base
 {
 
     /**

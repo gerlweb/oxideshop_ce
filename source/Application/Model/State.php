@@ -23,11 +23,12 @@
 namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxDb;
+use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
 
 /**
  * State handler
  */
-class State extends \oxI18n
+class State extends MultiLanguageModel
 {
 
     /**

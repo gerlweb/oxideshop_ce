@@ -23,11 +23,12 @@ namespace OxidEsales\EshopCommunity\Core;
 
 use oxDb;
 use oxUtilsObject;
+use OxidEsales\Eshop\Core\Base;
 
 /**
  * Settings handler class.
  */
-class SettingsHandler extends \oxSuperCfg
+class SettingsHandler extends Base
 {
     /**
      * Module type.

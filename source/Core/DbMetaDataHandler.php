@@ -24,13 +24,13 @@ namespace OxidEsales\EshopCommunity\Core;
 
 use oxRegistry;
 use oxDb;
-use oxSuperCfg;
+use OxidEsales\Eshop\Core\Base;
 
 /**
  * Class for handling database related operations
  *
  */
-class DbMetaDataHandler extends oxSuperCfg
+class DbMetaDataHandler extends Base
 {
     /**
      *

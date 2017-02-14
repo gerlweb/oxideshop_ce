@@ -23,6 +23,7 @@
 namespace OxidEsales\EshopCommunity\Core;
 
 use OxidEsales\Eshop\Core\Edition\EditionSelector;
+use OxidEsales\Eshop\Core\Base;
 use oxRegistry;
 
 /**
@@ -30,7 +31,7 @@ use oxRegistry;
  * of getters needed for formatting various urls,
  * config parameters, session information etc.
  */
-class ViewConfig extends \oxSuperCfg
+class ViewConfig extends Base
 {
 
     /**

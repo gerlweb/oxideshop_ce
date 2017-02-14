@@ -23,6 +23,7 @@
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin category main attributes manager.
@@ -30,7 +31,7 @@ use oxRegistry;
  * this attribute, etc.
  * Admin Menu: Manage Products -> Attributes -> Gruppen.
  */
-class AttributeCategory extends \oxAdminDetails
+class AttributeCategory extends AdminDetailsController
 {
 
     /**

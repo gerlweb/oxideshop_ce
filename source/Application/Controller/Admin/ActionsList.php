@@ -23,6 +23,7 @@
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
 
 /**
  * Admin actionss manager.
@@ -30,7 +31,7 @@ use oxRegistry;
  * field ('oxactions.oxtitle').
  * Admin Menu: Manage Products -> Actions.
  */
-class ActionsList extends \oxAdminList
+class ActionsList extends AdminListController
 {
 
     /**

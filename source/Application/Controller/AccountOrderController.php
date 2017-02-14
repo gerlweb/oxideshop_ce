@@ -23,6 +23,7 @@
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\AccountController;
 
 /**
  * Current user order history review.
@@ -32,7 +33,7 @@ use oxRegistry;
  * ordered articles information, button to add article to basket.
  * OXID eShop -> MY ACCOUNT -> Newsletter.
  */
-class AccountOrderController extends \Account
+class AccountOrderController extends AccountController
 {
 
     /**

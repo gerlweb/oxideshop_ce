@@ -23,13 +23,14 @@
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
 
 /**
  * Admin systeminfo manager.
  * Returns template, that arranges two other templates ("delivery_list.tpl"
  * and "delivery_main.tpl") to frame.
  */
-class SystemInfoController extends \oxAdminView
+class SystemInfoController extends AdminController
 {
 
     /**

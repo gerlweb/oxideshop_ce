@@ -24,6 +24,7 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxDb;
 use Exception;
+use OxidEsales\Eshop\Core\Model\ListModel;
 
 /**
  * Category list manager.
@@ -31,7 +32,7 @@ use Exception;
  * list structure.
  *
  */
-class CategoryList extends \oxList
+class CategoryList extends ListModel
 {
 
     /**

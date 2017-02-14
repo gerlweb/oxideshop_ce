@@ -24,12 +24,12 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxStr;
 use oxRegistry;
-use oxAdminDetails;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin general export manager.
  */
-class GenericImportMain extends oxAdminDetails
+class GenericImportMain extends AdminDetailsController
 {
 
     /**

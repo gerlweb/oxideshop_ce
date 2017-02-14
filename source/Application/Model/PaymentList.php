@@ -23,12 +23,13 @@
 namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxDb;
+use OxidEsales\Eshop\Core\Model\ListModel;
 
 /**
  * Payment list manager.
  *
  */
-class PaymentList extends \oxList
+class PaymentList extends ListModel
 {
 
     /**

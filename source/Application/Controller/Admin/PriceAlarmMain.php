@@ -26,13 +26,14 @@ use oxRegistry;
 use oxDb;
 use oxField;
 use stdClass;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article main pricealarm manager.
  * Performs collection and updatind (on user submit) main item information.
  * Admin Menu: Customer Info -> pricealarm -> Main.
  */
-class PriceAlarmMain extends \oxAdminDetails
+class PriceAlarmMain extends AdminDetailsController
 {
 
     /**

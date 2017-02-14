@@ -24,12 +24,13 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxDb;
 use oxRegistry;
+use OxidEsales\Eshop\Core\Model\ListModel;
 
 /**
  * Delivery list manager.
  *
  */
-class DeliveryList extends \oxList
+class DeliveryList extends ListModel
 {
 
     /**

@@ -23,13 +23,14 @@
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * Article suggestion page.
  * Collects some article base information, sets default recomendation text,
  * sends suggestion mail to user.
  */
-class SuggestController extends \oxUBase
+class SuggestController extends FrontendController
 {
     /**
      * Current class template name.

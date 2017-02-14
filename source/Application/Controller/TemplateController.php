@@ -23,13 +23,14 @@
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * Template preparation class.
  * Used only in some specific cases (usually when you need to outpt just template
  * having text information).
  */
-class TemplateController extends \oxUBase
+class TemplateController extends FrontendController
 {
     /**
      * Executes parent method parent::render(), returns name of template file.

@@ -24,12 +24,13 @@ namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxField;
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\UserController;
 
 /**
  * User registration window.
  * Collects and arranges user object data (information, like shipping address, etc.).
  */
-class RegisterController extends \OxidEsales\EshopCommunity\Application\Controller\UserController
+class RegisterController extends UserController
 {
 
     /**

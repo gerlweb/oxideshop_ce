@@ -26,13 +26,14 @@ use oxRegistry;
 use oxDb;
 use oxField;
 use stdClass;
+use OxidEsales\Eshop\Application\Controller\Admin\PaymentRdfa;
 
 /**
  * Admin article RDFa deliveryset manager.
  * Performs collection and updatind (on user submit) main item information.
  * Admin Menu: Shop Settings -> Shipping & Handling -> RDFa.
  */
-class DeliverySetRdfa extends \payment_rdfa
+class DeliverySetRdfa extends PaymentRdfa
 {
 
     /**

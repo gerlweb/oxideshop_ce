@@ -23,12 +23,13 @@
 namespace OxidEsales\EshopCommunity\Core;
 
 use oxRegistry;
+use OxidEsales\Eshop\Core\Base;
 
 /**
  * class for output processing
  *
  */
-class Output extends \oxSuperCfg
+class Output extends Base
 {
 
     const OUTPUT_FORMAT_HTML = 'html';

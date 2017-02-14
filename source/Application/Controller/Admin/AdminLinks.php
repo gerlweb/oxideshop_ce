@@ -22,13 +22,15 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
+use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
+
 /**
  * Admins links manager.
  * Sets template, that arranges two other templates ("adminlinks_lis.tpl"
  * and "adminlinks_main.tpl") to frame.
  * Admin Menu: Customer Info -> Links.
  */
-class AdminLinks extends \oxAdminView
+class AdminLinks extends AdminController
 {
 
     /**

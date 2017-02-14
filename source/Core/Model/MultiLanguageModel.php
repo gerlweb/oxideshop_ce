@@ -25,11 +25,12 @@ namespace OxidEsales\EshopCommunity\Core\Model;
 use oxObjectException;
 use oxRegistry;
 use oxDb;
+use OxidEsales\Eshop\Core\Model\BaseModel;
 
 /**
  * Class handling multilanguage data fields
  */
-class MultiLanguageModel extends \oxBase
+class MultiLanguageModel extends BaseModel
 {
 
     /**

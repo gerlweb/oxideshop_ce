@@ -26,12 +26,13 @@ use oxRegistry;
 use oxDb;
 use oxField;
 use oxAdminDetails;
+use OxidEsales\Eshop\Application\Controller\Admin\NewsletterSelection;
 
 /**
  * Newsletter sending manager.
  * Performs sending of newsletter to selected user groups.
  */
-class NewsletterSend extends \Newsletter_Selection
+class NewsletterSend extends NewsletterSelection
 {
 
     /**

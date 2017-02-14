@@ -23,12 +23,13 @@
 namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxDb;
+use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
 
 /**
  * Order delivery set manager.
  *
  */
-class DeliverySet extends \oxI18n
+class DeliverySet extends MultiLanguageModel
 {
 
     /**

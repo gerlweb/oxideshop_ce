@@ -23,6 +23,7 @@
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use OxidEsales\Eshop\Core\Edition\EditionSelector;
+use OxidEsales\Eshop\Core\Controller\BaseController;
 use oxRegistry;
 use oxDb;
 use oxNavigationTree;
@@ -31,7 +32,7 @@ use oxShop;
 /**
  * @internal This class should not be directly extended, instead of it oxAdminView class should be used.
  */
-class AdminController extends \oxView
+class AdminController extends BaseController
 {
     /**
      * Fixed types - enums in database.

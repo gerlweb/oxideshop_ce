@@ -23,6 +23,7 @@
 namespace OxidEsales\EshopCommunity\Application\Component;
 
 use oxRegistry;
+use OxidEsales\Eshop\Core\Controller\BaseController;
 
 /**
  * Transparent shop utilities class.
@@ -31,7 +32,7 @@ use oxRegistry;
  *
  * @subpackage oxcmp
  */
-class UtilsComponent extends \oxView
+class UtilsComponent extends BaseController
 {
 
     /**

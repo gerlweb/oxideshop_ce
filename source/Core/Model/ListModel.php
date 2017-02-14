@@ -23,12 +23,13 @@
 namespace OxidEsales\EshopCommunity\Core\Model;
 
 use oxDb;
+use OxidEsales\Eshop\Core\Base;
 
 /**
  * List manager.
  * Collects list data (eg. from DB), performs list changes updating (to DB), etc.
  */
-class ListModel extends \oxSuperCfg implements \ArrayAccess, \Iterator, \Countable
+class ListModel extends Base implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**

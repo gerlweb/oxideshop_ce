@@ -23,6 +23,7 @@
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxUBase;
+use OxidEsales\Eshop\Application\Controller\ArticleDetailsController;
 
 /**
  * Handles adding article to recommendation list process.
@@ -31,7 +32,7 @@ use oxUBase;
  *
  * @deprecated since v5.3 (2016-06-17); Listmania will be moved to an own module.
  */
-class RecommendationAddController extends \Details
+class RecommendationAddController extends ArticleDetailsController
 {
     /**
      * Template name

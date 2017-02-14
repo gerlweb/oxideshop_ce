@@ -26,6 +26,7 @@ use oxRegistry;
 use oxDb;
 use oxField;
 use stdClass;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article inventory manager.
@@ -33,7 +34,7 @@ use stdClass;
  * stock message, etc; Updates information (on user submit).
  * Admin Menu: Manage Products -> Articles -> Inventory.
  */
-class ArticleStock extends \oxAdminDetails
+class ArticleStock extends AdminDetailsController
 {
 
     /**

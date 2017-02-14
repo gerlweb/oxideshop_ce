@@ -24,11 +24,12 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use oxDb;
+use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 
 /**
  * Class controls article assignment to attributes
  */
-class ArticleBundleAjax extends \ajaxListComponent
+class ArticleBundleAjax extends ListComponentAjax
 {
 
     /**

@@ -23,12 +23,13 @@
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * Comparing Products.
  * Takes a few products and show attribute values to compare them.
  */
-class CompareController extends \oxUBase
+class CompareController extends FrontendController
 {
 
     /**

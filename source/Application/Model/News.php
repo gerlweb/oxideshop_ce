@@ -26,6 +26,7 @@ use oxRegistry;
 use oxDb;
 use oxField;
 use oxUtilsView;
+use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
 
 /**
  * News manager.
@@ -35,7 +36,7 @@ use oxUtilsView;
  * @deprecated since v.5.3.0 (2016-06-17); The Admin Menu: Customer Info -> News feature will be moved to a module in v6.0.0
  *
  */
-class News extends \oxI18n
+class News extends MultiLanguageModel
 {
 
     /**

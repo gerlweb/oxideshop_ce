@@ -23,11 +23,12 @@
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * CMS - loads pages and displays it
  */
-class ClearCookiesController extends \oxUBase
+class ClearCookiesController extends FrontendController
 {
     /**
      * Current view template

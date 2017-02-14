@@ -24,11 +24,12 @@ namespace OxidEsales\EshopCommunity\Application\Component\Widget;
 
 use oxRegistry;
 use oxArticle;
+use OxidEsales\Eshop\Application\Component\Widget\WidgetController;
 
 /**
  * Article box widget
  */
-class ArticleBox extends \oxWidget
+class ArticleBox extends WidgetController
 {
     /**
      * Names of components (classes) that are initiated and executed

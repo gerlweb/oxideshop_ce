@@ -22,10 +22,12 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
+use OxidEsales\Eshop\Application\Controller\Admin\GenericImportMain;
+
 /**
  * Admin dyn General import manager.
  */
-class GenericImport extends \GenImport_Main
+class GenericImport extends GenericImportMain
 {
 
     /**

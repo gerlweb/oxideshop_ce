@@ -24,12 +24,13 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use oxField;
+use OxidEsales\Eshop\Application\Controller\Admin\VoucherSerieMain;
 
 /**
  * Voucher Serie generator class
  *
  */
-class VoucherSerieGenerate extends \VoucherSerie_Main
+class VoucherSerieGenerate extends VoucherSerieMain
 {
 
     /**

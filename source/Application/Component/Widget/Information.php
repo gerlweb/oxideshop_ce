@@ -22,11 +22,13 @@
 
 namespace OxidEsales\EshopCommunity\Application\Component\Widget;
 
+use OxidEsales\Eshop\Application\Component\Widget\WidgetController;
+
 /**
  * List of additional shop information links widget.
  * Forms info link list.
  */
-class Information extends \oxWidget
+class Information extends WidgetController
 {
 
     /**

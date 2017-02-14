@@ -22,10 +22,12 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
+use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
+
 /**
  * Admin vendor list manager.
  */
-class VendorList extends \oxAdminList
+class VendorList extends AdminListController
 {
 
     /**

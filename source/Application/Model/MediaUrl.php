@@ -22,11 +22,13 @@
 
 namespace OxidEsales\EshopCommunity\Application\Model;
 
+use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
+
 /**
  * Media URL handler
  *
  */
-class MediaUrl extends \oxI18n
+class MediaUrl extends MultiLanguageModel
 {
 
     /**

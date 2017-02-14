@@ -23,11 +23,12 @@
 namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxDb;
+use OxidEsales\Eshop\Core\Model\ListModel;
 
 /**
  * Class oxUserAddressList
  */
-class UserAddressList extends \oxList
+class UserAddressList extends ListModel
 {
 
     /**

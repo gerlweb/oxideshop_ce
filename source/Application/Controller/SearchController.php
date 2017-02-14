@@ -23,14 +23,14 @@
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxRegistry;
-use oxUBase;
+use OxidEsales\Eshop\Application\Controller\FrontendController;
 use oxSearch;
 
 /**
  * Articles searching class.
  * Performs searching through articles in database.
  */
-class SearchController extends oxUBase
+class SearchController extends FrontendController
 {
 
     /**

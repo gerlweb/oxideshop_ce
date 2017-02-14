@@ -24,13 +24,14 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use oxField;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin user extended settings manager.
  * Collects user extended settings, updates it on user submit, etc.
  * Admin Menu: User Administration -> Users -> Extended.
  */
-class UserExtend extends \oxAdminDetails
+class UserExtend extends AdminDetailsController
 {
 
     /**

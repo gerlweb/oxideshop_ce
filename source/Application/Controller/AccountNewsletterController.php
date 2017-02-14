@@ -23,6 +23,7 @@
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\AccountController;
 
 /**
  * Current user newsletter manager.
@@ -30,7 +31,7 @@ use oxRegistry;
  * his newletter subscription status - simply register or
  * unregister from newsletter. OXID eShop -> MY ACCOUNT -> Newsletter.
  */
-class AccountNewsletterController extends \Account
+class AccountNewsletterController extends AccountController
 {
     /**
      * Current class template name.

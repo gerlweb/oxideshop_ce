@@ -25,13 +25,14 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 use oxRegistry;
 use oxDb;
 use oxField;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin order remark manager.
  * Collects order remark information, updates it on user submit, etc.
  * Admin Menu: Orders -> Display Orders -> History.
  */
-class OrderRemark extends \oxAdminDetails
+class OrderRemark extends AdminDetailsController
 {
 
     /**

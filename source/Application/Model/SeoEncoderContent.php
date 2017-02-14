@@ -24,11 +24,12 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxRegistry;
 use oxDb;
+use OxidEsales\Eshop\Core\SeoEncoder;
 
 /**
  * Seo encoder base
  */
-class SeoEncoderContent extends \oxSeoEncoder
+class SeoEncoderContent extends SeoEncoder
 {
     /**
      * Returns target "extension" (/)

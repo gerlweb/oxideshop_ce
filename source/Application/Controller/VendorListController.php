@@ -25,6 +25,7 @@ namespace OxidEsales\EshopCommunity\Application\Controller;
 use oxRegistry;
 use oxUBase;
 use oxVendorList;
+use OxidEsales\Eshop\Application\Controller\ArticleListController;
 
 /**
  * List of articles for a selected vendor.
@@ -32,7 +33,7 @@ use oxVendorList;
  * meta tags (for search engines). Result - "vendorlist.tpl" template.
  * OXID eShop -> (Any selected shop product category).
  */
-class VendorListController extends \AList
+class VendorListController extends ArticleListController
 {
     /**
      * List type

@@ -24,13 +24,14 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use oxField;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
 
 /**
  * Admin selectlist list manager.
  *
  * @internal This class should not be directly extended, instead of it oxAdminDetails class should be used.
  */
-class AdminDetailsController extends \oxAdminView
+class AdminDetailsController extends AdminController
 {
     /**
      * Global editor object.

@@ -23,6 +23,7 @@
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * Interesting, useful links window.
@@ -30,7 +31,7 @@ use oxRegistry;
  * administrator GUI) with short link description and URL. OXID
  * eShop -> LINKS.
  */
-class LinksController extends \oxUBase
+class LinksController extends FrontendController
 {
 
     /**

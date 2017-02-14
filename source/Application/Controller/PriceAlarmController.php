@@ -24,6 +24,7 @@ namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxField;
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * PriceAlarm window.
@@ -33,7 +34,7 @@ use oxRegistry;
  * email.
  * OXID eShop -> pricealarm.
  */
-class PriceAlarmController extends \oxUBase
+class PriceAlarmController extends FrontendController
 {
     /**
      * Current class template name.

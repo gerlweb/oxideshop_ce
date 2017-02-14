@@ -24,11 +24,12 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxDb;
 use oxField;
+use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 
 /**
  * Class manages deliveryset groups
  */
-class DeliverySetGroupsAjax extends \ajaxListComponent
+class DeliverySetGroupsAjax extends ListComponentAjax
 {
 
     /**

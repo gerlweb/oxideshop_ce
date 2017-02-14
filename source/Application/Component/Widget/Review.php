@@ -22,10 +22,12 @@
 
 namespace OxidEsales\EshopCommunity\Application\Component\Widget;
 
+use OxidEsales\Eshop\Application\Component\Widget\WidgetController;
+
 /**
  * Product reviews widget
  */
-class Review extends \oxWidget
+class Review extends WidgetController
 {
     /**
      * Names of components (classes) that are initiated and executed

@@ -24,12 +24,13 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxRegistry;
 use oxField;
+use OxidEsales\Eshop\Core\Model\BaseModel;
 
 /**
  * Remark manager.
  *
  */
-class Remark extends \oxBase
+class Remark extends BaseModel
 {
 
     /**

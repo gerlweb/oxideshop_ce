@@ -26,13 +26,14 @@ use oxRegistry;
 use oxDb;
 use oxUtilsObject;
 use oxException;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article main shop manager.
  * Performs collection and updatind (on user submit) main item information.
  * Admin Menu: Main Menu -> Core Settings -> Main.
  */
-class ShopMain extends \oxAdminDetails
+class ShopMain extends AdminDetailsController
 {
     /** Identifies new shop. */
     const NEW_SHOP_ID = "-1";

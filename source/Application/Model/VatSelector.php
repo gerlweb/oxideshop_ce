@@ -24,12 +24,13 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxDb;
 use oxObjectException;
+use OxidEsales\Eshop\Core\Base;
 
 /**
  * Class, responsible for retrieving correct vat for users and articles
  *
  */
-class VatSelector extends \oxSuperCfg
+class VatSelector extends Base
 {
 
     /**

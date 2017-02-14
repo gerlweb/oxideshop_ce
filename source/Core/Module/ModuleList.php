@@ -25,6 +25,7 @@ namespace OxidEsales\EshopCommunity\Core\Module;
 use oxDb;
 use oxModuleCache;
 use oxRegistry;
+use OxidEsales\Eshop\Core\Base;
 
 /**
  * Modules list class.
@@ -32,7 +33,7 @@ use oxRegistry;
  * @internal Do not make a module extension for this class.
  * @see      http://oxidforge.org/en/core-oxid-eshop-classes-must-not-be-extended.html
  */
-class ModuleList extends \oxSuperCfg
+class ModuleList extends Base
 {
     const MODULE_KEY_PATHS = 'Paths';
     const MODULE_KEY_EVENTS = 'Events';

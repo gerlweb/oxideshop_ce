@@ -26,13 +26,14 @@ use oxDb;
 use oxRegistry;
 use oxField;
 use oxUtilsObject;
+use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
 
 /**
  * Article attributes manager.
  * Collects and keeps attributes of chosen article.
  *
  */
-class Attribute extends \oxI18n
+class Attribute extends MultiLanguageModel
 {
     /**
      * Current class name

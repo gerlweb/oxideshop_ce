@@ -24,13 +24,14 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxDb;
 use oxRegistry;
+use OxidEsales\Eshop\Core\Model\BaseModel;
 
 /**
  * Article rate manager.
  * Performs loading, updating, inserting of article rates.
  *
  */
-class Rating extends \oxBase
+class Rating extends BaseModel
 {
 
     /**
