@@ -24,6 +24,7 @@ namespace OxidEsales\EshopCommunity\Core;
 
 use oxDb;
 use oxRegistry;
+use OxidEsales\Eshop\Core\Base;
 
 /**
  * Including pictures generator functions file
@@ -33,7 +34,7 @@ require_once __DIR__ . "/utils/oxpicgenerator.php";
 /**
  * Image manipulation class
  */
-class UtilsPic extends \oxSuperCfg
+class UtilsPic extends Base
 {
 
     /**

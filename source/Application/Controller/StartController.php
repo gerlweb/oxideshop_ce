@@ -23,13 +23,13 @@
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxRegistry;
-use oxUBase;
+use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * Starting shop page.
  * Shop starter, manages starting visible articles, etc.
  */
-class StartController extends oxUBase
+class StartController extends FrontendController
 {
 
     /**

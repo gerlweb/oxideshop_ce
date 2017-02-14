@@ -23,13 +23,14 @@
 namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxDb;
+use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
 
 /**
  * Order delivery manager.
  * Currently calculates price/costs.
  *
  */
-class Delivery extends \oxI18n
+class Delivery extends MultiLanguageModel
 {
 
     /**

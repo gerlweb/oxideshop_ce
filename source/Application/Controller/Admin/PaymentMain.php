@@ -25,13 +25,14 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 use oxRegistry;
 use stdClass;
 use oxField;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article main payment manager.
  * Performs collection and updatind (on user submit) main item information.
  * Admin Menu: Shop Settings -> Payment Methods -> Main.
  */
-class PaymentMain extends \oxAdminDetails
+class PaymentMain extends AdminDetailsController
 {
     /**
      * Keeps all act. fields to store

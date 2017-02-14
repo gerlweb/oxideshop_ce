@@ -23,11 +23,12 @@
 namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxDb;
+use OxidEsales\Eshop\Core\SeoEncoder;
 
 /**
  * Seo encoder base
  */
-class SeoEncoderManufacturer extends \oxSeoEncoder
+class SeoEncoderManufacturer extends SeoEncoder
 {
     /**
      * Root manufacturer uri cache

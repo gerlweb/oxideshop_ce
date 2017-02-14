@@ -32,12 +32,13 @@ use stdClass;
 use oxPrice;
 use oxDb;
 use oxVoucherException;
+use OxidEsales\Eshop\Core\Base;
 
 /**
  * Basket manager
  *
  */
-class Basket extends \oxSuperCfg
+class Basket extends Base
 {
 
     /**

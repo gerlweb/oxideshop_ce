@@ -24,11 +24,12 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use oxDb;
+use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 
 /**
  * Class manages article select lists sorting
  */
-class ActionsOrderAjax extends \ajaxListComponent
+class ActionsOrderAjax extends ListComponentAjax
 {
 
     /**

@@ -23,11 +23,12 @@
 namespace OxidEsales\EshopCommunity\Core;
 
 use oxRegistry;
+use OxidEsales\Eshop\Core\Base;
 
 /**
  * File manipulation utility class
  */
-class UtilsFile extends \oxSuperCfg
+class UtilsFile extends Base
 {
 
     /**

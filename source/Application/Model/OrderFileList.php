@@ -22,11 +22,13 @@
 
 namespace OxidEsales\EshopCommunity\Application\Model;
 
+use OxidEsales\Eshop\Core\Model\ListModel;
+
 /**
  * Article file link manager.
  *
  */
-class OrderFileList extends \oxList
+class OrderFileList extends ListModel
 {
 
     /**

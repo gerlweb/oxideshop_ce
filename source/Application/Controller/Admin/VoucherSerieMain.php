@@ -24,6 +24,7 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use oxAdminView;
+use OxidEsales\Eshop\Application\Controller\Admin\DynamicExportBaseController;
 
 /**
  * Admin article main voucherserie manager.
@@ -31,7 +32,7 @@ use oxAdminView;
  * and etc.
  * Admin Menu: Shop Settings -> Vouchers -> Main.
  */
-class VoucherSerieMain extends \DynExportBase
+class VoucherSerieMain extends DynamicExportBaseController
 {
 
     /**

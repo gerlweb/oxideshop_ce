@@ -22,11 +22,13 @@
 
 namespace OxidEsales\EshopCommunity\Core\Exception;
 
+use OxidEsales\EshopCommunity\Core\Exception\StandardException;
+
 /**
  * e.g.:
  * - shop is not active
  */
-class ShopException extends \oxException
+class ShopException extends StandardException
 {
     /**
      * Exception type, currently old class name is used.

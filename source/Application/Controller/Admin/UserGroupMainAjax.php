@@ -25,11 +25,12 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 use oxRegistry;
 use oxDb;
 use oxField;
+use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 
 /**
  * Class manages users assignment to groups
  */
-class UserGroupMainAjax extends \ajaxListComponent
+class UserGroupMainAjax extends ListComponentAjax
 {
 
     /**

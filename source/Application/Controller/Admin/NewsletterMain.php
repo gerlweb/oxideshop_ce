@@ -23,13 +23,14 @@
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article main newsletter manager.
  * Performs collection and updatind (on user submit) main item information.
  * Admin Menu: Customer Info -> Newsletter -> Main.
  */
-class NewsletterMain extends \oxAdminDetails
+class NewsletterMain extends AdminDetailsController
 {
 
     /**

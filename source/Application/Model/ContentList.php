@@ -23,13 +23,14 @@
 namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxDb;
+use OxidEsales\Eshop\Core\Model\ListModel;
 
 /**
  * Content list manager.
  * Collects list of content
  *
  */
-class ContentList extends \oxList
+class ContentList extends ListModel
 {
 
     /**

@@ -26,11 +26,12 @@ use oxRegistry;
 use oxDb;
 use oxField;
 use Exception;
+use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 
 /**
  * Class manages category attributes
  */
-class AttributeCategoryAjax extends \ajaxListComponent
+class AttributeCategoryAjax extends ListComponentAjax
 {
 
     /**

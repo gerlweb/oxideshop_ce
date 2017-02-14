@@ -26,13 +26,14 @@ use oxRegistry;
 use oxDb;
 use stdClass;
 use oxField;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article RDFa payment manager.
  * Performs collection and updatind (on user submit) main item information.
  * Admin Menu: Shop Settings -> Payment Methods -> RDFa.
  */
-class PaymentRdfa extends \oxAdminDetails
+class PaymentRdfa extends AdminDetailsController
 {
 
     /**

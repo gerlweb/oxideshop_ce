@@ -25,6 +25,8 @@ use OxidEsales\Eshop\Core\Registry;
 use OxidEsales\Eshop\Core\Routing\Module\ClassProviderStorage;
 use OxidEsales\EshopCommunity\Core\Exception\ModuleValidationException;
 use OxidEsales\EshopCommunity\Core\Exception\StandardException;
+use OxidEsales\Eshop\Core\SettingsHandler;
+use OxidEsales\Eshop\Core\Base;
 use oxModuleCache;
 use oxDb;
 use OxidEsales\Eshop\Core\Module\ModuleExtensionsCleaner;
@@ -37,7 +39,7 @@ use oxUtilsObject;
  * @internal Do not make a module extension for this class.
  * @see      http://oxidforge.org/en/core-oxid-eshop-classes-must-not-be-extended.html
  */
-class ModuleInstaller extends \oxSuperCfg
+class ModuleInstaller extends Base
 {
     /**
      * @var oxModuleCache

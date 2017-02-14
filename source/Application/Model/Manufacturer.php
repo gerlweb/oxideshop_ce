@@ -24,12 +24,14 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxRegistry;
 use oxField;
+use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
+use OxidEsales\Eshop\Core\Contract\IUrl;
 
 /**
  * Manufacturer manager
  *
  */
-class Manufacturer extends \oxI18n implements \oxIUrl
+class Manufacturer extends MultiLanguageModel implements IUrl
 {
 
     protected static $_aRootManufacturer = array();

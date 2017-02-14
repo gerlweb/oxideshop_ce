@@ -32,6 +32,7 @@ use oxExceptionToDisplay;
 use oxDbMetaDataHandler;
 use oxUtilsView;
 use category_main_ajax;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article main categories manager.
@@ -39,7 +40,7 @@ use category_main_ajax;
  * and etc.
  * Admin Menu: Manage Products -> Categories -> Main.
  */
-class CategoryMain extends \oxAdminDetails
+class CategoryMain extends AdminDetailsController
 {
     const NEW_CATEGORY_ID = "-1";
 

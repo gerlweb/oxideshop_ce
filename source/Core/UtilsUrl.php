@@ -24,11 +24,12 @@ namespace OxidEsales\EshopCommunity\Core;
 
 use oxRegistry;
 use oxStrRegular;
+use OxidEsales\Eshop\Core\Base;
 
 /**
  * URL utility class
  */
-class UtilsUrl extends \oxSuperCfg
+class UtilsUrl extends Base
 {
     const PARAMETER_SEPARATOR = '&amp;';
 

@@ -24,11 +24,12 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use oxDb;
+use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 
 /**
  * Class manages vendor assignment to articles
  */
-class VendorMainAjax extends \ajaxListComponent
+class VendorMainAjax extends ListComponentAjax
 {
 
     /**

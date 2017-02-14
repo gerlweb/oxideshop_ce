@@ -26,13 +26,14 @@ use oxRegistry;
 use oxDb;
 use oxStr;
 use Exception;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
 
 /**
  * Admin systeminfo manager.
  * Returns template, that arranges two other templates ("tools_list.tpl"
  * and "tools_main.tpl") to frame.
  */
-class ToolsList extends \oxAdminList
+class ToolsList extends AdminListController
 {
 
     /**

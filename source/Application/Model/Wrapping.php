@@ -24,13 +24,14 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxRegistry;
 use oxDb;
+use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
 
 /**
  * Wrapping manager.
  * Performs Wrapping data/objects loading, deleting.
  *
  */
-class Wrapping extends \oxI18n
+class Wrapping extends MultiLanguageModel
 {
 
     /**

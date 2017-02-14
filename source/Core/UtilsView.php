@@ -24,6 +24,7 @@ namespace OxidEsales\EshopCommunity\Core;
 use oxException;
 use oxField;
 use OxidEsales\Eshop\Core\Contract\IDisplayError;
+use OxidEsales\Eshop\Core\Base;
 use OxidEsales\EshopCommunity\Core\Exception\StandardException;
 use OxidEsales\Eshop\Core\Module\ModuleTemplateBlockContentReader;
 use OxidEsales\Eshop\Core\Module\ModuleTemplateBlockPathFormatter;
@@ -36,7 +37,7 @@ use Smarty;
 /**
  * View utility class
  */
-class UtilsView extends \oxSuperCfg
+class UtilsView extends Base
 {
 
     /**

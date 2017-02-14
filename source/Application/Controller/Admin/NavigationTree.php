@@ -30,11 +30,12 @@ use stdClass;
 use OxidEsales\Eshop\Core\Edition\EditionRootPathProvider;
 use OxidEsales\Eshop\Core\Edition\EditionPathProvider;
 use OxidEsales\Eshop\Core\Edition\EditionSelector;
+use OxidEsales\Eshop\Core\Base;
 
 /**
  * Navigation tree control class
  */
-class NavigationTree extends \oxSuperCfg
+class NavigationTree extends Base
 {
     /**
      * stores DOM object for all navigation tree

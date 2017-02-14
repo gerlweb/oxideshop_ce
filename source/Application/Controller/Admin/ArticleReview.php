@@ -24,6 +24,7 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use oxDb;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article review manager.
@@ -31,7 +32,7 @@ use oxDb;
  * review text or delete it.
  * Admin Menu: Manage Products -> Articles -> Review.
  */
-class ArticleReview extends \oxAdminDetails
+class ArticleReview extends AdminDetailsController
 {
     /**
      * Loads selected article review information, returns name of template

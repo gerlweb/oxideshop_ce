@@ -23,6 +23,7 @@
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\AccountController;
 
 /**
  * Current user password change form.
@@ -32,7 +33,7 @@ use oxRegistry;
  * etc. Some fields must be entered. OXID eShop -> MY ACCOUNT
  * -> Update your billing and delivery settings.
  */
-class AccountPasswordController extends \Account
+class AccountPasswordController extends AccountController
 {
 
     /**

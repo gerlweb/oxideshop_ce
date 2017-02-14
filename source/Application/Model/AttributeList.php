@@ -25,12 +25,13 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 use oxDb;
 use oxRegistry;
 use stdClass;
+use OxidEsales\Eshop\Core\Model\ListModel;
 
 /**
  * Attribute list manager.
  *
  */
-class AttributeList extends \oxList
+class AttributeList extends ListModel
 {
 
     /**

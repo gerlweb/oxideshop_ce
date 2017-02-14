@@ -24,11 +24,12 @@ namespace OxidEsales\EshopCommunity\Core;
 
 use oxDb;
 use oxRegistry;
+use OxidEsales\Eshop\Core\Base;
 
 /**
  * Date manipulation utility class
  */
-class UtilsCount extends \oxSuperCfg
+class UtilsCount extends Base
 {
 
     /**

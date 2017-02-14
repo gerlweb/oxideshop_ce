@@ -22,10 +22,12 @@
 
 namespace OxidEsales\EshopCommunity\Core\Exception;
 
+use OxidEsales\EshopCommunity\Core\Exception\StandardException;
+
 /**
  * exception class for clients without cookies support
  */
-class CookieException extends \oxException
+class CookieException extends StandardException
 {
     /**
      * Exception type, currently old class name is used.

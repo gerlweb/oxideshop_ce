@@ -24,13 +24,14 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use stdClass;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin Menu: Customer Info -> News -> Text.
  *
  * @deprecated since v.5.3.0 (2016-06-17); The Admin Menu: Customer Info -> News feature will be moved to a module in v6.0.0
  */
-class NewsText extends \oxAdminDetails
+class NewsText extends AdminDetailsController
 {
     /**
      * Executes parent method parent::render(), creates oxnews object and

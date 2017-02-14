@@ -24,12 +24,14 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxRegistry;
 use oxField;
+use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
+use OxidEsales\Eshop\Core\Contract\IUrl;
 
 /**
  * Vendor manager
  *
  */
-class Vendor extends \oxI18n implements \oxIUrl
+class Vendor extends MultiLanguageModel implements IUrl
 {
 
     protected static $_aRootVendor = array();

@@ -23,6 +23,7 @@
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * Password reminder page.
@@ -31,7 +32,7 @@ use oxRegistry;
  * information and submits "Request Password" button mail is sent to users email.
  * OXID eShop -> MY ACCOUNT -> "Forgot your password? - click here."
  */
-class ForgotPasswordController extends \oxUBase
+class ForgotPasswordController extends FrontendController
 {
 
     /**

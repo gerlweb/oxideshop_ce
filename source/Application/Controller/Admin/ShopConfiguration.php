@@ -24,7 +24,7 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use oxDb;
-use oxAdminDetails;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 use Exception;
 
 /**
@@ -32,7 +32,7 @@ use Exception;
  * Collects shop config information, updates it on user submit, etc.
  * Admin Menu: Main Menu -> Core Settings -> General.
  */
-class ShopConfiguration extends oxAdminDetails
+class ShopConfiguration extends AdminDetailsController
 {
 
     protected $_sThisTemplate = 'shop_config.tpl';

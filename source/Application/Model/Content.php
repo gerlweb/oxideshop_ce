@@ -25,13 +25,15 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 use oxRegistry;
 use oxField;
 use oxDb;
+use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
+use OxidEsales\Eshop\Core\Contract\IUrl;
 
 /**
  * Content manager.
  * Base object for content pages
  *
  */
-class Content extends \oxI18n implements \oxIUrl
+class Content extends MultiLanguageModel implements IUrl
 {
 
     /**

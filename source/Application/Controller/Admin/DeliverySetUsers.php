@@ -25,6 +25,7 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 use oxRegistry;
 use oxField;
 use oxGroups;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin deliveryset User manager.
@@ -32,7 +33,7 @@ use oxGroups;
  * and etc.
  * Admin Menu: Shop settings -> Shipping & Handling Sets -> Users.
  */
-class DeliverySetUsers extends \oxAdminDetails
+class DeliverySetUsers extends AdminDetailsController
 {
 
     /**

@@ -23,6 +23,7 @@
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
 
 /**
  * Admin dynscreen manager.
@@ -34,7 +35,7 @@ use oxRegistry;
  * @deprecated since v5.3 (2016-05-20); Dynpages will be removed.
  *
  */
-class DynamicScreenController extends \oxAdminList
+class DynamicScreenController extends AdminListController
 {
 
     /**

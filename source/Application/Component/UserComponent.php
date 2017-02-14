@@ -24,6 +24,7 @@ namespace OxidEsales\EshopCommunity\Application\Component;
 
 use oxDb;
 use OxidEsales\Eshop\Core\Registry;
+use OxidEsales\Eshop\Core\Controller\BaseController;
 use oxRegistry;
 use oxUser;
 use Exception;
@@ -40,7 +41,7 @@ define('USER_LOGOUT', 3);
  *
  * @subpackage oxcmp
  */
-class UserComponent extends \oxView
+class UserComponent extends BaseController
 {
 
     /**

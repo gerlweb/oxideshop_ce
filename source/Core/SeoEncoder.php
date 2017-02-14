@@ -27,12 +27,13 @@ use oxRegistry;
 use oxDb;
 use oxStr;
 use OxidEsales\EshopCommunity\Core\Exception\StandardException;
+use OxidEsales\Eshop\Core\Base;
 
 /**
  * Seo encoder base
  *
  */
-class SeoEncoder extends \oxSuperCfg
+class SeoEncoder extends Base
 {
 
     /**

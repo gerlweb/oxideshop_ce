@@ -24,6 +24,7 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use oxDb;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
 
 /**
  * Admin Contents manager.
@@ -31,7 +32,7 @@ use oxDb;
  * them by Description or delete them.
  * Admin Menu: Customerinformations -> Content.
  */
-class ContentList extends \oxAdminList
+class ContentList extends AdminListController
 {
 
     /**

@@ -23,13 +23,13 @@
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxRegistry;
-use oxUBase;
+use OxidEsales\Eshop\Application\Controller\FrontendController;
 use oxRssFeed;
 
 /**
  * Shop RSS page.
  */
-class RssController extends oxUBase
+class RssController extends FrontendController
 {
 
     /**

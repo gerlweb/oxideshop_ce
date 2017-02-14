@@ -27,6 +27,7 @@ use oxrecommlist;
 use oxUBase;
 use oxRssFeed;
 use oxField;
+use OxidEsales\Eshop\Application\Controller\ArticleListController;
 
 /**
  * Article suggestion page.
@@ -35,7 +36,7 @@ use oxField;
  *
  * @deprecated since v5.3 (2016-06-17); Listmania will be moved to an own module.
  */
-class RecommListController extends \AList
+class RecommListController extends ArticleListController
 {
 
     /**

@@ -22,12 +22,13 @@
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * User details.
  * Collects and arranges user object data (information, like shipping address, etc.).
  */
-class UserController extends \oxUBase
+class UserController extends FrontendController
 {
     /**
      * Current class template.

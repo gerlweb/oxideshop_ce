@@ -24,6 +24,7 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use stdClass;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article main attributes manager.
@@ -31,7 +32,7 @@ use stdClass;
  * this attribute, etc.
  * Admin Menu: Manage Products -> Attributes -> Main.
  */
-class AttributeMain extends \oxAdminDetails
+class AttributeMain extends AdminDetailsController
 {
 
     /**

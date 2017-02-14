@@ -22,11 +22,13 @@
 
 namespace OxidEsales\EshopCommunity\Application\Component\Widget;
 
+use OxidEsales\Eshop\Application\Component\Widget\WidgetController;
+
 /**
  * Manufacturer list widget.
  * Forms Manufacturer list.
  */
-class ManufacturerList extends \oxWidget
+class ManufacturerList extends WidgetController
 {
 
     /**

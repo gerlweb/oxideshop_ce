@@ -23,6 +23,7 @@
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article attributes/selections lists manager.
@@ -30,7 +31,7 @@ use oxRegistry;
  * or remove any of them to article, etc.
  * Admin Menu: Manage Products -> Articles -> Selection.
  */
-class ArticleAttribute extends \oxAdminDetails
+class ArticleAttribute extends AdminDetailsController
 {
 
     /**

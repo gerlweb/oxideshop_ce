@@ -23,6 +23,7 @@
 namespace OxidEsales\EshopCommunity\Core\Module;
 
 use OxidEsales\Eshop\Core\Registry;
+use OxidEsales\Eshop\Core\Base;
 use oxModule;
 
 /**
@@ -31,7 +32,7 @@ use oxModule;
  * @internal Do not make a module extension for this class.
  * @see      http://oxidforge.org/en/core-oxid-eshop-classes-must-not-be-extended.html
  */
-class ModuleCache extends \oxSuperCfg
+class ModuleCache extends Base
 {
     /**
      * @var oxModule

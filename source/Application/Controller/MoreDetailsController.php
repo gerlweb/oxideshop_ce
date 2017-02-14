@@ -23,13 +23,14 @@
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\ArticleDetailsController;
 
 /**
  * Article images gallery popup window.
  * If chosen article has more pictures there is ability to create
  * gallery of pictures.
  */
-class MoreDetailsController extends \Details
+class MoreDetailsController extends ArticleDetailsController
 {
 
     /**

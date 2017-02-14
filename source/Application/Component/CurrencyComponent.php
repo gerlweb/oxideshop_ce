@@ -23,13 +23,14 @@
 namespace OxidEsales\EshopCommunity\Application\Component;
 
 use oxRegistry;
+use OxidEsales\Eshop\Core\Controller\BaseController;
 
 /**
  * Currency manager class.
  *
  * @subpackage oxcmp
  */
-class CurrencyComponent extends \oxView
+class CurrencyComponent extends BaseController
 {
 
     /**

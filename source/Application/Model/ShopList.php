@@ -22,11 +22,13 @@
 
 namespace OxidEsales\EshopCommunity\Application\Model;
 
+use OxidEsales\Eshop\Core\Model\ListModel;
+
 /**
  * Shop list manager.
  * Organizes list of shop objects.
  */
-class ShopList extends \oxList
+class ShopList extends ListModel
 {
     /**
      * Calls parent constructor

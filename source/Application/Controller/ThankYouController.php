@@ -23,7 +23,7 @@
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxRegistry;
-use oxUBase;
+use OxidEsales\Eshop\Application\Controller\FrontendController;
 use oxBasket;
 use oxOrder;
 
@@ -31,7 +31,7 @@ use oxOrder;
  * Thankyou page.
  * Arranges Thankyou page, sets ordering status, other parameters
  */
-class ThankYouController extends oxUBase
+class ThankYouController extends FrontendController
 {
 
     /**

@@ -22,13 +22,15 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
+use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
+
 /**
  * Admin deliverysetset list manager.
  * Collects deliveryset base information (description), there is ability to
  * filter them by description, title or delete them.
  * Admin Menu: Shop Settings -> Shipping & Handling Sets.
  */
-class DeliverySetList extends \oxAdminList
+class DeliverySetList extends AdminListController
 {
 
     /**

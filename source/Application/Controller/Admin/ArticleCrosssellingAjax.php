@@ -25,11 +25,12 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 use oxRegistry;
 use oxDb;
 use oxField;
+use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 
 /**
  * Class controls article crossselling configuration
  */
-class ArticleCrosssellingAjax extends \ajaxListComponent
+class ArticleCrosssellingAjax extends ListComponentAjax
 {
 
     /**

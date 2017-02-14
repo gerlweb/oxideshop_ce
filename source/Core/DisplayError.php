@@ -23,11 +23,12 @@
 namespace OxidEsales\EshopCommunity\Core;
 
 use oxRegistry;
+use OxidEsales\Eshop\Core\Contract\IDisplayError;
 
 /**
  * simple class to add a error message to display
  */
-class DisplayError implements \oxIDisplayError
+class DisplayError implements IDisplayError
 {
     /**
      * Error message

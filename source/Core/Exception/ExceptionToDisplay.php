@@ -23,12 +23,13 @@
 namespace OxidEsales\EshopCommunity\Core\Exception;
 
 use oxRegistry;
+use OxidEsales\Eshop\Core\Contract\IDisplayError;
 
 /**
  * simplified Exception classes for simply displaying errors
  * saves resources when exception functionality is not needed
  */
-class ExceptionToDisplay implements \oxIDisplayError
+class ExceptionToDisplay implements IDisplayError
 {
 
     /**

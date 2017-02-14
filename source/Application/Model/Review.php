@@ -25,13 +25,14 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 use oxDb;
 use oxField;
 use oxRegistry;
+use OxidEsales\Eshop\Core\Model\BaseModel;
 
 /**
  * Article review manager.
  * Performs loading, updating, inserting of article review.
  *
  */
-class Review extends \oxBase
+class Review extends BaseModel
 {
 
     /**

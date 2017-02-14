@@ -26,11 +26,12 @@ use oxRegistry;
 use oxDb;
 use oxField;
 use Exception;
+use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 
 /**
  * Class manages deliveryset and delivery configuration
  */
-class DeliverySetMainAjax extends \ajaxListComponent
+class DeliverySetMainAjax extends ListComponentAjax
 {
 
     /**

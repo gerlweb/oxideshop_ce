@@ -24,13 +24,14 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use stdClass;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin wrapping main manager.
  * Performs collection and updatind (on user submit) main item information.
  * Admin Menu: System Administration -> Wrapping -> Main.
  */
-class WrappingMain extends \oxAdminDetails
+class WrappingMain extends AdminDetailsController
 {
 
     /**

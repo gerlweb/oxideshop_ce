@@ -23,13 +23,14 @@
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin order address manager.
  * Collects order addressing information, updates it on user submit, etc.
  * Admin Menu: Orders -> Display Orders -> Address.
  */
-class OrderAddress extends \oxAdminDetails
+class OrderAddress extends AdminDetailsController
 {
     /**
      * Executes parent method parent::render(), creates oxorder object

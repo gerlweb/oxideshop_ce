@@ -22,13 +22,15 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
+use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
+
 /**
  * Admin user manager.
  * Returns template, that arranges two other templates ("user_list.tpl"
  * and "user_main.tpl") to frame.
  * Admin Menu: User Administration -> Users.
  */
-class AdminWrapping extends \oxAdminView
+class AdminWrapping extends AdminController
 {
 
     /**

@@ -23,6 +23,7 @@ namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxRegistry;
 use oxUtilsUrl;
+use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * Current user "My account" window.
@@ -31,7 +32,7 @@ use oxUtilsUrl;
  * is a link for logging out. Template includes Topoffer , bargain
  * boxes. OXID eShop -> MY ACCOUNT.
  */
-class AccountController extends \oxUBase
+class AccountController extends FrontendController
 {
     /**
      * Number of user's orders.

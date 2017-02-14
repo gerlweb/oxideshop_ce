@@ -26,13 +26,14 @@ use oxUtilsDate;
 use oxRegistry;
 use oxField;
 use oxPaymentList;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article main order manager.
  * Performs collection and updatind (on user submit) main item information.
  * Admin Menu: Orders -> Display Orders -> Main.
  */
-class OrderMain extends \oxAdminDetails
+class OrderMain extends AdminDetailsController
 {
     /**
      * Whitelist of parameters whose change does not require a full order recalculation.

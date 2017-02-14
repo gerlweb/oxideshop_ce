@@ -23,6 +23,7 @@
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article crosselling/accesories manager.
@@ -30,7 +31,7 @@ use oxRegistry;
  * assigning of article to crosselling/accesories with other products.
  * Admin Menu: Manage Products -> Articles -> Crosssell.
  */
-class ArticleCrossselling extends \oxAdminDetails
+class ArticleCrossselling extends AdminDetailsController
 {
 
     /**
