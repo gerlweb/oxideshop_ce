@@ -28,7 +28,7 @@ use oxDb;
 use oxException;
 use OxidEsales\Eshop\Application\Controller\OxidStartController;
 use OxidEsales\Eshop\Application\Model\Shop;
-use OxidEsales\EshopCommunity\Core\Exception\DatabaseConnectionException;
+use OxidEsales\Eshop\Core\Exception\DatabaseConnectionException;
 use OxidEsales\Eshop\Core\Module\ModuleTemplatePathCalculator;
 use stdClass;
 use OxidEsales\Eshop\Application\Controller\FrontendController;

@@ -22,12 +22,12 @@
 
 namespace OxidEsales\EshopCommunity\Core\Exception;
 
-use oxException;
+use OxidEsales\Eshop\Core\Exception\StandardException;
 
 /**
  * Exception to be thrown when the database has not been configured in the configuration file config.inc.php
  */
-class DatabaseNotConfiguredException extends oxException
+class DatabaseNotConfiguredException extends StandardException
 {
 
     /**

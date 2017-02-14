@@ -23,9 +23,9 @@ namespace OxidEsales\EshopCommunity\Core;
 
 use oxException;
 use OxidEsales\Eshop\Application\Controller\FrontendController;
-use OxidEsales\EshopCommunity\Core\Exception\DatabaseConnectionException;
-use OxidEsales\EshopCommunity\Core\Exception\RoutingException;
-use OxidEsales\EshopCommunity\Core\Exception\StandardException;
+use OxidEsales\Eshop\Core\Exception\DatabaseConnectionException;
+use OxidEsales\Eshop\Core\Exception\RoutingException;
+use OxidEsales\Eshop\Core\Exception\StandardException;
 use OxidEsales\Eshop\Core\Base;
 use OxidEsales\EshopEnterprise\Core\Cache\DynamicContent\ContentCache;
 use oxOutput;

@@ -23,7 +23,7 @@
 namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxField;
-use OxidEsales\EshopCommunity\Core\Exception\DatabaseException;
+use OxidEsales\Eshop\Core\Exception\DatabaseException;
 use OxidEsales\Eshop\Core\Database\Adapter\Doctrine\Database;
 use OxidEsales\Eshop\Core\Model\BaseModel;
 
