@@ -191,6 +191,7 @@ class ModuleChainsGenerator
 
             if (!class_exists($extensionParentClass, false)) {
                 class_alias($class, $extensionParentClass);
+                echo __CLASS__ . '::' . __FUNCTION__ . ' ALIAS CREATED ' . $class . ' -' . $extensionParentClass . PHP_EOL;
             }
 
             if (!$this->isNamespacedClass($extensionPath)) {

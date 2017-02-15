@@ -48,6 +48,9 @@ class ShopAutoload
 
         if ($classPath = $this->getClassPath($class)) {
             include $classPath;
+            echo __CLASS__ . '::' . __FUNCTION__ . ' LOADED ' . $class . PHP_EOL;
+
+            return true;
         }
 
         stopProfile("ShopAutoload");

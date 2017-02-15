@@ -22,6 +22,7 @@
 
 use OxidEsales\EshopCommunity\Core\Registry;
 use OxidEsales\EshopCommunity\Core\Request;
+use OxidEsales\EshopCommunity\Core\UtilsObject;
 
 if (!defined('ESHOP_CONFIG_FILE')) {
     define('ESHOP_CONFIG_FILE', 'config.inc.php');
@@ -276,7 +277,7 @@ function oxNew($className)
 {
     startProfile('oxNew');
     $arguments = func_get_args();
-    $object = call_user_func_array(array(oxUtilsObject::getInstance(), "oxNew"), $arguments);
+    $object = call_user_func_array(array(UtilsObject::getInstance(), "oxNew"), $arguments);
     stopProfile('oxNew');
 
     return $object;

@@ -56,6 +56,9 @@ class VirtualNamespaceClassAutoload
     {
         if (array_key_exists($class, $this->getClassMap())) {
             class_alias($this->map[$class], $class);
+            echo __CLASS__ . '::' . __FUNCTION__ . ' ALIAS CREATED ' . $this->map[$class] .' - '. $class . PHP_EOL;
+
+            return true;
         }
     }
 
