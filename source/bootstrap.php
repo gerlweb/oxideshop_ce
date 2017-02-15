@@ -35,9 +35,9 @@ if (!defined('OX_BASE_PATH')) {
 }
 
 // Backwardscompatible autoloader
-$bcAutoloaderPath = OX_BASE_PATH . 'source' . DIRECTORY_SEPARATOR . 'Core' . DIRECTORY_SEPARATOR . 'Autoload' . DIRECTORY_SEPARATOR . 'BcAliasAutoloader.php')
+$bcAutoloaderPath = OX_BASE_PATH . 'source' . DIRECTORY_SEPARATOR . 'Core' . DIRECTORY_SEPARATOR . 'Autoload' . DIRECTORY_SEPARATOR . 'BcAliasAutoloader.php';
 
-if (file_exists($bcAutoloaderPath){
+if (file_exists($bcAutoloaderPath)) {
     require_once $bcAutoloaderPath;
 }
 
