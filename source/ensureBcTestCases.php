@@ -65,7 +65,6 @@ function testCaseOxNewInstanceOfoxExceptionCamelCase()
     echo '-----------------------------------------------' . PHP_EOL;
     echo __FUNCTION__ . PHP_EOL;
     echo '-----------------------------------------------' . PHP_EOL;
-    class_alias('\OxidEsales\EshopCommunity\Core\Exception\StandardException', '\OxidEsales\Eshop\Core\Exception\StandardException');
 
     $className = 'oxException';
 
@@ -80,7 +79,6 @@ function testCaseOxNewInstanceOfoxExceptionLowercase()
     echo '-----------------------------------------------' . PHP_EOL;
     echo __FUNCTION__ . PHP_EOL;
     echo '-----------------------------------------------' . PHP_EOL;
-    class_alias('\OxidEsales\EshopCommunity\Core\Exception\StandardException', '\OxidEsales\Eshop\Core\Exception\StandardException');
 
     $className = 'oxexception';
 
@@ -95,8 +93,6 @@ function testCaseOxNewInstanceOfStandardException()
     echo '-----------------------------------------------' . PHP_EOL;
     echo __FUNCTION__ . PHP_EOL;
     echo '-----------------------------------------------' . PHP_EOL;
-    class_alias('\OxidEsales\EshopCommunity\Core\Exception\StandardException', '\OxidEsales\Eshop\Core\Exception\StandardException');
-    class_alias('\OxidEsales\EshopCommunity\Core\Exception\StandardException', 'oxexception');
 
     echo '$exception = oxNew(\OxidEsales\EshopCommunity\Core\Exception\StandardException::class);' . PHP_EOL;
 
@@ -113,8 +109,6 @@ function testCaseOxNewInstanceOfVirtualStandardException()
     echo '-----------------------------------------------' . PHP_EOL;
     echo __FUNCTION__ . PHP_EOL;
     echo '-----------------------------------------------' . PHP_EOL;
-    class_alias('\OxidEsales\EshopCommunity\Core\Exception\StandardException', '\OxidEsales\Eshop\Core\Exception\StandardException');
-    class_alias('\OxidEsales\EshopCommunity\Core\Exception\StandardException', 'oxexception');
 
     $className = \OxidEsales\Eshop\Core\Exception\StandardException::class;
 
@@ -129,7 +123,6 @@ function testCaseNewInstanceOfoxExceptionCamelCase()
     echo '-----------------------------------------------' . PHP_EOL;
     echo __FUNCTION__ . PHP_EOL;
     echo '-----------------------------------------------' . PHP_EOL;
-    class_alias('\OxidEsales\EshopCommunity\Core\Exception\StandardException', '\OxidEsales\Eshop\Core\Exception\StandardException');
 
     $className = 'oxException';
 
@@ -144,7 +137,6 @@ function testCaseNewInstanceOfoxExceptionLowercase()
     echo '-----------------------------------------------' . PHP_EOL;
     echo __FUNCTION__ . PHP_EOL;
     echo '-----------------------------------------------' . PHP_EOL;
-    class_alias('\OxidEsales\EshopCommunity\Core\Exception\StandardException', '\OxidEsales\Eshop\Core\Exception\StandardException');
 
     $className = 'oxexception';
 
@@ -159,8 +151,6 @@ function testCaseNewInstanceOfStandardException()
     echo '-----------------------------------------------' . PHP_EOL;
     echo __FUNCTION__ . PHP_EOL;
     echo '-----------------------------------------------' . PHP_EOL;
-    class_alias('\OxidEsales\EshopCommunity\Core\Exception\StandardException', '\OxidEsales\Eshop\Core\Exception\StandardException');
-    class_alias('\OxidEsales\EshopCommunity\Core\Exception\StandardException', 'oxexception');
 
     echo '$exception = oxNew(\OxidEsales\EshopCommunity\Core\Exception\StandardException::class);' . PHP_EOL;
 
@@ -177,8 +167,6 @@ function testCaseNewInstanceOfVirtualStandardException()
     echo '-----------------------------------------------' . PHP_EOL;
     echo __FUNCTION__ . PHP_EOL;
     echo '-----------------------------------------------' . PHP_EOL;
-    class_alias('\OxidEsales\EshopCommunity\Core\Exception\StandardException', '\OxidEsales\Eshop\Core\Exception\StandardException');
-    class_alias('\OxidEsales\EshopCommunity\Core\Exception\StandardException', 'oxexception');
 
     $className = \OxidEsales\Eshop\Core\Exception\StandardException::class;
 
@@ -214,20 +202,20 @@ function testReportExceptionClassName($className, $oxnew = true)
 
 
     echo PHP_EOL;
-    echo '$exception instanceof \Exception' . PHP_EOL;;
-    var_dump($exception instanceof \Exception);
+    echo '$exception instanceof \Exception' . PHP_EOL;
+    testInstanceOf($exception, \Exception::class);
 
     echo PHP_EOL;
-    echo '$exception instanceof \oxException' . PHP_EOL;;
-    var_dump($exception instanceof \oxException);
+    echo '$exception instanceof \oxException' . PHP_EOL;
+    testInstanceOf($exception, \oxException::class);
 
     echo PHP_EOL;
-    echo '$exception instanceof \OxidEsales\EshopCommunity\Core\Exception\StandardException' . PHP_EOL;;
-    var_dump($exception instanceof \OxidEsales\EshopCommunity\Core\Exception\StandardException);
+    echo '$exception instanceof \OxidEsales\EshopCommunity\Core\Exception\StandardException' . PHP_EOL;
+    testInstanceOf($exception, \OxidEsales\EshopCommunity\Core\Exception\StandardException::class);
 
     echo PHP_EOL;
-    echo '$exception instanceof \OxidEsales\Eshop\Core\Exception\StandardException' . PHP_EOL;;
-    var_dump($exception instanceof \OxidEsales\Eshop\Core\Exception\StandardException);
+    echo '$exception instanceof \OxidEsales\Eshop\Core\Exception\StandardException' . PHP_EOL;
+    testInstanceOf($exception, \OxidEsales\Eshop\Core\Exception\StandardException::class);
 
     echo PHP_EOL;
 
@@ -271,29 +259,79 @@ function testReportExceptionClassName($className, $oxnew = true)
 }
 
 /**
+ *
+ */
+function testCaseOxArticleCamelCase()
+{
+    $realClass = '\OxidEsales\EshopCommunity\Application\Model\Article';
+    $virtualClass = '\OxidEsales\Eshop\Application\Model\Article';
+    $alias = 'oxArticle';
+    $className = $alias;
+    $oxnew = true;
+
+    testNewClass($realClass, $virtualClass, $alias, $className, $oxnew);
+    testNewClass($realClass, $virtualClass, $alias, $className, !$oxnew);
+}
+
+/**
+ *
+ */
+function testCaseOxArticleLowerCase()
+{
+    $realClass = '\OxidEsales\EshopCommunity\Application\Model\Article';
+    $virtualClass = '\OxidEsales\Eshop\Application\Model\Article';
+    $alias = 'oxArticle';
+    $className = strtolower($alias);
+    $oxnew = true;
+
+    testNewClass($realClass, $virtualClass, $alias, $className, $oxnew);
+    testNewClass($realClass, $virtualClass, $alias, $className, !$oxnew);
+}
+
+/**
+ *
+ */
+function testCaseArticleCommunityNamespace()
+{
+    $realClass = '\OxidEsales\EshopCommunity\Application\Model\Article';
+    $virtualClass = '\OxidEsales\Eshop\Application\Model\Article';
+    $alias = 'oxArticle';
+    $className = $realClass;
+    $oxnew = true;
+
+    testNewClass($realClass, $virtualClass, $alias, $className, $oxnew);
+    testNewClass($realClass, $virtualClass, $alias, $className, !$oxnew);
+}
+
+/**
+ *
+ */
+function testCaseArticleVirtualNamespace()
+{
+    $realClass = '\OxidEsales\EshopCommunity\Application\Model\Article';
+    $virtualClass = '\OxidEsales\Eshop\Application\Model\Article';
+    $alias = 'oxArticle';
+    $className = $virtualClass;
+    $oxnew = true;
+
+    testNewClass($realClass, $virtualClass, $alias, $className, $oxnew);
+    testNewClass($realClass, $virtualClass, $alias, $className, !$oxnew);
+}
+
+/**
  * Test instance of oxArticle (camelCase) created with oxNew
  *
  * @param null $realClass
  * @param null $virtualClass
  * @param null $alias
+ * @param null $className
  * @param bool $oxnew
- * @param bool $class_alias_autoload
  */
-function testCaseNewClass($realClass = null, $virtualClass = null, $alias = null, $oxnew = true, $class_alias_autoload = true)
+function testNewClass($realClass = null, $virtualClass = null, $alias = null, $className = null, $oxnew = true)
 {
-    $realClass = '\OxidEsales\EshopCommunity\Application\Model\Article';
-    $virtualClass = '\OxidEsales\Eshop\Application\Model\Article';
-    $alias = 'oxArticle';
-    $oxnew = true;
-    $class_alias_autoload = false;
-
     echo '-----------------------------------------------' . PHP_EOL;
     echo __FUNCTION__ . PHP_EOL;
     echo '-----------------------------------------------' . PHP_EOL;
-    class_alias($realClass, $virtualClass, $class_alias_autoload);
-    class_alias($realClass, $alias, $class_alias_autoload);
-
-    $className = $alias;
 
     echo 'Creating an instance like this:' . PHP_EOL;
     if ($oxnew) {
@@ -313,22 +351,16 @@ function testCaseNewClass($realClass = null, $virtualClass = null, $alias = null
     echo '-----------------------------------------------' . PHP_EOL;
 
     echo PHP_EOL;
-    echo 'parent classes of $object ' . get_class($object). PHP_EOL;
+    echo 'parent classes of $object ' . get_class($object) . PHP_EOL;
     echo '-----------------------------------------------' . PHP_EOL;
-    var_dump(class_parents($object));
+    print_r(class_parents($object));
     echo '-----------------------------------------------' . PHP_EOL;
 
-    $class = $className;
-    testInstanceOf($object, $class);
+    testInstanceOf($object, $alias);
 
-    $class = '\\' . $className;
-    testInstanceOf($object, $class);
+    testInstanceOf($object, $realClass);
 
-    $class = \OxidEsales\EshopCommunity\Application\Model\Article::class;
-    testInstanceOf($object, $class);
-
-    $class = \OxidEsales\Eshop\Application\Model\Article::class;
-    testInstanceOf($object, $class);
+    testInstanceOf($object, $virtualClass);
 
     try {
         /**

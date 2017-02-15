@@ -48,7 +48,7 @@ class ModuleAutoload
 
         if ($classPath = $this->getFilePath($class)) {
             include $classPath;
-            // Uncomment to debug:  echo __CLASS__ . '::' . __FUNCTION__ . ' LOADED ' . $class . PHP_EOL;
+            echo __CLASS__ . '::' . __FUNCTION__ . ' LOADED ' . $class . PHP_EOL;
         } else {
             $class = preg_replace('/_parent$/i', '', $class);
 

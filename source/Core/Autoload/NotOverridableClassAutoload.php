@@ -52,7 +52,7 @@ class NotOverridableClassAutoload
     {
         $class = strtolower($class);
         if (array_key_exists($class, $this->getClassMap())) {
-            // Uncomment to debug:  echo __CLASS__ . '::' . __FUNCTION__ . ' CREATE ALIAS ' . $this->map[$class] .' - '. $class . PHP_EOL;
+            echo __CLASS__ . '::' . __FUNCTION__ . ' CREATE ALIAS ' . $this->map[$class] .' - '. $class . PHP_EOL;
             class_alias($this->map[$class], $class);
 
             return true;
