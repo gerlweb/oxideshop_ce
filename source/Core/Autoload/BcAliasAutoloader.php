@@ -32,8 +32,8 @@ class BcAliasAutoloader
 {
 
     private $classMapProvider;
-    private $classMap;
-    private $reverseClassMap; // real class name => lowercase(old class name)
+    private $backwardsCompatibilityClassMap;
+    private $reverseBackwardsCompatibilityClassMap; // real class name => lowercase(old class name)
     private $virtualClassMap; // virtual class name => real class name
 
     private $skipClasses = [];
@@ -47,28 +47,34 @@ class BcAliasAutoloader
     {
 
         if ($this->isSkipClass($class)) {
-            echo __CLASS__ . '::' . __FUNCTION__ . ' SKIPPED ' . $class . PHP_EOL;
-            return;
+            // Uncomment to debug:  echo __CLASS__ . '::' . __FUNCTION__ . ' SKIPPED ' . $class . PHP_EOL;
+
+            return false;
         }
 
         if ($this->isBcAliasRequest($class)) {
+            // Uncomment to debug:  echo __CLASS__ . '::' . __FUNCTION__ . ' LOADED via isBcAliasRequest ' . $class . PHP_EOL;
             $this->createBcAlias($class);
 
-            return;
+            return true;
         }
 
         if ($this->isRealClassRequest($class)) {
-            $this->createAliasForRealClass($class);
+            // Uncomment to debug:  echo __CLASS__ . '::' . __FUNCTION__ . ' LOADED via isRealClassRequest ' . $class . PHP_EOL;
+            $this->createAliasForRealClass($class, null);
 
-            return;
+            return true;
         }
 
         if ($this->isVirtualClassRequest($class)) {
+            // Uncomment to debug:  echo __CLASS__ . '::' . __FUNCTION__ . ' LOADED via isVirtualClassRequest ' . $class . PHP_EOL;
             $realClass = $this->getRealClassForVirtualClass($class);
-            if ($this->isRealClassRequest($class)) {
-                $this->createAliasForRealClass($realClass);
-            }
+            $this->createAliasForRealClass($realClass, $class);
+
+            return true;
         }
+
+        // Uncomment to debug:  echo __CLASS__ . '::' . __FUNCTION__ . ' NOT FOUND ' . $class . PHP_EOL;
     }
 
     /**
@@ -78,21 +84,24 @@ class BcAliasAutoloader
      */
     private function isBcAliasRequest($class)
     {
-        $classMap = $this->getClassMap();
+        $classMap = $this->getBackwardsCompatibilityClassMap();
 
         return key_exists(strtolower($class), $classMap);
     }
 
     /**
-     * @param string $class
+     * @param string $backwardsCompatibleClassName
      */
-    private function createBcAlias($class)
+    private function createBcAlias($backwardsCompatibleClassName)
     {
-        $classMap = $this->getClassMap();
-        $realClass = $classMap[strtolower($class)];
-        $this->forceClassLoading($realClass);
-        class_alias($realClass, $class);
-        echo __CLASS__ . '::' . __FUNCTION__ . ' ALIAS CREATED ' . $realClass .' - '. $class . PHP_EOL;
+        $classMap = $this->getBackwardsCompatibilityClassMap();
+        $virtualClassName = $classMap[strtolower($backwardsCompatibleClassName)];
+        $this->forceClassLoading($virtualClassName);
+        // The class will always be skipped as by the former method a class aliasing would (class_exists) have been tiggered
+        if (!$this->isSkipClass($backwardsCompatibleClassName)) {
+            // Uncomment to debug:  echo __CLASS__ . '::' . __FUNCTION__ . ' CREATE ALIAS ' . $virtualClassName . ' - ' . $backwardsCompatibleClassName . PHP_EOL;
+            class_alias($virtualClassName, $backwardsCompatibleClassName);
+        }
     }
 
     /**
@@ -102,21 +111,29 @@ class BcAliasAutoloader
      */
     private function isRealClassRequest($class)
     {
-        $reverseClassMap = $this->getReverseClassMap();
+        // $reverseClassMap = $this->getReverseClassMap();
+        $virtualClassMap = $this->getVirtualClassMap();
+        $isRealClass = in_array($class, $virtualClassMap);
 
-        return key_exists($class, $reverseClassMap);
+        return $isRealClass;
     }
 
     /**
-     * @param string $class
+     * @param string $realClass
      */
-    private function createAliasForRealClass($class)
+    private function createAliasForRealClass($realClass, $virtualClass)
     {
-        $classMap = $this->getReverseClassMap();
-        $alias = $classMap[$class];
-        $this->forceClassLoading($class);
-        class_alias($class, $alias);
-        echo __CLASS__ . '::' . __FUNCTION__ . ' ALIAS CREATED ' . $class . ' - ' . $alias. PHP_EOL;
+        $alias = '';
+        if (!empty($virtualClass)) {
+            $classMap = $this->getReverseClassMap();
+            $alias = $classMap[$virtualClass];
+        }
+        $this->forceClassLoading($realClass);
+        if ($alias) {
+            // Uncomment to debug:  echo __CLASS__ . '::' . __FUNCTION__ . ' CREATE ALIAS ' . $realClass . ' - ' . $alias . PHP_EOL;
+            class_alias($realClass, $alias);
+            $this->addSkipClass($alias);
+        }
     }
 
     /**
@@ -154,7 +171,7 @@ class BcAliasAutoloader
             $this->removeSkipClass($class);
         }
         if (!class_exists($class) and !interface_exists($class)) {
-            throw new Exception("Could not load class $class");
+            throw new \Exception("Could not load class $class");
         }
     }
 
@@ -174,16 +191,16 @@ class BcAliasAutoloader
     /**
      * @return array
      */
-    private function getClassMap()
+    private function getBackwardsCompatibilityClassMap()
     {
-        if (!$this->classMap) {
-            $this->classMap = array_merge(
+        if (!$this->backwardsCompatibilityClassMap) {
+            $this->backwardsCompatibilityClassMap = array_merge(
                 $this->getClassMapProvider()->getOverridableClassMap(),
                 $this->getClassMapProvider()->getNotOverridableClassMap()
             );
         }
 
-        return $this->classMap;
+        return $this->backwardsCompatibilityClassMap;
     }
 
     /**
@@ -191,11 +208,11 @@ class BcAliasAutoloader
      */
     private function getReverseClassMap()
     {
-        if (!$this->reverseClassMap) {
-            $this->reverseClassMap = array_flip($this->getClassMap());
+        if (!$this->reverseBackwardsCompatibilityClassMap) {
+            $this->reverseBackwardsCompatibilityClassMap = array_flip($this->getBackwardsCompatibilityClassMap());
         }
 
-        return $this->reverseClassMap;
+        return $this->reverseBackwardsCompatibilityClassMap;
     }
 
     /**
@@ -217,7 +234,7 @@ class BcAliasAutoloader
      */
     private function isSkipClass($class)
     {
-        return in_array($class, $this->skipClasses);
+        return in_array(strtolower($class), $this->skipClasses);
     }
 
     /**
@@ -225,7 +242,7 @@ class BcAliasAutoloader
      */
     private function addSkipClass($class)
     {
-        $this->skipClasses[] = $class;
+        $this->skipClasses[] = strtolower($class);
     }
 
     /**
