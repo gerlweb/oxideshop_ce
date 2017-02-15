@@ -23,16 +23,12 @@
 use OxidEsales\EshopCommunity\Core\ConfigFile;
 use OxidEsales\EshopCommunity\Core\Registry;
 
-if (defined('E_DEPRECATED')) {
-    //E_DEPRECATED is disabled particularly for PHP 5.3 as some 3rd party modules still uses deprecated functionality
-    error_reporting(E_ALL ^ E_NOTICE ^ E_DEPRECATED);
-} else {
-    error_reporting(E_ALL ^ E_NOTICE);
-}
+//E_DEPRECATED is disabled particularly for PHP 5.3 as some 3rd party modules still uses deprecated functionality
+error_reporting(E_ALL ^ E_NOTICE ^ E_DEPRECATED);
 
-if (!defined('OX_BASE_PATH')) {
-    define('OX_BASE_PATH', __DIR__ . DIRECTORY_SEPARATOR);
-}
+define('INSTALLATION_ROOT_PATH', dirname(__DIR__));
+define('OX_BASE_PATH', INSTALLATION_ROOT_PATH . DIRECTORY_SEPARATOR . 'source' . DIRECTORY_SEPARATOR);
+define('VENDOR_PATH', INSTALLATION_ROOT_PATH . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR);
 
 // Backwardscompatible autoloader
 $bcAutoloaderPath = OX_BASE_PATH . 'source' . DIRECTORY_SEPARATOR . 'Core' . DIRECTORY_SEPARATOR . 'Autoload' . DIRECTORY_SEPARATOR . 'BcAliasAutoloader.php';
@@ -40,6 +36,9 @@ $bcAutoloaderPath = OX_BASE_PATH . 'source' . DIRECTORY_SEPARATOR . 'Core' . DIR
 if (file_exists($bcAutoloaderPath)) {
     require_once $bcAutoloaderPath;
 }
+
+// Require and register composer autoloader
+require_once VENDOR_PATH . 'autoload.php';
 
 // custom functions file
 if (file_exists(OX_BASE_PATH . 'modules/functions.php')) {
@@ -52,9 +51,6 @@ require_once OX_BASE_PATH . 'oxfunctions.php';
 // Make actions if there are eShop configuration problems
 showErrorIfConfigIsMissing();
 redirectIfShopNotConfigured();
-
-// Composer autoloader.
-registerComposerAutoload();
 
 //init config.inc.php file reader
 $oConfigFile = new ConfigFile(OX_BASE_PATH . "config.inc.php");

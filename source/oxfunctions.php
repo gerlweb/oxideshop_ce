@@ -69,44 +69,6 @@ if (!function_exists('redirectIfShopNotConfigured')) {
     }
 }
 
-if (!function_exists('showErrorIfAutoloaderIsMissing')) {
-    function showErrorIfAutoloaderIsMissing($fileName)
-    {
-        if (file_exists($fileName)) {
-            return;
-        }
-
-        $message = printf(
-            "Autoloader file '%s' was not found! Please run 'composer install' to generate it.",
-            $fileName
-        );
-
-        die($message);
-    }
-}
-
-if (!function_exists('registerComposerAutoload')) {
-    /**
-     * Registers auto-loader for shop namespaced classes.
-     */
-    function registerComposerAutoload()
-    {
-        class AutoloadConfigFile
-        {
-            public function __construct()
-            {
-                showErrorIfConfigIsMissing();
-                include ESHOP_CONFIG_FILE;
-            }
-        }
-        $configFile = new AutoloadConfigFile();
-        $autoloaderFileName = $configFile->vendorDirectory . '/autoload.php';
-
-        showErrorIfAutoloaderIsMissing($autoloaderFileName);
-        require_once $autoloaderFileName;
-    }
-}
-
 if (!function_exists('registerVirtualNamespaceAutoLoad')) {
     /**
      * Registers auto-loader for classes of the virtual namespace
