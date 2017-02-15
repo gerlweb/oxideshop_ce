@@ -29,13 +29,15 @@ class ClassMap extends \OxidEsales\EshopCommunity\Core\Edition\ClassMap
 {
 
     /**
+     * Note: all array keys must be lowercase
+     *
      * @return array
      */
     public function getOverridableMap()
     {
         return [
             'oxdbmetadatahandler'                  => \OxidEsales\Eshop\Core\DbMetaDataHandler::class,
-            'oxCcValidator'                        => \OxidEsales\Eshop\Core\CreditCardValidator::class,
+            'oxccvalidator'                        => \OxidEsales\Eshop\Core\CreditCardValidator::class,
             'language'                             => \OxidEsales\Eshop\Application\Controller\Admin\LanguageController::class,
             'module'                               => \OxidEsales\Eshop\Application\Controller\Admin\ModuleController::class,
             'theme'                                => \OxidEsales\Eshop\Application\Controller\Admin\ThemeController::class,
@@ -492,6 +494,8 @@ class ClassMap extends \OxidEsales\EshopCommunity\Core\Edition\ClassMap
     }
 
     /**
+     * Note: all array keys must be lowercase
+     *
      * @return array
      */
     public function getNotOverridableMap()
@@ -502,7 +506,7 @@ class ClassMap extends \OxidEsales\EshopCommunity\Core\Edition\ClassMap
             'article_list'                        => \OxidEsales\EshopCommunity\Application\Controller\Admin\ArticleList::class,
             'ajaxlistcomponent'                   => \OxidEsales\EshopCommunity\Application\Controller\Admin\ListComponentAjax::class,
 
-            'oxApplicationServer'                  => \OxidEsales\EshopCommunity\Core\ApplicationServer::class,
+            'oxapplicationserver'                  => \OxidEsales\EshopCommunity\Core\ApplicationServer::class,
             'oxfilecache'                          => \OxidEsales\EshopCommunity\Core\FileCache::class,
             'oxmodule'                             => \OxidEsales\EshopCommunity\Core\Module\Module::class,
             'oxmodulecache'                        => \OxidEsales\EshopCommunity\Core\Module\ModuleCache::class,
