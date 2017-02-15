@@ -15,9 +15,9 @@
  * You should have received a copy of the GNU General Public License
  * along with OXID eShop Community Edition.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @link      http://www.oxid-esales.com
+ * @link          http://www.oxid-esales.com
  * @copyright (C) OXID eSales AG 2003-2016
- * @version   OXID eShop CE
+ * @version       OXID eShop CE
  */
 
 use OxidEsales\EshopCommunity\Core\ConfigFile;
@@ -32,6 +32,13 @@ if (defined('E_DEPRECATED')) {
 
 if (!defined('OX_BASE_PATH')) {
     define('OX_BASE_PATH', __DIR__ . DIRECTORY_SEPARATOR);
+}
+
+// Backwardscompatible autoloader
+$bcAutoloaderPath = OX_BASE_PATH . 'source' . DIRECTORY_SEPARATOR . 'Core' . DIRECTORY_SEPARATOR . 'Autoload' . DIRECTORY_SEPARATOR . 'BcAliasAutoloader.php')
+
+if (file_exists($bcAutoloaderPath){
+    require_once $bcAutoloaderPath;
 }
 
 // custom functions file
