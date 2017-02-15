@@ -30,12 +30,8 @@ define('INSTALLATION_ROOT_PATH', dirname(__DIR__));
 define('OX_BASE_PATH', INSTALLATION_ROOT_PATH . DIRECTORY_SEPARATOR . 'source' . DIRECTORY_SEPARATOR);
 define('VENDOR_PATH', INSTALLATION_ROOT_PATH . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR);
 
-// Backwardscompatible autoloader
-$bcAutoloaderPath = OX_BASE_PATH . 'source' . DIRECTORY_SEPARATOR . 'Core' . DIRECTORY_SEPARATOR . 'Autoload' . DIRECTORY_SEPARATOR . 'BcAliasAutoloader.php';
-
-if (file_exists($bcAutoloaderPath)) {
-    require_once $bcAutoloaderPath;
-}
+// Require and register backwardscompatible autoloader
+require_once = OX_BASE_PATH . 'source' . DIRECTORY_SEPARATOR . 'Core' . DIRECTORY_SEPARATOR . 'Autoload' . DIRECTORY_SEPARATOR . 'BcAliasAutoloader.php';
 
 // Require and register composer autoloader
 require_once VENDOR_PATH . 'autoload.php';
