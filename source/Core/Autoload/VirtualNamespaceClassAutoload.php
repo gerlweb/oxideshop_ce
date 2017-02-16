@@ -56,7 +56,7 @@ class VirtualNamespaceClassAutoload
     {
         if (array_key_exists($classVirtualName, $this->getClassMap())) {
             $realClassName = $this->map[$classVirtualName];
-            echo __CLASS__ . '::' . __FUNCTION__ . ' CREATE ALIAS ' . $realClassName .' - '. $classVirtualName . PHP_EOL;
+            // Uncomment to debug:  echo __CLASS__ . '::' . __FUNCTION__ . ' CREATE ALIAS ' . $realClassName .' - '. $classVirtualName . PHP_EOL;
             class_alias($realClassName, $classVirtualName);
 
             return true;

@@ -45,37 +45,37 @@ class BcAliasAutoloader
      */
     public function autoload($class)
     {
-        echo __CLASS__ . '::' . __FUNCTION__  . ' TRYING TO LOAD ' . $class . PHP_EOL;
+        // Uncomment to debug:  echo __CLASS__ . '::' . __FUNCTION__  . ' TRYING TO LOAD ' . $class . PHP_EOL;
 
         if ($this->isSkipClass($class)) {
-            echo __CLASS__ . '::' . __FUNCTION__ . ' SKIPPED ' . $class . PHP_EOL;
+            // Uncomment to debug:  echo __CLASS__ . '::' . __FUNCTION__ . ' SKIPPED ' . $class . PHP_EOL;
 
             return false;
         }
 
         if ($this->isBcAliasRequest($class)) {
-            echo __CLASS__ . '::' . __FUNCTION__ . ' LOADED via isBcAliasRequest ' . $class . PHP_EOL;
+            // Uncomment to debug:  echo __CLASS__ . '::' . __FUNCTION__ . ' LOADED via isBcAliasRequest ' . $class . PHP_EOL;
             $this->createBcAlias($class);
 
             return true;
         }
 
         if ($this->isRealClassRequest($class)) {
-            echo __CLASS__ . '::' . __FUNCTION__ . ' LOADED via isRealClassRequest ' . $class . PHP_EOL;
+            // Uncomment to debug:  echo __CLASS__ . '::' . __FUNCTION__ . ' LOADED via isRealClassRequest ' . $class . PHP_EOL;
             $this->createAliasForRealClass($class, null);
 
             return true;
         }
 
         if ($this->isVirtualClassRequest($class)) {
-            echo __CLASS__ . '::' . __FUNCTION__ . ' LOADED via isVirtualClassRequest ' . $class . PHP_EOL;
+            // Uncomment to debug:  echo __CLASS__ . '::' . __FUNCTION__ . ' LOADED via isVirtualClassRequest ' . $class . PHP_EOL;
             $realClass = $this->getRealClassForVirtualClass($class);
             $this->createAliasForRealClass($realClass, $class);
 
             return true;
         }
 
-        echo __CLASS__ . '::' . __FUNCTION__ . ' NOT FOUND ' . $class . PHP_EOL;
+        // Uncomment to debug:  echo __CLASS__ . '::' . __FUNCTION__ . ' NOT FOUND ' . $class . PHP_EOL;
     }
 
     /**
@@ -100,7 +100,7 @@ class BcAliasAutoloader
         $this->forceClassLoading($virtualClassName);
         // The class will always be skipped as by the former method a class aliasing would (class_exists) have been tiggered
         if (!$this->isSkipClass($backwardsCompatibleClassName)) {
-            echo __CLASS__ . '::' . __FUNCTION__ . ' CREATE ALIAS ' . $virtualClassName . ' - ' . $backwardsCompatibleClassName . PHP_EOL;
+            // Uncomment to debug:  echo __CLASS__ . '::' . __FUNCTION__ . ' CREATE ALIAS ' . $virtualClassName . ' - ' . $backwardsCompatibleClassName . PHP_EOL;
             class_alias($virtualClassName, $backwardsCompatibleClassName);
         }
     }
@@ -130,12 +130,12 @@ class BcAliasAutoloader
             if (array_key_exists($virtualClass, $classMap)) {
                 $alias = $classMap[$virtualClass];
             } else {
-                echo __CLASS__ . '::' . __FUNCTION__ . ' virtual class not found in bc classmap ' . $virtualClass . PHP_EOL;
+                // Uncomment to debug:  echo __CLASS__ . '::' . __FUNCTION__ . ' virtual class not found in bc classmap ' . $virtualClass . PHP_EOL;
             }
         }
         $this->forceClassLoading($realClass);
         if ($alias) {
-            echo __CLASS__ . '::' . __FUNCTION__ . ' CREATE ALIAS ' . $realClass . ' - ' . $alias . PHP_EOL;
+            // Uncomment to debug:  echo __CLASS__ . '::' . __FUNCTION__ . ' CREATE ALIAS ' . $realClass . ' - ' . $alias . PHP_EOL;
             class_alias($realClass, $alias);
             $this->addSkipClass($alias);
         }
@@ -172,7 +172,7 @@ class BcAliasAutoloader
     {
         // Note: calling class_exists would automatically trigger the autoloader
         if (!class_exists($class) and !interface_exists($class)) {
-            echo __CLASS__ . '::' . __FUNCTION__ . ' is this ever called? ' . $class . PHP_EOL;
+            // Uncomment to debug:  echo __CLASS__ . '::' . __FUNCTION__ . ' is this ever called? ' . $class . PHP_EOL;
             $this->addSkipClass($class);
             spl_autoload_call($class);
             $this->removeSkipClass($class);
@@ -261,5 +261,5 @@ class BcAliasAutoloader
     }
 }
 
-echo __CLASS__ . '::' . __FUNCTION__  . ' TRYING TO LOAD ' . $class . PHP_EOL;
+// Uncomment to debug:  echo __CLASS__ . '::' . __FUNCTION__  . ' TRYING TO LOAD ' . $class . PHP_EOL;
 spl_autoload_register([new BcAliasAutoloader(), 'autoload'], true, true);
