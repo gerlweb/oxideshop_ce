@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Core\Base;
 /**
  * Server data manipulation class
  */
-class UtilsServer extends Base
+class UtilsServer extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /**

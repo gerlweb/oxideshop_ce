@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\AccountController;
 /**
  * Account article file download page.
  */
-class AccountDownloadsController extends AccountController
+class AccountDownloadsController extends \OxidEsales\EshopCommunity\Application\Controller\AccountController
 {
     /**
      * Current class template name.

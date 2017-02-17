@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\SeoEncoder;
  *
  * @deprecated since v5.3 (2016-06-17); Listmania will be moved to an own module.
  */
-class SeoEncoderRecomm extends SeoEncoder
+class SeoEncoderRecomm extends \OxidEsales\EshopCommunity\Core\SeoEncoder
 {
     /**
      * Returns SEO uri for tag.

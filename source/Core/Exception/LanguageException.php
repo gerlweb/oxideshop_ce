@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Core\Exception\StandardException;
  *
  * @deprecated since 5.2.8 (2016.02.05); Will be removed as not used in code.
  */
-class LanguageException extends StandardException
+class LanguageException extends \OxidEsales\EshopCommunity\Core\Exception\StandardException
 {
     /**
      * Exception type, currently old class name is used.

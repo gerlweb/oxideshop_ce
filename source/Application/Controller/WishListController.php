@@ -29,7 +29,7 @@ use oxList;
 /**
  * The wishlist of someone else is displayed.
  */
-class WishListController extends FrontendController
+class WishListController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
 
     /**

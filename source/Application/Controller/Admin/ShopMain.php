@@ -33,7 +33,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Performs collection and updatind (on user submit) main item information.
  * Admin Menu: Main Menu -> Core Settings -> Main.
  */
-class ShopMain extends AdminDetailsController
+class ShopMain extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
     /** Identifies new shop. */
     const NEW_SHOP_ID = "-1";

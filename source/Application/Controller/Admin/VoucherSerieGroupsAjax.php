@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 /**
  * Class manages voucher assignment to user groups
  */
-class VoucherSerieGroupsAjax extends ListComponentAjax
+class VoucherSerieGroupsAjax extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ListComponentAjax
 {
 
     /**

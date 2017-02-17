@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
  * Country manager
  *
  */
-class Country extends MultiLanguageModel
+class Country extends \OxidEsales\EshopCommunity\Core\Model\MultiLanguageModel
 {
 
     /**

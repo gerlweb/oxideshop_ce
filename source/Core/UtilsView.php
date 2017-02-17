@@ -37,7 +37,7 @@ use Smarty;
 /**
  * View utility class
  */
-class UtilsView extends Base
+class UtilsView extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /**

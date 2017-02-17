@@ -41,7 +41,7 @@ define('USER_LOGOUT', 3);
  *
  * @subpackage oxcmp
  */
-class UserComponent extends BaseController
+class UserComponent extends \OxidEsales\EshopCommunity\Core\Controller\BaseController
 {
 
     /**

@@ -27,7 +27,7 @@ use OxidEsales\Eshop\Application\Component\Widget\WidgetController;
 /**
  * Cookie note widget
  */
-class CookieNote extends WidgetController
+class CookieNote extends \OxidEsales\EshopCommunity\Application\Component\Widget\WidgetController
 {
 
     /**

@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
  * and "deliveryset_main.tpl") to frame.
  * Admin Menu: Shop settings -> Shipping & Handling Sets.
  */
-class DeliverySetController extends AdminController
+class DeliverySetController extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
 
     /**

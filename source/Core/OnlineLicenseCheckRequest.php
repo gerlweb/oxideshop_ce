@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Core\OnlineRequest;
  *
  * @ignore   This class will not be included in documentation.
  */
-class OnlineLicenseCheckRequest extends OnlineRequest
+class OnlineLicenseCheckRequest extends \OxidEsales\EshopCommunity\Core\OnlineRequest
 {
     /**
      * Web service protocol version.

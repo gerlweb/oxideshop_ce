@@ -37,7 +37,7 @@ use OxidEsales\Eshop\Core\OnlineCaller;
  *
  * @ignore   This class will not be included in documentation.
  */
-class OnlineModuleVersionNotifierCaller extends OnlineCaller
+class OnlineModuleVersionNotifierCaller extends \OxidEsales\EshopCommunity\Core\OnlineCaller
 {
 
     /** Online Module Version Notifier web service url. */

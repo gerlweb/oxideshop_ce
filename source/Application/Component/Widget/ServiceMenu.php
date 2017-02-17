@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Application\Component\Widget\WidgetController;
  * Recomendation list.
  * Forms recomendation list.
  */
-class ServiceMenu extends WidgetController
+class ServiceMenu extends \OxidEsales\EshopCommunity\Application\Component\Widget\WidgetController
 {
 
     /**

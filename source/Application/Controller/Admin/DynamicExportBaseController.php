@@ -40,7 +40,7 @@ DEFINE("ERR_FILEIO", 1);
  *
  * @subpackage dyn
  */
-class DynamicExportBaseController extends AdminDetailsController
+class DynamicExportBaseController extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

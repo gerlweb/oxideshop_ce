@@ -33,7 +33,7 @@ use OxidEsales\Eshop\Application\Controller\ArticleListController;
  * metatags (for search engines). Result - "manufacturerlist.tpl" template.
  * OXID eShop -> (Any selected shop product category).
  */
-class ManufacturerListController extends ArticleListController
+class ManufacturerListController extends \OxidEsales\EshopCommunity\Application\Controller\ArticleListController
 {
 
     /**

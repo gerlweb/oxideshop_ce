@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Collects order overview information, updates it on user submit, etc.
  * Admin Menu: Orders -> Display Orders -> Overview.
  */
-class OrderOverview extends AdminDetailsController
+class OrderOverview extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
     /**
      * Executes parent method parent::render(), creates oxOrder, passes

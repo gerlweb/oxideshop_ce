@@ -34,7 +34,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * There is possibility to change content description, enter page text etc.
  * Admin Menu: Customerinformations -> Content.
  */
-class ContentMain extends AdminDetailsController
+class ContentMain extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

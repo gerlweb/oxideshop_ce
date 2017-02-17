@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Adds/removes chosen user group to/from newsletter mailing.
  * Admin Menu: Customer Info -> Newsletter -> Selection.
  */
-class NewsletterSelection extends AdminDetailsController
+class NewsletterSelection extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

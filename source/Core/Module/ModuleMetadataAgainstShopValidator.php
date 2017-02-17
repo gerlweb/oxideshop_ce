@@ -34,7 +34,7 @@ use OxidEsales\Eshop\Core\Contract\IModuleValidator;
  * @internal Do not make a module extension for this class.
  * @see      http://oxidforge.org/en/core-oxid-eshop-classes-must-not-be-extended.html
  */
-class ModuleMetadataAgainstShopValidator implements IModuleValidator
+class ModuleMetadataAgainstShopValidator implements \OxidEsales\EshopCommunity\Core\Contract\IModuleValidator
 {
 
     /**

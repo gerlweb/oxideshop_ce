@@ -35,7 +35,7 @@ use OxidEsales\Eshop\Application\Controller\FrontendController;
  * similar products, top offer articles.
  * OXID eShop -> SHOPPING CART.
  */
-class BasketController extends FrontendController
+class BasketController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
 
     /**

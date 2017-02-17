@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Core\Model\BaseModel;
  * information, deletion and other.
  *
  */
-class NewsSubscribed extends BaseModel
+class NewsSubscribed extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
 {
 
     /**

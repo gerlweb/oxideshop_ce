@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 /**
  * Class manages newsletter user groups rights
  */
-class NewsletterSelectionAjax extends ListComponentAjax
+class NewsletterSelectionAjax extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ListComponentAjax
 {
 
     /**

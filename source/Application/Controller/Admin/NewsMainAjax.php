@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
  * @deprecated since v.5.3.0 (2016-06-17); The Admin Menu: Customer Info -> News feature will be moved to a module in v6.0.0
  *
  */
-class NewsMainAjax extends ListComponentAjax
+class NewsMainAjax extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ListComponentAjax
 {
 
     /**

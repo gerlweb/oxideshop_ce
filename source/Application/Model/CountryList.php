@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Core\Model\ListModel;
  * Collects a list of countries according to collection rules (active).
  *
  */
-class CountryList extends ListModel
+class CountryList extends \OxidEsales\EshopCommunity\Core\Model\ListModel
 {
 
     /**

@@ -33,7 +33,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Performs collection and updatind (on user submit) main item information.
  * Admin Menu: Customer Info -> pricealarm -> Main.
  */
-class PriceAlarmMain extends AdminDetailsController
+class PriceAlarmMain extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

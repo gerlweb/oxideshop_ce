@@ -35,7 +35,7 @@ DEFINE("ERR_POSOUTOFBOUNDS", -2);
  * Admin article main selectlist manager.
  * Performs collection and updatind (on user submit) main item information.
  */
-class SelectListMain extends AdminDetailsController
+class SelectListMain extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
     /**
      * Keeps all act. fields to store

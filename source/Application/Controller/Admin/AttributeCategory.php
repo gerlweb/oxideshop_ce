@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * this attribute, etc.
  * Admin Menu: Manage Products -> Attributes -> Gruppen.
  */
-class AttributeCategory extends AdminDetailsController
+class AttributeCategory extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

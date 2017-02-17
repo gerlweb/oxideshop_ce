@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Core\Exception\StandardException;
  * - online vat id check
  * - db server
  */
-class ConnectionException extends StandardException
+class ConnectionException extends \OxidEsales\EshopCommunity\Core\Exception\StandardException
 {
     /**
      * Exception type, currently old class name is used.

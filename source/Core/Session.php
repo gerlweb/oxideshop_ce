@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Core\Base;
  * Performs session managing function, such as variables deletion,
  * initialisation and other session functions.
  */
-class Session extends Base
+class Session extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /**

@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Core\Contract\IUrl;
  * Vendor manager
  *
  */
-class Vendor extends MultiLanguageModel implements IUrl
+class Vendor extends \OxidEsales\EshopCommunity\Core\Model\MultiLanguageModel implements \OxidEsales\EshopCommunity\Core\Contract\IUrl
 {
 
     protected static $_aRootVendor = array();

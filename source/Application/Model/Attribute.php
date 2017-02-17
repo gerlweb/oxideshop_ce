@@ -33,7 +33,7 @@ use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
  * Collects and keeps attributes of chosen article.
  *
  */
-class Attribute extends MultiLanguageModel
+class Attribute extends \OxidEsales\EshopCommunity\Core\Model\MultiLanguageModel
 {
     /**
      * Current class name

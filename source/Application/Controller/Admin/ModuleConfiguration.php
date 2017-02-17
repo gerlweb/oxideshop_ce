@@ -33,7 +33,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ShopConfiguration;
  * and etc.
  * Admin Menu: Shop settings -> Shipping & Handling -> Main Sets.
  */
-class ModuleConfiguration extends ShopConfiguration
+class ModuleConfiguration extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ShopConfiguration
 {
     /** @var string Template name. */
     protected $_sModule = 'shop_config.tpl';

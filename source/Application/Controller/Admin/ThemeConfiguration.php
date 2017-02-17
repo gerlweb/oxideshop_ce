@@ -34,7 +34,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ShopConfiguration;
  * and etc.
  * Admin Menu: Shop settings -> Shipping & Handling -> Main Sets.
  */
-class ThemeConfiguration extends ShopConfiguration
+class ThemeConfiguration extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ShopConfiguration
 {
 
     protected $_sTheme = null;

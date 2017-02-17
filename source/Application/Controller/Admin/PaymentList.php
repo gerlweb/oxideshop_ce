@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
  * Performs collection and managing (such as filtering or deleting) function.
  * Admin Menu: Shop Settings -> Payment Methods.
  */
-class PaymentList extends AdminListController
+class PaymentList extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminListController
 {
 
     /**

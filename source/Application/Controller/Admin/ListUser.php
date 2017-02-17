@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\UserList;
 /**
  * user list "view" class.
  */
-class ListUser extends UserList
+class ListUser extends \OxidEsales\EshopCommunity\Application\Controller\Admin\UserList
 {
 
     /**

@@ -33,7 +33,7 @@ use OxidEsales\Eshop\Core\Contract\IUrl;
  * Base object for content pages
  *
  */
-class Content extends MultiLanguageModel implements IUrl
+class Content extends \OxidEsales\EshopCommunity\Core\Model\MultiLanguageModel implements \OxidEsales\EshopCommunity\Core\Contract\IUrl
 {
 
     /**

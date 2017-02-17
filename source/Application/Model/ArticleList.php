@@ -36,7 +36,7 @@ use OxidEsales\Eshop\Core\Exception\DatabaseException;
  * Collects list of article according to collection rules (categories, etc.).
  *
  */
-class ArticleList extends ListModel
+class ArticleList extends \OxidEsales\EshopCommunity\Core\Model\ListModel
 {
 
     /**

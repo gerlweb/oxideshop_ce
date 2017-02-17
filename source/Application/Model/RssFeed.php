@@ -32,7 +32,7 @@ use stdClass;
  * loads needed rss data
  *
  */
-class RssFeed extends Base
+class RssFeed extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /**

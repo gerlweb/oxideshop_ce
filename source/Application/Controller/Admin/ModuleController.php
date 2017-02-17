@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
  * and "theme_main.tpl") to frame.
  * Admin Menu: Main Menu -> Theme.
  */
-class ModuleController extends AdminController
+class ModuleController extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
 
     /**

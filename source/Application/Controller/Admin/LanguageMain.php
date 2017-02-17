@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Admin article main selectlist manager.
  * Performs collection and updatind (on user submit) main item information.
  */
-class LanguageMain extends AdminDetailsController
+class LanguageMain extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

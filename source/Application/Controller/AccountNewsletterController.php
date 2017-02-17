@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\AccountController;
  * his newletter subscription status - simply register or
  * unregister from newsletter. OXID eShop -> MY ACCOUNT -> Newsletter.
  */
-class AccountNewsletterController extends AccountController
+class AccountNewsletterController extends \OxidEsales\EshopCommunity\Application\Controller\AccountController
 {
     /**
      * Current class template name.

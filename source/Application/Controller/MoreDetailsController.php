@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\ArticleDetailsController;
  * If chosen article has more pictures there is ability to create
  * gallery of pictures.
  */
-class MoreDetailsController extends ArticleDetailsController
+class MoreDetailsController extends \OxidEsales\EshopCommunity\Application\Controller\ArticleDetailsController
 {
 
     /**

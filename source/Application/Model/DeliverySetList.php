@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\Model\ListModel;
  * DeliverySet list manager.
  *
  */
-class DeliverySetList extends ListModel
+class DeliverySetList extends \OxidEsales\EshopCommunity\Core\Model\ListModel
 {
 
     /**

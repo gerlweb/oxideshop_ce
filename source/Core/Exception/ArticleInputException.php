@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Core\Exception\ArticleException;
  * Article input exception..
  *
  */
-class ArticleInputException extends ArticleException
+class ArticleInputException extends \OxidEsales\EshopCommunity\Core\Exception\ArticleException
 {
     /**
      * Exception type, currently old class name is used.

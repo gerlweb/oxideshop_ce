@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Core\Model\ListModel;
  * Order article list manager.
  *
  */
-class OrderArticleList extends ListModel
+class OrderArticleList extends \OxidEsales\EshopCommunity\Core\Model\ListModel
 {
 
     /**

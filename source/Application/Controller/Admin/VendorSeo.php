@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ObjectSeo;
 /**
  * Vendor seo config class
  */
-class VendorSeo extends ObjectSeo
+class VendorSeo extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ObjectSeo
 {
 
     /**

@@ -51,7 +51,7 @@ use OxidEsales\Eshop\Core\Base;
  * The smarty tempaltes should include s tag like
  * [{insert name="oxid_tracker" title=$template_title}]
  */
-class EmosAdapter extends Base
+class EmosAdapter extends \OxidEsales\EshopCommunity\Core\Base
 {
     /**
      * Current view category path

@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
  * and "adminlinks_main.tpl") to frame.
  * Admin Menu: Customer Info -> Links.
  */
-class AdminLinks extends AdminController
+class AdminLinks extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
 
     /**

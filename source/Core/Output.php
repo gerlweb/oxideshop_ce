@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Core\Base;
  * class for output processing
  *
  */
-class Output extends Base
+class Output extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     const OUTPUT_FORMAT_HTML = 'html';

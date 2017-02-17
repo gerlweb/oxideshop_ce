@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Collects order remark information, updates it on user submit, etc.
  * Admin Menu: Orders -> Display Orders -> History.
  */
-class OrderRemark extends AdminDetailsController
+class OrderRemark extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

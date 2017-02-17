@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\FrontendController;
 /**
  * Managing Gift Wrapping
  */
-class WrappingController extends FrontendController
+class WrappingController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
 
     /**

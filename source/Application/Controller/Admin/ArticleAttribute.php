@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * or remove any of them to article, etc.
  * Admin Menu: Manage Products -> Articles -> Selection.
  */
-class ArticleAttribute extends AdminDetailsController
+class ArticleAttribute extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

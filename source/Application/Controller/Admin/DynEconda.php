@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ShopConfiguration;
  *
  * @deprecated v5.3 (2016-05-10); Econda will be moved to own module.
  */
-class DynEconda extends ShopConfiguration
+class DynEconda extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ShopConfiguration
 {
 
     /**

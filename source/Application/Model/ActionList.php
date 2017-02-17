@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\Model\ListModel;
  * Promotion List manager.
  *
  */
-class ActionList extends ListModel
+class ActionList extends \OxidEsales\EshopCommunity\Core\Model\ListModel
 {
 
     /**

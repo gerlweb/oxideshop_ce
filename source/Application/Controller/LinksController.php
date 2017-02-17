@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\FrontendController;
  * administrator GUI) with short link description and URL. OXID
  * eShop -> LINKS.
  */
-class LinksController extends FrontendController
+class LinksController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
 
     /**

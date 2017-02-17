@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
  * Administrator login form.
  * Performs administrator login form data collection.
  */
-class LoginController extends AdminController
+class LoginController extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
     /** Login page view id. */
     const VIEW_ID = 'login';

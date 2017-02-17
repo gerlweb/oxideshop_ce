@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Performs collection and updatind (on user submit) main item information.
  * Admin Menu: User Administration -> Users -> Main.
  */
-class UserMain extends AdminDetailsController
+class UserMain extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     private $_sSaveError = null;

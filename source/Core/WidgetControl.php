@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\ShopControl;
  * them (if needed), controls output, redirects according to
  * processed methods logic. This class is initialized from index.php
  */
-class WidgetControl extends ShopControl
+class WidgetControl extends \OxidEsales\EshopCommunity\Core\ShopControl
 {
     /**
      * Skip handler set for widget as it already set in oxShopControl.

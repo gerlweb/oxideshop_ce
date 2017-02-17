@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Application\Component\Widget\WidgetController;
  * Actions widget.
  * Access actions in tpl.
  */
-class Actions extends WidgetController
+class Actions extends \OxidEsales\EshopCommunity\Application\Component\Widget\WidgetController
 {
     /**
      * Current class template name.

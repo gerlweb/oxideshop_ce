@@ -37,7 +37,7 @@ use OxidEsales\Eshop\Core\OnlineCaller;
  *
  * @ignore   This class will not be included in documentation.
  */
-class OnlineLicenseCheckCaller extends OnlineCaller
+class OnlineLicenseCheckCaller extends \OxidEsales\EshopCommunity\Core\OnlineCaller
 {
 
     /** Online License Key Check web service url. */

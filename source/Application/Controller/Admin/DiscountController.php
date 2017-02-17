@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
  * and "discount_main.tpl") to frame.
  * Admin Menu: Shop Settings -> Discounts.
  */
-class DiscountController extends AdminController
+class DiscountController extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
 
     /**

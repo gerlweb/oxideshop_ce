@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\Model\ListModel;
  * Collects list of content
  *
  */
-class ContentList extends ListModel
+class ContentList extends \OxidEsales\EshopCommunity\Core\Model\ListModel
 {
 
     /**

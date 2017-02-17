@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
  * and "usergroup_main.tpl") to frame.
  * Admin Menu: User Administration -> User Groups.
  */
-class UserGroupController extends AdminController
+class UserGroupController extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
 
     /**

@@ -27,7 +27,7 @@ use OxidEsales\Eshop\Core\Exception\StandardException;
 /**
  * Exception base class for an article
  */
-class ArticleException extends StandardException
+class ArticleException extends \OxidEsales\EshopCommunity\Core\Exception\StandardException
 {
     /**
      * Exception type, currently old class name is used.

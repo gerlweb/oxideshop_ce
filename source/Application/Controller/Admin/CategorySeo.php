@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ObjectSeo;
 /**
  * Category seo config class
  */
-class CategorySeo extends ObjectSeo
+class CategorySeo extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ObjectSeo
 {
 
     /**

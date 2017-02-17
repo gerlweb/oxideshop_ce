@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 /**
  * Class manages discount groups
  */
-class DiscountGroupsAjax extends ListComponentAjax
+class DiscountGroupsAjax extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ListComponentAjax
 {
     /** If this discount id comes from request, it means that new discount should be created. */
     const NEW_DISCOUNT_ID = "-1";

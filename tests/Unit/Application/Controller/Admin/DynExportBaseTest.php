@@ -33,7 +33,7 @@ use stdClass;
 /**
  * Tests module for DynExportBase class
  */
-class _DynExportBase extends DynExportBase
+class _DynExportBase extends \OxidEsales\EshopCommunity\Application\Controller\Admin\DynamicExportBaseController
 {
 
     public function initArticle($heapTable, $count, & $continue)

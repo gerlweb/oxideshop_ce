@@ -33,7 +33,7 @@ use OxidEsales\Eshop\Application\Controller\ArticleListController;
  * meta tags (for search engines). Result - "vendorlist.tpl" template.
  * OXID eShop -> (Any selected shop product category).
  */
-class VendorListController extends ArticleListController
+class VendorListController extends \OxidEsales\EshopCommunity\Application\Controller\ArticleListController
 {
     /**
      * List type

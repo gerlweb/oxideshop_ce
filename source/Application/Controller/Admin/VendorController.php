@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
  * and "vendor_main.tpl") to frame.
  * Admin Menu: Settings -> Vendors
  */
-class VendorController extends AdminController
+class VendorController extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
 
     /**

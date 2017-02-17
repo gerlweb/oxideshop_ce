@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
  * there is ability to filter them by deiscount, serie no. or delete them.
  * Admin Menu: Shop Settings -> Vouchers.
  */
-class VoucherSerieList extends AdminListController
+class VoucherSerieList extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminListController
 {
 
     /**

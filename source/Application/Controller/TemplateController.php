@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\FrontendController;
  * Used only in some specific cases (usually when you need to outpt just template
  * having text information).
  */
-class TemplateController extends FrontendController
+class TemplateController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
     /**
      * Executes parent method parent::render(), returns name of template file.

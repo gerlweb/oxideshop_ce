@@ -34,7 +34,7 @@ use OxidEsales\Eshop\Core\Model\BaseModel;
  * managing functions.
  *
  */
-class Voucher extends BaseModel
+class Voucher extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
 {
 
     protected $_oSerie = null;

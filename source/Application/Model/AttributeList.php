@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Core\Model\ListModel;
  * Attribute list manager.
  *
  */
-class AttributeList extends ListModel
+class AttributeList extends \OxidEsales\EshopCommunity\Core\Model\ListModel
 {
 
     /**

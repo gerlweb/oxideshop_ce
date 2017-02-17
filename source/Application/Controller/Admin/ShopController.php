@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
  * and "shop_main.tpl") to frame.
  * Admin Menu: Main Menu -> Core Settings.
  */
-class ShopController extends AdminController
+class ShopController extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
     const CURRENT_TEMPLATE = 'shop.tpl';
 

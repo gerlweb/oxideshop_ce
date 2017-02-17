@@ -27,7 +27,7 @@ use OxidEsales\Eshop\Application\Component\Widget\WidgetController;
 /**
  * Language selection list widget
  */
-class LanguageList extends WidgetController
+class LanguageList extends \OxidEsales\EshopCommunity\Application\Component\Widget\WidgetController
 {
 
     /**

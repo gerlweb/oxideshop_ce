@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
  * and "order_overview.tpl") to frame.
  * Admin Menu: Orders -> Display Orders.
  */
-class AdminOrder extends AdminController
+class AdminOrder extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
 
     /**

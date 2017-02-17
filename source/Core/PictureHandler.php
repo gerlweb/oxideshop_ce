@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Core\Base;
 /**
  * class for pictures processing
  */
-class PictureHandler extends Base
+class PictureHandler extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /**

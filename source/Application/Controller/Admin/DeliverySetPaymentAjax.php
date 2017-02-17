@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 /**
  * Class manages deliveryset payment
  */
-class DeliverySetPaymentAjax extends ListComponentAjax
+class DeliverySetPaymentAjax extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ListComponentAjax
 {
 
     /**

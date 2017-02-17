@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\FrontendController;
  * Article file download page.
  *
  */
-class DownloadController extends FrontendController
+class DownloadController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
     /**
      * Prevents from loading any component as this controller

@@ -35,7 +35,7 @@ use OxidEsales\Eshop\Core\Model\BaseModel;
  * articles to it.
  *
  */
-class UserBasket extends BaseModel
+class UserBasket extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
 {
 
     /**

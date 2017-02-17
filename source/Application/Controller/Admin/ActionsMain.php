@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * this actions, etc.
  * Admin Menu: Manage Products -> actions -> Main.
  */
-class ActionsMain extends AdminDetailsController
+class ActionsMain extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

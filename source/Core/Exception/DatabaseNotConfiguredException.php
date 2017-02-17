@@ -27,7 +27,7 @@ use OxidEsales\Eshop\Core\Exception\StandardException;
 /**
  * Exception to be thrown when the database has not been configured in the configuration file config.inc.php
  */
-class DatabaseNotConfiguredException extends StandardException
+class DatabaseNotConfiguredException extends \OxidEsales\EshopCommunity\Core\Exception\StandardException
 {
 
     /**

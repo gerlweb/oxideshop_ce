@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Core\Contract\ISelectList;
  * Variant selection lists manager class
  *
  */
-class VariantSelectList implements ISelectList
+class VariantSelectList implements \OxidEsales\EshopCommunity\Core\Contract\ISelectList
 {
 
     /**

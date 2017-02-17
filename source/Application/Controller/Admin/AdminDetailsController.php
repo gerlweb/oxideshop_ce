@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
  *
  * @internal This class should not be directly extended, instead of it oxAdminDetails class should be used.
  */
-class AdminDetailsController extends AdminController
+class AdminDetailsController extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
     /**
      * Global editor object.

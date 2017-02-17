@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\DynamicExportBaseController;
  * and etc.
  * Admin Menu: Shop Settings -> Vouchers -> Main.
  */
-class VoucherSerieMain extends DynamicExportBaseController
+class VoucherSerieMain extends \OxidEsales\EshopCommunity\Application\Controller\Admin\DynamicExportBaseController
 {
 
     /**

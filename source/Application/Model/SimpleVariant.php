@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Core\Contract\IUrl;
  * Lightweight variant handler. Implemnets only absolutely needed oxArticle methods.
  *
  */
-class SimpleVariant extends MultiLanguageModel implements IUrl
+class SimpleVariant extends \OxidEsales\EshopCommunity\Core\Model\MultiLanguageModel implements \OxidEsales\EshopCommunity\Core\Contract\IUrl
 {
 
     /**

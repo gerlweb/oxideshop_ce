@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Core\Model\BaseModel;
  * Performs loading, updating, inserting of article rates.
  *
  */
-class Rating extends BaseModel
+class Rating extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
 {
 
     /**

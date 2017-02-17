@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
  * pricealarm sending manager.
  * Performs sending of pricealarm to selected iAllCnt groups.
  */
-class PriceAlarmSend extends AdminListController
+class PriceAlarmSend extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminListController
 {
 
     /**

@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Core\Exception\StandardException;
  * - missing template
  * - missing field in object
  */
-class SystemComponentException extends StandardException
+class SystemComponentException extends \OxidEsales\EshopCommunity\Core\Exception\StandardException
 {
     /**
      * Exception type, currently old class name is used.

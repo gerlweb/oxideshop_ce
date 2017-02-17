@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Core\Exception\ArticleException;
 /**
  * exception class for an article which is out of stock
  */
-class OutOfStockException extends ArticleException
+class OutOfStockException extends \OxidEsales\EshopCommunity\Core\Exception\ArticleException
 {
     /**
      * Exception type, currently old class name is used.

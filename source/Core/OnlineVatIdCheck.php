@@ -36,7 +36,7 @@ use OxidEsales\Eshop\Core\CompanyVatInChecker;
 /**
  * Online VAT id checker class.
  */
-class OnlineVatIdCheck extends CompanyVatInChecker
+class OnlineVatIdCheck extends \OxidEsales\EshopCommunity\Core\CompanyVatInChecker
 {
 
     /**

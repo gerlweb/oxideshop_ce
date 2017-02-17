@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Core\Base;
 /**
  * Date manipulation utility class
  */
-class UtilsCount extends Base
+class UtilsCount extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /**

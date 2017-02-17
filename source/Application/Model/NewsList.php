@@ -33,7 +33,7 @@ use OxidEsales\Eshop\Core\Model\ListModel;
  * @deprecated since v.5.3.0 (2016-06-17); The Admin Menu: Customer Info -> News feature will be moved to a module in v6.0.0
  *
  */
-class NewsList extends ListModel
+class NewsList extends \OxidEsales\EshopCommunity\Core\Model\ListModel
 {
 
     /**

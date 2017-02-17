@@ -33,7 +33,7 @@ use OxidEsales\Eshop\Core\Base;
  * UserBasketItem class, responsible for storing most important fields
  *
  */
-class BasketItem extends Base
+class BasketItem extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /**

@@ -34,7 +34,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * stock message, etc; Updates information (on user submit).
  * Admin Menu: Manage Products -> Articles -> Inventory.
  */
-class ArticleStock extends AdminDetailsController
+class ArticleStock extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

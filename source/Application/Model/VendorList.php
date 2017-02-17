@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Core\Model\ListModel;
  * Collects list of vendors according to collection rules (activ, etc.).
  *
  */
-class VendorList extends ListModel
+class VendorList extends \OxidEsales\EshopCommunity\Core\Model\ListModel
 {
 
     /**

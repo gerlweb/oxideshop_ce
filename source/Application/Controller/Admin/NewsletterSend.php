@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\NewsletterSelection;
  * Newsletter sending manager.
  * Performs sending of newsletter to selected user groups.
  */
-class NewsletterSend extends NewsletterSelection
+class NewsletterSend extends \OxidEsales\EshopCommunity\Application\Controller\Admin\NewsletterSelection
 {
 
     /**

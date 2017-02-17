@@ -33,7 +33,7 @@ use OxidEsales\Eshop\Core\Model\BaseModel;
  * deletes and etc.
  *
  */
-class Newsletter extends BaseModel
+class Newsletter extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
 {
 
     /**

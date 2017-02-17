@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ShopConfiguration;
  * Collects shop system settings, updates it on user submit, etc.
  * Admin Menu: Main Menu -> Core Settings -> System.
  */
-class ShopSystem extends ShopConfiguration
+class ShopSystem extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ShopConfiguration
 {
 
     /**

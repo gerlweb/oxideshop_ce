@@ -33,7 +33,7 @@ use oxDb;
  * Performs copying of article.
  *
  */
-class OrderArticle extends BaseModel implements ArticleInterface
+class OrderArticle extends \OxidEsales\EshopCommunity\Core\Model\BaseModel implements ArticleInterface
 {
 
     /**

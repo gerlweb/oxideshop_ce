@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Collects and updates (on user submit) files.
  * Admin Menu: Manage Products -> Articles -> Files.
  */
-class ArticleFiles extends AdminDetailsController
+class ArticleFiles extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

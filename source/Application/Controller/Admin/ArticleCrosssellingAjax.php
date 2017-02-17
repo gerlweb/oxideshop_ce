@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 /**
  * Class controls article crossselling configuration
  */
-class ArticleCrosssellingAjax extends ListComponentAjax
+class ArticleCrosssellingAjax extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ListComponentAjax
 {
 
     /**

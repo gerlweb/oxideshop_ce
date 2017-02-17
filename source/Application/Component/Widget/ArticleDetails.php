@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Component\Widget\WidgetController;
 /**
  * Article detailed information widget.
  */
-class ArticleDetails extends WidgetController
+class ArticleDetails extends \OxidEsales\EshopCommunity\Application\Component\Widget\WidgetController
 {
 
     /**

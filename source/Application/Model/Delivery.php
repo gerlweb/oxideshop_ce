@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
  * Currently calculates price/costs.
  *
  */
-class Delivery extends MultiLanguageModel
+class Delivery extends \OxidEsales\EshopCommunity\Core\Model\MultiLanguageModel
 {
 
     /**

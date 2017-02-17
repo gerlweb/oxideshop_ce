@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\FrontendController;
  * user opt-in or remove user from newsletter list. OXID eShop ->
  * (Newsletter).
  */
-class NewsletterController extends FrontendController
+class NewsletterController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
     /**
      * Action articlelist

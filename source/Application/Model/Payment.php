@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
  * Performs payment methods, such as assigning to someone, returning value etc.
  *
  */
-class Payment extends MultiLanguageModel
+class Payment extends \OxidEsales\EshopCommunity\Core\Model\MultiLanguageModel
 {
 
     /**

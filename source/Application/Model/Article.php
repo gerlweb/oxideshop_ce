@@ -49,7 +49,7 @@ define('OXARTICLE_LINKTYPE_RECOMM', 5);
  * discounts, etc.
  *
  */
-class Article extends MultiLanguageModel implements ArticleInterface, IUrl
+class Article extends \OxidEsales\EshopCommunity\Core\Model\MultiLanguageModel implements ArticleInterface, IUrl
 {
 
     /**

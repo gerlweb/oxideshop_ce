@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\FrontendController;
  * Comparing Products.
  * Takes a few products and show attribute values to compare them.
  */
-class CompareController extends FrontendController
+class CompareController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
 
     /**

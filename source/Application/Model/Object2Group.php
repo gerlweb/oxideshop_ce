@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\Model\BaseModel;
 /**
  * Manages object (users, discounts, deliveries...) assignment to groups.
  */
-class Object2Group extends BaseModel
+class Object2Group extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
 {
     /** @var boolean Load the relation even if from other shop */
     protected $_blDisableShopCheck = true;

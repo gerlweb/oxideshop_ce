@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Core\Model\ListModel;
  * Shop list manager.
  * Organizes list of shop objects.
  */
-class ShopList extends ListModel
+class ShopList extends \OxidEsales\EshopCommunity\Core\Model\ListModel
 {
     /**
      * Calls parent constructor

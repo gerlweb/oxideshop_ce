@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
  * Collects System information.
  * Admin Menu: Service -> System Requirements.
  */
-class SystemRequirementsList extends AdminListController
+class SystemRequirementsList extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminListController
 {
 
     /**

@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Core\Contract\IUrl;
  * Manufacturer manager
  *
  */
-class Manufacturer extends MultiLanguageModel implements IUrl
+class Manufacturer extends \OxidEsales\EshopCommunity\Core\Model\MultiLanguageModel implements \OxidEsales\EshopCommunity\Core\Contract\IUrl
 {
 
     protected static $_aRootManufacturer = array();

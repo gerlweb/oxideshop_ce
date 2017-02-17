@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Core\Model\BaseModel;
 /**
  * Manages product assignment to category.
  */
-class Object2Category extends BaseModel
+class Object2Category extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
 {
 
     /**

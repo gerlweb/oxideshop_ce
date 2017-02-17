@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\FrontendController;
  * information and submits "Request Password" button mail is sent to users email.
  * OXID eShop -> MY ACCOUNT -> "Forgot your password? - click here."
  */
-class ForgotPasswordController extends FrontendController
+class ForgotPasswordController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
 
     /**

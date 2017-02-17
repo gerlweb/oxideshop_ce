@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 /**
  * Class manages article select lists sorting
  */
-class SelectListOrderAjax extends ListComponentAjax
+class SelectListOrderAjax extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ListComponentAjax
 {
 
     /**

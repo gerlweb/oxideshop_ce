@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Core\Model\BaseModel;
  * Performs PriceAlarm data/objects loading, deleting.
  *
  */
-class PriceAlarm extends BaseModel
+class PriceAlarm extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
 {
 
     /**

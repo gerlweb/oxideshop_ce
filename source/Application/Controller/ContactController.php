@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\FrontendController;
  * fulfils all required fields all information is sent to shop owner by
  * email. OXID eShop -> CONTACT.
  */
-class ContactController extends FrontendController
+class ContactController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
 
     /**

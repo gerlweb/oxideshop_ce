@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\Base;
  * Class for handling database related operations
  *
  */
-class DbMetaDataHandler extends Base
+class DbMetaDataHandler extends \OxidEsales\EshopCommunity\Core\Base
 {
     /**
      *

@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Core\Model\ListModel;
  * User list manager.
  *
  */
-class UserList extends ListModel
+class UserList extends \OxidEsales\EshopCommunity\Core\Model\ListModel
 {
 
     /**

@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
  * Shop manager.
  * Performs configuration and object loading or deletion.
  */
-class Shop extends MultiLanguageModel
+class Shop extends \OxidEsales\EshopCommunity\Core\Model\MultiLanguageModel
 {
     /** @var string Name of current class. */
     protected $_sClassName = 'oxshop';

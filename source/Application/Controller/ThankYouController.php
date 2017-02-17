@@ -31,7 +31,7 @@ use oxOrder;
  * Thankyou page.
  * Arranges Thankyou page, sets ordering status, other parameters
  */
-class ThankYouController extends FrontendController
+class ThankYouController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
 
     /**

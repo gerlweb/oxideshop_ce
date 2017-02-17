@@ -33,7 +33,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\PaymentRdfa;
  * Performs collection and updatind (on user submit) main item information.
  * Admin Menu: Shop Settings -> Shipping & Handling -> RDFa.
  */
-class DeliverySetRdfa extends PaymentRdfa
+class DeliverySetRdfa extends \OxidEsales\EshopCommunity\Application\Controller\Admin\PaymentRdfa
 {
 
     /**

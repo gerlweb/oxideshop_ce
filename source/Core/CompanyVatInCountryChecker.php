@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\Contract\ICountryAware;
 /**
  * Company VAT identification number checker. Check if number belongs to the country.
  */
-class CompanyVatInCountryChecker extends CompanyVatInChecker implements ICountryAware
+class CompanyVatInCountryChecker extends \OxidEsales\EshopCommunity\Core\CompanyVatInChecker implements \OxidEsales\EshopCommunity\Core\Contract\ICountryAware
 {
 
     /**

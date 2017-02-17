@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\FrontendController;
  * Starting shop page.
  * Shop starter, manages starting visible articles, etc.
  */
-class StartController extends FrontendController
+class StartController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
 
     /**

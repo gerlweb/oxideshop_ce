@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\Model\BaseModel;
  * Article file link manager.
  *
  */
-class OrderFile extends BaseModel
+class OrderFile extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
 {
 
     /**

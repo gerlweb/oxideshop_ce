@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Core\OnlineRequest;
  *
  * @ignore   This class will not be included in documentation.
  */
-class OnlineModulesNotifierRequest extends OnlineRequest
+class OnlineModulesNotifierRequest extends \OxidEsales\EshopCommunity\Core\OnlineRequest
 {
 
     /**

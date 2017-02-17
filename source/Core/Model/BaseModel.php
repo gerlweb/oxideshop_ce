@@ -39,7 +39,7 @@ use oxDb;
 use oxUtilsObject;
 use OxidEsales\Eshop\Core\Base;
 
-class BaseModel extends Base
+class BaseModel extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /**

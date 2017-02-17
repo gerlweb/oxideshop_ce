@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
 /**
  * Admin selectlist list manager.
  */
-class LanguageList extends AdminListController
+class LanguageList extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminListController
 {
 
     /**

@@ -37,7 +37,7 @@ use OxidEsales\Eshop\Core\Model\BaseModel;
  * information, deletion and other.
  *
  */
-class User extends BaseModel
+class User extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
 {
 
     /**

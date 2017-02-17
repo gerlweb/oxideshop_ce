@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  *
  * @deprecated since v5.3 (2016-05-20); Dynpages will be removed.
  */
-class DynamicInterface extends AdminDetailsController
+class DynamicInterface extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

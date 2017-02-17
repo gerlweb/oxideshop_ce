@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Component\Widget\WidgetController;
 /**
  * Article box widget
  */
-class ArticleBox extends WidgetController
+class ArticleBox extends \OxidEsales\EshopCommunity\Application\Component\Widget\WidgetController
 {
     /**
      * Names of components (classes) that are initiated and executed

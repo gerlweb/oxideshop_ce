@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Core\Model\BaseModel;
  * Manages list of available Vouchers (fetches, deletes, etc.).
  *
  */
-class VoucherSerie extends BaseModel
+class VoucherSerie extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
 {
 
     /**

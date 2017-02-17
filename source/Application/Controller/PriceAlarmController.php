@@ -34,7 +34,7 @@ use OxidEsales\Eshop\Application\Controller\FrontendController;
  * email.
  * OXID eShop -> pricealarm.
  */
-class PriceAlarmController extends FrontendController
+class PriceAlarmController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
     /**
      * Current class template name.

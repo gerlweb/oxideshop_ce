@@ -35,7 +35,7 @@ use OxidEsales\Eshop\Core\Controller\BaseController;
  *
  * @subpackage oxcmp
  */
-class BasketComponent extends BaseController
+class BasketComponent extends \OxidEsales\EshopCommunity\Core\Controller\BaseController
 {
 
     /**

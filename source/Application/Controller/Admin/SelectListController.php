@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
  * Returns template, that arranges two other templates ("selectlist_list.tpl"
  * and "selectlist_main.tpl") to frame.
  */
-class SelectListController extends AdminController
+class SelectListController extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
 
     /**

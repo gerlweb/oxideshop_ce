@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
  * Starting admin menu window.
  * Admin Menu.
  */
-class AdminStart extends AdminController
+class AdminStart extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
 
     /**
