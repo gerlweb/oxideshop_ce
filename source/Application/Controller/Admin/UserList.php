@@ -24,7 +24,6 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use oxUser;
-use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
 
 /**
  * Admin user list manager.

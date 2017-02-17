@@ -22,8 +22,6 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
-use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
-
 /**
  * Collects System information.
  * Admin Menu: Service -> System Requirements.

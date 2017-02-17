@@ -26,7 +26,6 @@ use oxRegistry;
 use oxDb;
 use oxStr;
 use Exception;
-use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
 
 /**
  * Admin systeminfo manager.

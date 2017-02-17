@@ -22,8 +22,6 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
-use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
-
 /**
  * Admin attributes manager.
  * Collects attributes base information (Description), there is ability to filter

@@ -22,8 +22,6 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
-use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
-
 /**
  * Admin voucherserie list manager.
  * Collects voucherserie base information (serie no., discount, valid from, etc.),

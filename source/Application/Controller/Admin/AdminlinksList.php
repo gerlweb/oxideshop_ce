@@ -22,8 +22,6 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
-use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
-
 /**
  * Admin links collection.
  * Collects list of admin links. Links may be viewed by language, sorted by date,

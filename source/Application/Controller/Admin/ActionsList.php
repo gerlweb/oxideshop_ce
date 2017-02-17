@@ -23,7 +23,6 @@
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
-use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
 
 /**
  * Admin actionss manager.
