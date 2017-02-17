@@ -24,13 +24,12 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxRegistry;
 use oxField;
-use OxidEsales\Eshop\Core\Model\BaseModel;
 
 /**
  * Article file link manager.
  *
  */
-class OrderFile extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
+class OrderFile extends \OxidEsales\Eshop\Core\Model\BaseModel
 {
 
     /**

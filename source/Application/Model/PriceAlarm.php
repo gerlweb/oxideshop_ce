@@ -24,14 +24,13 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxRegistry;
 use oxField;
-use OxidEsales\Eshop\Core\Model\BaseModel;
 
 /**
  * PriceAlarm manager.
  * Performs PriceAlarm data/objects loading, deleting.
  *
  */
-class PriceAlarm extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
+class PriceAlarm extends \OxidEsales\Eshop\Core\Model\BaseModel
 {
 
     /**

@@ -24,14 +24,13 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxRegistry;
 use oxDb;
-use OxidEsales\Eshop\Core\Model\BaseModel;
 
 /**
  * Voucher serie manager.
  * Manages list of available Vouchers (fetches, deletes, etc.).
  *
  */
-class VoucherSerie extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
+class VoucherSerie extends \OxidEsales\Eshop\Core\Model\BaseModel
 {
 
     /**

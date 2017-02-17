@@ -29,14 +29,13 @@ use oxOutOfStockException;
 use oxField;
 use oxRegistry;
 use oxDb;
-use OxidEsales\Eshop\Core\Model\BaseModel;
 
 /**
  * Order manager.
  * Performs creation assigning, updating, deleting and other order functions.
  *
  */
-class Order extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
+class Order extends \OxidEsales\Eshop\Core\Model\BaseModel
 {
 
     // defining order state constants

@@ -22,12 +22,11 @@
 
 namespace OxidEsales\EshopCommunity\Application\Model;
 
-use OxidEsales\Eshop\Core\Model\BaseModel;
 
 /**
  * Address handler
  */
-class Address extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
+class Address extends \OxidEsales\Eshop\Core\Model\BaseModel
 {
 
     /**

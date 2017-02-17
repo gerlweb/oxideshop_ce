@@ -26,13 +26,12 @@ use oxField;
 use oxRegistry;
 use oxDb;
 use oxException;
-use OxidEsales\Eshop\Core\Model\BaseModel;
 
 /**
  * Article files manager.
  *
  */
-class File extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
+class File extends \OxidEsales\Eshop\Core\Model\BaseModel
 {
 
     /**

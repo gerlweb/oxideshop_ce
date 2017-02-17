@@ -23,12 +23,11 @@
 namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxField;
-use OxidEsales\Eshop\Core\Model\BaseModel;
 
 /**
  * Manages product assignment to category.
  */
-class Object2Category extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
+class Object2Category extends \OxidEsales\Eshop\Core\Model\BaseModel
 {
 
     /**
