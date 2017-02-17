@@ -23,11 +23,12 @@
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxAdminList;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
 
 /**
  * user list "view" class.
  */
-class ListReview extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ArticleList
+class ListReview extends \OxidEsales\Eshop\Application\Controller\Admin\ArticleList
 {
 
     /**
@@ -62,7 +63,8 @@ class ListReview extends \OxidEsales\EshopCommunity\Application\Controller\Admin
      */
     public function render()
     {
-        oxAdminList::render();
+        $adminListController = oxNew(AdminListController::class);
+        $adminListController->render();
 
         $this->_aViewData["menustructure"] = $this->getNavigation()->getDomXml()->documentElement->childNodes;
         $this->_aViewData["articleListTable"] = getViewName('oxarticles');
