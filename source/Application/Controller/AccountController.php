@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\FrontendController;
  * is a link for logging out. Template includes Topoffer , bargain
  * boxes. OXID eShop -> MY ACCOUNT.
  */
-class AccountController extends FrontendController
+class AccountController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
     /**
      * Number of user's orders.

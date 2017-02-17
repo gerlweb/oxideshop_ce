@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Core\Model\ListModel;
  * Payment list manager.
  *
  */
-class PaymentList extends ListModel
+class PaymentList extends \OxidEsales\EshopCommunity\Core\Model\ListModel
 {
 
     /**

@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Collects user history settings, updates it on user submit, etc.
  * Admin Menu: User Administration -> Users -> History.
  */
-class UserRemark extends AdminDetailsController
+class UserRemark extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

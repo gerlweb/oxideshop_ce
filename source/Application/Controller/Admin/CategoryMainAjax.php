@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 /**
  * Class manages category articles
  */
-class CategoryMainAjax extends ListComponentAjax
+class CategoryMainAjax extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ListComponentAjax
 {
 
     /**

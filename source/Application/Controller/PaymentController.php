@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\FrontendController;
  * Payment manager.
  * Customer payment manager class. Performs payment validation function, etc.
  */
-class PaymentController extends FrontendController
+class PaymentController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
 
     /**

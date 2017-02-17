@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 /**
  * Class manages payment user groups
  */
-class PaymentMainAjax extends ListComponentAjax
+class PaymentMainAjax extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ListComponentAjax
 {
 
     /**

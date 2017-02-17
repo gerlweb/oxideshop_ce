@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Core\Exception\StandardException;
  * e.g.:
  * - shop is not active
  */
-class ShopException extends StandardException
+class ShopException extends \OxidEsales\EshopCommunity\Core\Exception\StandardException
 {
     /**
      * Exception type, currently old class name is used.

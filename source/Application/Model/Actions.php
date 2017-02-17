@@ -34,7 +34,7 @@ use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
  * Article actions manager. Collects and keeps actions of chosen article.
  *
  */
-class Actions extends MultiLanguageModel
+class Actions extends \OxidEsales\EshopCommunity\Core\Model\MultiLanguageModel
 {
 
     /**

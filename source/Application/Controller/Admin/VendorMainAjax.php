@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 /**
  * Class manages vendor assignment to articles
  */
-class VendorMainAjax extends ListComponentAjax
+class VendorMainAjax extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ListComponentAjax
 {
 
     /**

@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
  * and "article_main.tpl") to frame.
  * Admin Menu: Manage Products -> Articles.
  */
-class ArticleController extends AdminController
+class ArticleController extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
 
     /**

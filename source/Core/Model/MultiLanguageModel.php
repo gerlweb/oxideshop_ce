@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\Model\BaseModel;
 /**
  * Class handling multilanguage data fields
  */
-class MultiLanguageModel extends BaseModel
+class MultiLanguageModel extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
 {
 
     /**

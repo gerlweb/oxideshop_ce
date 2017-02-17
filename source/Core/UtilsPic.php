@@ -34,7 +34,7 @@ require_once __DIR__ . "/utils/oxpicgenerator.php";
 /**
  * Image manipulation class
  */
-class UtilsPic extends Base
+class UtilsPic extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /**

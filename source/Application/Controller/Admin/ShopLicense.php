@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ShopConfiguration;
  * Collects shop license settings, updates it on user submit, etc.
  * Admin Menu: Main Menu -> Core Settings -> License.
  */
-class ShopLicense extends ShopConfiguration
+class ShopLicense extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ShopConfiguration
 {
     /**
      * Current class template.

@@ -27,7 +27,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
 /**
  * Admin vendor list manager.
  */
-class VendorList extends AdminListController
+class VendorList extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminListController
 {
 
     /**

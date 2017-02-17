@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Core\Controller\BaseController;
  *
  * @subpackage oxcmp
  */
-class UtilsComponent extends BaseController
+class UtilsComponent extends \OxidEsales\EshopCommunity\Core\Controller\BaseController
 {
 
     /**

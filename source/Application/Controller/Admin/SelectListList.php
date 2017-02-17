@@ -27,7 +27,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
 /**
  * Admin selectlist list manager.
  */
-class SelectListList extends AdminListController
+class SelectListList extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminListController
 {
 
     /**

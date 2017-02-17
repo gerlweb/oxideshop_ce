@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * this attribute, etc.
  * Admin Menu: Manage Products -> Attributes -> Main.
  */
-class AttributeMain extends AdminDetailsController
+class AttributeMain extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Core\Base;
 /**
  * URL utility class
  */
-class UtilsUrl extends Base
+class UtilsUrl extends \OxidEsales\EshopCommunity\Core\Base
 {
     const PARAMETER_SEPARATOR = '&amp;';
 

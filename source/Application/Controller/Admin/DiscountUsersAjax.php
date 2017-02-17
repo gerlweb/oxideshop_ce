@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 /**
  * Class manages discount users
  */
-class DiscountUsersAjax extends ListComponentAjax
+class DiscountUsersAjax extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ListComponentAjax
 {
 
     /**

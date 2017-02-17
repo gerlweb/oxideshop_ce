@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Performs newsletter creation (plain text format, collects neccessary information).
  * Admin Menu: Customer Info -> Newsletter -> Text.
  */
-class NewsletterPlain extends AdminDetailsController
+class NewsletterPlain extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

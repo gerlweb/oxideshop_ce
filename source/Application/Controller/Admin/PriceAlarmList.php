@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
  * Performs collection and managing (such as filtering or deleting) function.
  * Admin Menu: Customer Info -> pricealarm.
  */
-class PriceAlarmList extends AdminListController
+class PriceAlarmList extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminListController
 {
 
     /**

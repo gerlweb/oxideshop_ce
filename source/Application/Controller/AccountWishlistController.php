@@ -35,7 +35,7 @@ use OxidEsales\Eshop\Application\Controller\AccountController;
  * login name in special field. OXID eShop -> MY ACCOUNT
  *  -> Newsletter.
  */
-class AccountWishlistController extends AccountController
+class AccountWishlistController extends \OxidEsales\EshopCommunity\Application\Controller\AccountController
 {
 
     /**

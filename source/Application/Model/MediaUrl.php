@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
  * Media URL handler
  *
  */
-class MediaUrl extends MultiLanguageModel
+class MediaUrl extends \OxidEsales\EshopCommunity\Core\Model\MultiLanguageModel
 {
 
     /**

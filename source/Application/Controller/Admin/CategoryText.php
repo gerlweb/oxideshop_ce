@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Category text/description manager, enables editing of text.
  * Admin Menu: Manage Products -> Categories -> Text.
  */
-class CategoryText extends AdminDetailsController
+class CategoryText extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

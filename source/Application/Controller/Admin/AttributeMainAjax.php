@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 /**
  * Class manages article attributes
  */
-class AttributeMainAjax extends ListComponentAjax
+class AttributeMainAjax extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ListComponentAjax
 {
 
     /**

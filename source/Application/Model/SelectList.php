@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Core\Contract\ISelectList;
  * Select list manager
  *
  */
-class SelectList extends MultiLanguageModel implements ISelectList
+class SelectList extends \OxidEsales\EshopCommunity\Core\Model\MultiLanguageModel implements \OxidEsales\EshopCommunity\Core\Contract\ISelectList
 {
     /**
      * Select list fields array

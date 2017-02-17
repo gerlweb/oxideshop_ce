@@ -27,7 +27,7 @@ use OxidEsales\Eshop\Core\Exception\StandardException;
 /**
  * exception class covering voucher exceptions
  */
-class VoucherException extends StandardException
+class VoucherException extends \OxidEsales\EshopCommunity\Core\Exception\StandardException
 {
     /**
      * Exception type, currently old class name is used.

@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 /**
  * Class manages promotion groups
  */
-class ActionsGroupsAjax extends ListComponentAjax
+class ActionsGroupsAjax extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ListComponentAjax
 {
     /**
      * Columns array

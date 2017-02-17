@@ -40,7 +40,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * and etc.
  * Admin Menu: Manage Products -> Categories -> Main.
  */
-class CategoryMain extends AdminDetailsController
+class CategoryMain extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
     const NEW_CATEGORY_ID = "-1";
 

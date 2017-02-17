@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * review text or delete it.
  * Admin Menu: Manage Products -> Articles -> Review.
  */
-class ArticleReview extends AdminDetailsController
+class ArticleReview extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
     /**
      * Loads selected article review information, returns name of template

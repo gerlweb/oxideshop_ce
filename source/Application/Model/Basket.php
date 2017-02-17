@@ -38,7 +38,7 @@ use OxidEsales\Eshop\Core\Base;
  * Basket manager
  *
  */
-class Basket extends Base
+class Basket extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /**

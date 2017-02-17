@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Application\Controller\FrontendController;
  * User details.
  * Collects and arranges user object data (information, like shipping address, etc.).
  */
-class UserController extends FrontendController
+class UserController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
     /**
      * Current class template.

@@ -27,7 +27,7 @@ use OxidEsales\Eshop\Core\Exception\StandardException;
 /**
  * exception class for clients without cookies support
  */
-class CookieException extends StandardException
+class CookieException extends \OxidEsales\EshopCommunity\Core\Exception\StandardException
 {
     /**
      * Exception type, currently old class name is used.

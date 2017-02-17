@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
  * and "voucherserie_main.tpl") to frame.
  * Admin Menu: Shop Settings -> Vouchers.
  */
-class VoucherSerieController extends AdminController
+class VoucherSerieController extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
 
     /**

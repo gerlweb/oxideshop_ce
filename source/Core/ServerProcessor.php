@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Core\Base;
  * @internal Do not make a module extension for this class.
  * @see      http://oxidforge.org/en/core-oxid-eshop-classes-must-not-be-extended.html
  */
-class ServerProcessor extends Base
+class ServerProcessor extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /** @var oxServersManager */

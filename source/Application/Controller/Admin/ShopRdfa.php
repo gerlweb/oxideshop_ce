@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ShopConfiguration;
  * Admin Menu: Main Menu -> Core Settings -> RDFa.
  *
  */
-class ShopRdfa extends ShopConfiguration
+class ShopRdfa extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ShopConfiguration
 {
 
     /**

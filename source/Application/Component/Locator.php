@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Core\Base;
 /**
  * Locator controller for: category, vendor, manufacturers and search lists.
  */
-class Locator extends Base
+class Locator extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /**

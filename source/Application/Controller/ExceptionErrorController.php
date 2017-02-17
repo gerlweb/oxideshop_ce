@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Application\Controller\FrontendController;
 /**
  * Displays exception errors
  */
-class ExceptionErrorController extends FrontendController
+class ExceptionErrorController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
     /**
      * Current class template name.

@@ -27,7 +27,7 @@ use OxidEsales\Eshop\Core\Hasher;
 /**
  * Encrypt string with sha512 algorithm.
  */
-class Sha512Hasher extends Hasher
+class Sha512Hasher extends \OxidEsales\EshopCommunity\Core\Hasher
 {
 
     /** Algorithm name. */

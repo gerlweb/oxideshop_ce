@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\Base;
  * Implements search
  *
  */
-class Search extends Base
+class Search extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /**

@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 /**
  * Class controls article assignment to selection lists
  */
-class ArticleSelectionAjax extends ListComponentAjax
+class ArticleSelectionAjax extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ListComponentAjax
 {
 
     /**

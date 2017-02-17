@@ -27,7 +27,7 @@ use OxidEsales\Eshop\Core\Exception\StandardException;
 /**
  * Exception to be thrown on database errors
  */
-class DatabaseException extends StandardException
+class DatabaseException extends \OxidEsales\EshopCommunity\Core\Exception\StandardException
 {
 
     /**

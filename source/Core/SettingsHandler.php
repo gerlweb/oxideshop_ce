@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Core\Base;
 /**
  * Settings handler class.
  */
-class SettingsHandler extends Base
+class SettingsHandler extends \OxidEsales\EshopCommunity\Core\Base
 {
     /**
      * Module type.

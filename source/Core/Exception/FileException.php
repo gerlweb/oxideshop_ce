@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Core\Exception\StandardException;
  * - file does not exist
  * - file is not valid xml
  */
-class FileException extends StandardException
+class FileException extends \OxidEsales\EshopCommunity\Core\Exception\StandardException
 {
     /**
      * Exception type, currently old class name is used.

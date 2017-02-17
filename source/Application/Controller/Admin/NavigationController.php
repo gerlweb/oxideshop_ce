@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
 /**
  * Administrator GUI navigation manager class.
  */
-class NavigationController extends AdminController
+class NavigationController extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
 
     /**

@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Core\Model\ListModel;
  * Collects list of manufacturers according to collection rules (activ, etc.).
  *
  */
-class ManufacturerList extends ListModel
+class ManufacturerList extends \OxidEsales\EshopCommunity\Core\Model\ListModel
 {
 
     /**

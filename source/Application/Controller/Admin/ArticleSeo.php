@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ObjectSeo;
 /**
  * Article seo config class
  */
-class ArticleSeo extends ObjectSeo
+class ArticleSeo extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ObjectSeo
 {
 
     /**

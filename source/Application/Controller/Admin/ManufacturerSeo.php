@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ObjectSeo;
 /**
  * Manufacturer seo config class
  */
-class ManufacturerSeo extends ObjectSeo
+class ManufacturerSeo extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ObjectSeo
 {
 
     /**

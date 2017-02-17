@@ -33,7 +33,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Performs collection and updatind (on user submit) main item information.
  * Admin Menu: Orders -> Display Orders -> Main.
  */
-class OrderMain extends AdminDetailsController
+class OrderMain extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
     /**
      * Whitelist of parameters whose change does not require a full order recalculation.

@@ -33,7 +33,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * and etc.
  * Admin Menu: Shop settings -> Shipping & Handling -> Main.
  */
-class DeliveryUsers extends AdminDetailsController
+class DeliveryUsers extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

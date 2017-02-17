@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * serie of vouchers.
  * Admin Menu: Shop Settings -> Vouchers -> Groups.
  */
-class VoucherSerieGroups extends AdminDetailsController
+class VoucherSerieGroups extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

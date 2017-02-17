@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
  * Performs collection and managing (such as filtering or deleting) function.
  * Admin Menu: Customer Info -> Newsletter.
  */
-class NewsletterList extends AdminListController
+class NewsletterList extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminListController
 {
 
     /**

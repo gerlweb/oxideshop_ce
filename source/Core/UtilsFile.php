@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Core\Base;
 /**
  * File manipulation utility class
  */
-class UtilsFile extends Base
+class UtilsFile extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /**

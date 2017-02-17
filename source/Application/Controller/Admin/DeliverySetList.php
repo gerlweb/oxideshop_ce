@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
  * filter them by description, title or delete them.
  * Admin Menu: Shop Settings -> Shipping & Handling Sets.
  */
-class DeliverySetList extends AdminListController
+class DeliverySetList extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminListController
 {
 
     /**

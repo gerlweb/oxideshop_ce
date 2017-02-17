@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Core\Model\ListModel;
  * list structure.
  *
  */
-class CategoryList extends ListModel
+class CategoryList extends \OxidEsales\EshopCommunity\Core\Model\ListModel
 {
 
     /**

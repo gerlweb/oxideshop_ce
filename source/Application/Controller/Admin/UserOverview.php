@@ -27,7 +27,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 /**
  * Class for extending
  */
-class UserOverview extends AdminDetailsController
+class UserOverview extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

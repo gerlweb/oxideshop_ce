@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Application\Component\Widget\WidgetController;
  * Product Ratings widget.
  * Forms product ratings.
  */
-class Rating extends WidgetController
+class Rating extends \OxidEsales\EshopCommunity\Application\Component\Widget\WidgetController
 {
     /**
      * Names of components (classes) that are initiated and executed

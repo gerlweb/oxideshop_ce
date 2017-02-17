@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Core\Model\BaseModel;
  * user payment.
  *
  */
-class UserPayment extends BaseModel
+class UserPayment extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
 {
 
     // you can change this if you want more security

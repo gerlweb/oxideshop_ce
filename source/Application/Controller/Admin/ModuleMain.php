@@ -35,7 +35,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * and etc.
  * Admin Menu: Shop settings -> Shipping & Handling -> Main Sets.
  */
-class ModuleMain extends AdminDetailsController
+class ModuleMain extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

@@ -34,7 +34,7 @@ use OxidEsales\Eshop\Core\Base;
  * Basket reservations handler class
  *
  */
-class BasketReservation extends Base
+class BasketReservation extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /**

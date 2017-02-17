@@ -35,7 +35,7 @@ use OxidEsales\Eshop\Core\Base;
  * Base view class. Collects and passes data to template engine, sets some global
  * configuration parameters.
  */
-class BaseController extends Base
+class BaseController extends \OxidEsales\EshopCommunity\Core\Base
 {
     /**
      * Array of data that is passed to template engine - array( "varName" => "varValue").

@@ -27,7 +27,7 @@ use OxidEsales\Eshop\Application\Component\Widget\WidgetController;
 /**
  * Currency selection list widget
  */
-class CurrencyList extends WidgetController
+class CurrencyList extends \OxidEsales\EshopCommunity\Application\Component\Widget\WidgetController
 {
 
     /**

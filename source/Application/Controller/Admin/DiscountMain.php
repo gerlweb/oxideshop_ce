@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Performs collection and updating (on user submit) main item information.
  * Admin Menu: Shop Settings -> Discounts -> Main.
  */
-class DiscountMain extends AdminDetailsController
+class DiscountMain extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

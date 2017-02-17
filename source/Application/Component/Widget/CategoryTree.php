@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Component\Widget\WidgetController;
  * Category tree widget.
  * Forms category tree.
  */
-class CategoryTree extends WidgetController
+class CategoryTree extends \OxidEsales\EshopCommunity\Application\Component\Widget\WidgetController
 {
 
     /**

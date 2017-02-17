@@ -27,7 +27,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
 /**
  * Admin Manufacturer list manager.
  */
-class ManufacturerList extends AdminListController
+class ManufacturerList extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminListController
 {
 
     /**

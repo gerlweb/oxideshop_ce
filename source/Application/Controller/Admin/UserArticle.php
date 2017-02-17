@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Collects user articles settings, updates it on user submit, etc.
  * Admin Menu: User Administration -> Users -> Articles.
  */
-class UserArticle extends AdminDetailsController
+class UserArticle extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

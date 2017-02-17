@@ -33,7 +33,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\DynamicScreenController;
  *
  * @deprecated since v5.3 (2016-05-20); Dynpages will be removed.
  */
-class DynamicScreenList extends DynamicScreenController
+class DynamicScreenList extends \OxidEsales\EshopCommunity\Application\Controller\Admin\DynamicScreenController
 {
 
     /**

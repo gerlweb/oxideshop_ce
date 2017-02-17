@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Admin vendor main screen.
  * Performs collection and updating (on user submit) main item information.
  */
-class VendorMain extends AdminDetailsController
+class VendorMain extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

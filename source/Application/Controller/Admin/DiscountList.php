@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
  * filter them by description, title or delete them.
  * Admin Menu: Shop Settings -> Discounts.
  */
-class DiscountList extends AdminListController
+class DiscountList extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminListController
 {
 
     /**

@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
  * url or any keyword.
  * Admin Menu: Customer Info -> Links.
  */
-class AdminlinksList extends AdminListController
+class AdminlinksList extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminListController
 {
 
     /**

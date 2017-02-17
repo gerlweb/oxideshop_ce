@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\AccountController;
  * store them to shopping basket, view detail information.
  * OXID eShop -> MY ACCOUNT -> Newsletter.
  */
-class AccountNoticeListController extends AccountController
+class AccountNoticeListController extends \OxidEsales\EshopCommunity\Application\Controller\AccountController
 {
     /**
      * Current class template name.

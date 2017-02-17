@@ -37,7 +37,7 @@ use OxidEsales\Eshop\Application\Controller\FrontendController;
  * Order manager. Arranges user ordering data, checks/validates
  * it, on success stores ordering data to DB.
  */
-class OrderController extends FrontendController
+class OrderController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
 
     /**

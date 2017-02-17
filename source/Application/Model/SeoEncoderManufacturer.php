@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Core\SeoEncoder;
 /**
  * Seo encoder base
  */
-class SeoEncoderManufacturer extends SeoEncoder
+class SeoEncoderManufacturer extends \OxidEsales\EshopCommunity\Core\SeoEncoder
 {
     /**
      * Root manufacturer uri cache

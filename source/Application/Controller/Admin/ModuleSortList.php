@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Extensions sorting list handler.
  * Admin Menu: Extensions -> Module -> Installed Shop Modules.
  */
-class ModuleSortList extends AdminDetailsController
+class ModuleSortList extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

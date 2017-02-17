@@ -27,7 +27,7 @@ use OxidEsales\Eshop\Core\Exception\ArticleException;
 /**
  * exception class for non existing articles
  */
-class NoArticleException extends ArticleException
+class NoArticleException extends \OxidEsales\EshopCommunity\Core\Exception\ArticleException
 {
     /**
      * Exception type, currently old class name is used.

@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\VoucherSerieMain;
 /**
  * General export class.
  */
-class VoucherSerieExport extends VoucherSerieMain
+class VoucherSerieExport extends \OxidEsales\EshopCommunity\Application\Controller\Admin\VoucherSerieMain
 {
 
     /**

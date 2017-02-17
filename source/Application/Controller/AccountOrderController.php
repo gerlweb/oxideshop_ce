@@ -33,7 +33,7 @@ use OxidEsales\Eshop\Application\Controller\AccountController;
  * ordered articles information, button to add article to basket.
  * OXID eShop -> MY ACCOUNT -> Newsletter.
  */
-class AccountOrderController extends AccountController
+class AccountOrderController extends \OxidEsales\EshopCommunity\Application\Controller\AccountController
 {
 
     /**

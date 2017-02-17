@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ObjectSeo;
 /**
  * Content seo config class
  */
-class ContentSeo extends ObjectSeo
+class ContentSeo extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ObjectSeo
 {
 
     /**

@@ -33,7 +33,7 @@ use OxidEsales\Eshop\Core\SeoEncoder;
  * Seo encoder for articles
  *
  */
-class SeoEncoderArticle extends SeoEncoder
+class SeoEncoderArticle extends \OxidEsales\EshopCommunity\Core\SeoEncoder
 {
 
     /**

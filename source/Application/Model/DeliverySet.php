@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
  * Order delivery set manager.
  *
  */
-class DeliverySet extends MultiLanguageModel
+class DeliverySet extends \OxidEsales\EshopCommunity\Core\Model\MultiLanguageModel
 {
 
     /**

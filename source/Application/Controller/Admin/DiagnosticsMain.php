@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Checks Version of System files.
  * Admin Menu: Service -> Version Checker -> Main.
  */
-class DiagnosticsMain extends AdminDetailsController
+class DiagnosticsMain extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

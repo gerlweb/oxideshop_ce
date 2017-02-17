@@ -36,7 +36,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * to any chosen article group.
  * Admin Menu: Manage Products -> Articles -> Extended.
  */
-class ArticleExtend extends AdminDetailsController
+class ArticleExtend extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

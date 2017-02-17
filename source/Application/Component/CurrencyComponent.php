@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\Controller\BaseController;
  *
  * @subpackage oxcmp
  */
-class CurrencyComponent extends BaseController
+class CurrencyComponent extends \OxidEsales\EshopCommunity\Core\Controller\BaseController
 {
 
     /**

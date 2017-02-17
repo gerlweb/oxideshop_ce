@@ -33,7 +33,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
  * Returns template, that arranges two other templates ("tools_list.tpl"
  * and "tools_main.tpl") to frame.
  */
-class ToolsList extends AdminListController
+class ToolsList extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminListController
 {
 
     /**

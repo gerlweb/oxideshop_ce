@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Performs export function according to user chosen categories.
  * Admin Menu: Maine Menu -> Im/Export -> Export.
  */
-class ToolsMain extends AdminDetailsController
+class ToolsMain extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

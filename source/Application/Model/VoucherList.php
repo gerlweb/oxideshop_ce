@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Core\Model\ListModel;
  * Voucher list manager.
  *
  */
-class VoucherList extends ListModel
+class VoucherList extends \OxidEsales\EshopCommunity\Core\Model\ListModel
 {
 
     /**

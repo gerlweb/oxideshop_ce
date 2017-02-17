@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * and etc.
  * Admin Menu: Shop settings -> Shipping & Handling Set -> Payment
  */
-class DeliverySetPayment extends AdminDetailsController
+class DeliverySetPayment extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
  * and "pricealarm_main.tpl") to frame.
  * Admin Menu: Customer Info -> admin_pricealarm.
  */
-class AdminPriceAlarm extends AdminController
+class AdminPriceAlarm extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
 
     /**

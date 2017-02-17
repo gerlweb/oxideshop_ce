@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\Base;
  * Seo encoder base
  *
  */
-class SeoDecoder extends Base
+class SeoDecoder extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /**

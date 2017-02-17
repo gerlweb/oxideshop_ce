@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
  * and "manufacturer_main.tpl") to frame.
  * Admin Menu: Settings -> Manufacturers
  */
-class ManufacturerController extends AdminController
+class ManufacturerController extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
 
     /**

@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Core\Model\BaseModel;
  * Article files manager.
  *
  */
-class File extends BaseModel
+class File extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
 {
 
     /**

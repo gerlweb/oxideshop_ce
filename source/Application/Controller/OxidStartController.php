@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Application\Controller\FrontendController;
 /**
  * Encapsulates methods for application initialization.
  */
-class OxidStartController extends FrontendController
+class OxidStartController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
     /**
      * Initializes globals and environment vars

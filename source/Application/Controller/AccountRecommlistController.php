@@ -35,7 +35,7 @@ use OxidEsales\Eshop\Application\Controller\AccountController;
  *
  * @deprecated since v5.3 (2016-06-17); Listmania will be moved to an own module.
  */
-class AccountRecommlistController extends AccountController
+class AccountRecommlistController extends \OxidEsales\EshopCommunity\Application\Controller\AccountController
 {
 
     /**

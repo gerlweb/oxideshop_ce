@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
  * and "user_main.tpl") to frame.
  * Admin Menu: User Administration -> Users.
  */
-class AdminWrapping extends AdminController
+class AdminWrapping extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
 
     /**

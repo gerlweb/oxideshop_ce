@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
  * Links manager.
  * Collects stored in DB links data (URL, description).
  */
-class Links extends MultiLanguageModel
+class Links extends \OxidEsales\EshopCommunity\Core\Model\MultiLanguageModel
 {
 
     /**

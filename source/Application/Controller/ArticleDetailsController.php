@@ -39,7 +39,7 @@ use OxidEsales\Eshop\Application\Controller\FrontendController;
  * as crosselling, similarlist, picture gallery list, etc.
  * OXID eShop -> (Any chosen product).
  */
-class ArticleDetailsController extends FrontendController
+class ArticleDetailsController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
     /**
      * Current class default template name.

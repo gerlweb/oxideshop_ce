@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 /**
  * Class manages manufacturer assignment to articles
  */
-class ManufacturerMainAjax extends ListComponentAjax
+class ManufacturerMainAjax extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ListComponentAjax
 {
 
     /**

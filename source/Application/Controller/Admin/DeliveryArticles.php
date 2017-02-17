@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * and etc.
  * Admin Menu: Shop settings -> Shipping & Handling -> Main.
  */
-class DeliveryArticles extends AdminDetailsController
+class DeliveryArticles extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

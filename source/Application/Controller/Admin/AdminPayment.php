@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
  * and "payment_main.tpl") to frame.
  * Admin Menu: Shop Settings -> Payment Methods.
  */
-class AdminPayment extends AdminController
+class AdminPayment extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
 
     /**

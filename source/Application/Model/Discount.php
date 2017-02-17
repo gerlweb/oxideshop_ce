@@ -32,7 +32,7 @@ use stdClass;
  * Discounts manager.
  *
  */
-class Discount extends MultiLanguageModel
+class Discount extends \OxidEsales\EshopCommunity\Core\Model\MultiLanguageModel
 {
 
     /**

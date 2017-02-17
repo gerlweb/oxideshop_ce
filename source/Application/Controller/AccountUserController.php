@@ -33,7 +33,7 @@ use OxidEsales\Eshop\Application\Controller\AccountController;
  * etc. Some fields must be entered. OXID eShop -> MY ACCOUNT
  * -> Update your billing and delivery settings.
  */
-class AccountUserController extends AccountController
+class AccountUserController extends \OxidEsales\EshopCommunity\Application\Controller\AccountController
 {
 
     /**

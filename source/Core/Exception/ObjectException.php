@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\Exception\StandardException;
  * - wrong type
  * - ID not set
  */
-class ObjectException extends StandardException
+class ObjectException extends \OxidEsales\EshopCommunity\Core\Exception\StandardException
 {
     /**
      * Exception type, currently old class name is used.

@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Application\Controller\FrontendController;
 /**
  * CMS - loads pages and displays it
  */
-class ContentController extends FrontendController
+class ContentController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
 
     /**

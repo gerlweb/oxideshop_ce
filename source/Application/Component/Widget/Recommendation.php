@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Component\Widget\WidgetController;
  *
  * @deprecated since v5.3 (2016-06-17); Listmania will be moved to an own module.
  */
-class Recommendation extends WidgetController
+class Recommendation extends \OxidEsales\EshopCommunity\Application\Component\Widget\WidgetController
 {
 
     /**

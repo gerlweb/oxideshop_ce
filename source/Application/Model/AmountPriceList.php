@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Core\Model\ListModel;
  * Article amount price list
  *
  */
-class AmountPriceList extends ListModel
+class AmountPriceList extends \OxidEsales\EshopCommunity\Core\Model\ListModel
 {
     /**
      * List Object class name

@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\Base;
  * Class, responsible for retrieving correct vat for users and articles
  *
  */
-class VatSelector extends Base
+class VatSelector extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /**

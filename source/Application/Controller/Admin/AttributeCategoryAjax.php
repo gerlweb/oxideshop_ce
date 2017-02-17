@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 /**
  * Class manages category attributes
  */
-class AttributeCategoryAjax extends ListComponentAjax
+class AttributeCategoryAjax extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ListComponentAjax
 {
 
     /**

@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * last modification date, sales rating and etc.
  * Admin Menu: Manage Products -> Articles -> Overview.
  */
-class ArticleOverview extends AdminDetailsController
+class ArticleOverview extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

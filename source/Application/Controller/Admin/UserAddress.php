@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Collects user address settings, updates it on user submit, etc.
  * Admin Menu: User Administration -> Users -> Addresses.
  */
-class UserAddress extends AdminDetailsController
+class UserAddress extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

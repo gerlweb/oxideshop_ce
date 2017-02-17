@@ -34,7 +34,7 @@ use OxidEsales\Eshop\Core\Contract\IUrl;
  * of categories nodes. By recursion methods are set structure of category.
  *
  */
-class Category extends MultiLanguageModel implements IUrl
+class Category extends \OxidEsales\EshopCommunity\Core\Model\MultiLanguageModel implements \OxidEsales\EshopCommunity\Core\Contract\IUrl
 {
 
     /**

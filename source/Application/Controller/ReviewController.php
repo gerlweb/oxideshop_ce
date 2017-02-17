@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\ArticleDetailsController;
  * Review of chosen article.
  * Collects article review data, saves new review to DB.
  */
-class ReviewController extends ArticleDetailsController
+class ReviewController extends \OxidEsales\EshopCommunity\Application\Controller\ArticleDetailsController
 {
 
     /**

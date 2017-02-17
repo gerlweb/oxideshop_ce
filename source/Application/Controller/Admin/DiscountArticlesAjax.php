@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 /**
  * Class manages discount articles
  */
-class DiscountArticlesAjax extends ListComponentAjax
+class DiscountArticlesAjax extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ListComponentAjax
 {
     /**  */
     const NEW_DISCOUNT_LIST_ID = "-1";

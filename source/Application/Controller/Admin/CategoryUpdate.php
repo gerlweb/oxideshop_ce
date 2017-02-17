@@ -27,7 +27,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
 /**
  * Class for updating category tree structure in DB.
  */
-class CategoryUpdate extends AdminController
+class CategoryUpdate extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
 
     /**

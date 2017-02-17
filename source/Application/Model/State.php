@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
 /**
  * State handler
  */
-class State extends MultiLanguageModel
+class State extends \OxidEsales\EshopCommunity\Core\Model\MultiLanguageModel
 {
 
     /**

@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Category thumbnail manager (Previews assigned pictures).
  * Admin Menu: Manage Products -> Categories -> Thumbnail.
  */
-class CategoryPictures extends AdminDetailsController
+class CategoryPictures extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

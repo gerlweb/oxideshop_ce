@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\Model\ListModel;
  * Organizes list of discount objects.
  *
  */
-class DiscountList extends ListModel
+class DiscountList extends \OxidEsales\EshopCommunity\Core\Model\ListModel
 {
 
     /**

@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Collects and updates article variants data.
  * Admin Menu: Manage Products -> Articles -> Variants.
  */
-class ArticleVariant extends AdminDetailsController
+class ArticleVariant extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

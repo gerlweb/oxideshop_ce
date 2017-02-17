@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
  * Performs collection and managing (such as filtering or deleting) function.
  * Admin Menu: User Administration -> Users.
  */
-class WrappingList extends AdminListController
+class WrappingList extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminListController
 {
 
     /**

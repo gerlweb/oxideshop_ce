@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 /**
  * Class manages deliveryset groups
  */
-class DeliverySetGroupsAjax extends ListComponentAjax
+class DeliverySetGroupsAjax extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ListComponentAjax
 {
 
     /**

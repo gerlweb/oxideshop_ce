@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 /**
  * Class controls article assignment to attributes
  */
-class ShopDefaultCategoryAjax extends ListComponentAjax
+class ShopDefaultCategoryAjax extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ListComponentAjax
 {
 
     /**

@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * There is possibility to change category sorting.
  * Admin Menu: Manage Products -> Categories -> Order.
  */
-class CategoryOrder extends AdminDetailsController
+class CategoryOrder extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

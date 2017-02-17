@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 /**
  * Class controls article assignment to category.
  */
-class ArticleExtendAjax extends ListComponentAjax
+class ArticleExtendAjax extends \OxidEsales\EshopCommunity\Application\Controller\Admin\ListComponentAjax
 {
     /**
      * Columns array

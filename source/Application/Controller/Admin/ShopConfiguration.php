@@ -32,7 +32,7 @@ use Exception;
  * Collects shop config information, updates it on user submit, etc.
  * Admin Menu: Main Menu -> Core Settings -> General.
  */
-class ShopConfiguration extends AdminDetailsController
+class ShopConfiguration extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     protected $_sThisTemplate = 'shop_config.tpl';

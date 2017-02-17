@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 /**
  * Base seo config class.
  */
-class ObjectSeo extends AdminDetailsController
+class ObjectSeo extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
     /**
      * Executes parent method parent::render(),

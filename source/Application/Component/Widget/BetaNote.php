@@ -27,7 +27,7 @@ use OxidEsales\Eshop\Application\Component\Widget\WidgetController;
 /**
  * Beta note widget
  */
-class BetaNote extends WidgetController
+class BetaNote extends \OxidEsales\EshopCommunity\Application\Component\Widget\WidgetController
 {
 
     /**

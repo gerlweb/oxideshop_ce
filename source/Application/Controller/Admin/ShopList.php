@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
  * Performs collection and managing (such as filtering or deleting) function.
  * Admin Menu: Main Menu -> Core Settings.
  */
-class ShopList extends AdminListController
+class ShopList extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminListController
 {
     /** New Shop indicator. */
     const NEW_SHOP_ID = '-1';

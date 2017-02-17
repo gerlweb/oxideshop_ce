@@ -37,7 +37,7 @@ use OxidEsales\Eshop\Core\Contract\IUrl;
  * @deprecated since v5.3 (2016-06-17); Listmania will be moved to an own module.
  *
  */
-class RecommendationList extends BaseModel implements IUrl
+class RecommendationList extends \OxidEsales\EshopCommunity\Core\Model\BaseModel implements \OxidEsales\EshopCommunity\Core\Contract\IUrl
 {
 
     /**

@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * upload any other picture, etc.
  * Admin Menu: Manage Products -> Articles -> Pictures.
  */
-class ArticlePictures extends AdminDetailsController
+class ArticlePictures extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
     /**
      * Loads article information - pictures, passes data to Smarty

@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
  * field ('oxactions.oxtitle').
  * Admin Menu: Manage Products -> Actions.
  */
-class ActionsList extends AdminListController
+class ActionsList extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminListController
 {
 
     /**

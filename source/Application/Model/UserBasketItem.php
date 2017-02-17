@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\Model\BaseModel;
  * Manager class for shopping basket item (class may be overriden).
  *
  */
-class UserBasketItem extends BaseModel
+class UserBasketItem extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
 {
 
     /**

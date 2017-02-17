@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Core\Base;
  * Checks and sets payment method data, executes payment.
  *
  */
-class PaymentGateway extends Base
+class PaymentGateway extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /**

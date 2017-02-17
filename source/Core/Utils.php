@@ -33,7 +33,7 @@ use OxidEsales\Eshop\Core\Base;
  * General utils class
  *
  */
-class Utils extends Base
+class Utils extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /**

@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Core\Model\ListModel;
  * Article file link manager.
  *
  */
-class OrderFileList extends ListModel
+class OrderFileList extends \OxidEsales\EshopCommunity\Core\Model\ListModel
 {
 
     /**

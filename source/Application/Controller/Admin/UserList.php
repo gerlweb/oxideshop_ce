@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
  * Performs collection and managing (such as filtering or deleting) function.
  * Admin Menu: User Administration -> Users.
  */
-class UserList extends AdminListController
+class UserList extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminListController
 {
     /**
      * Name of chosen object class (default null).

@@ -27,7 +27,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\DynamicExportBaseController;
 /**
  * Admin general export manager.
  */
-class GenericExportMain extends DynamicExportBaseController
+class GenericExportMain extends \OxidEsales\EshopCommunity\Application\Controller\Admin\DynamicExportBaseController
 {
 
     /**

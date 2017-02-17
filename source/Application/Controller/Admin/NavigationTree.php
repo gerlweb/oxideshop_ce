@@ -35,7 +35,7 @@ use OxidEsales\Eshop\Core\Base;
 /**
  * Navigation tree control class
  */
-class NavigationTree extends Base
+class NavigationTree extends \OxidEsales\EshopCommunity\Core\Base
 {
     /**
      * stores DOM object for all navigation tree

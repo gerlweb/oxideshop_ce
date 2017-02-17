@@ -34,7 +34,7 @@ use OxidEsales\Eshop\Application\Controller\FrontendController;
  * meta tags (for search engines). Result - "list.tpl" template.
  * OXID eShop -> (Any selected shop product category).
  */
-class ArticleListController extends FrontendController
+class ArticleListController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
     /**
      * Count of all articles in list.

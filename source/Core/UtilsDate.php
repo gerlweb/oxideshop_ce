@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\Base;
 /**
  * Date manipulation utility class
  */
-class UtilsDate extends Base
+class UtilsDate extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /**

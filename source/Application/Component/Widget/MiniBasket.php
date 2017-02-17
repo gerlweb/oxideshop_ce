@@ -27,7 +27,7 @@ use OxidEsales\Eshop\Application\Component\Widget\WidgetController;
 /**
  * Mini basket widget
  */
-class MiniBasket extends WidgetController
+class MiniBasket extends \OxidEsales\EshopCommunity\Application\Component\Widget\WidgetController
 {
     /**
      * Names of components (classes) that are initiated and executed

@@ -27,7 +27,7 @@ use OxidEsales\Eshop\Core\Exception\StandardException;
 /**
  * Exception to be thrown on database connection errors
  */
-class DatabaseConnectionException extends StandardException
+class DatabaseConnectionException extends \OxidEsales\EshopCommunity\Core\Exception\StandardException
 {
 
     /**

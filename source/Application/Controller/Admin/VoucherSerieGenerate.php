@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\VoucherSerieMain;
  * Voucher Serie generator class
  *
  */
-class VoucherSerieGenerate extends VoucherSerieMain
+class VoucherSerieGenerate extends \OxidEsales\EshopCommunity\Application\Controller\Admin\VoucherSerieMain
 {
 
     /**

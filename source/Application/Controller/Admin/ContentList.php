@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
  * them by Description or delete them.
  * Admin Menu: Customerinformations -> Content.
  */
-class ContentList extends AdminListController
+class ContentList extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminListController
 {
 
     /**

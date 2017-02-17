@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
  * them by Description or delete them.
  * Admin Menu: Manage Products -> Attributes.
  */
-class AttributeList extends AdminListController
+class AttributeList extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminListController
 {
 
     /**

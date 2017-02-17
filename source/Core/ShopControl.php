@@ -39,7 +39,7 @@ use ReflectionMethod;
  * them (if needed), controls output, redirects according to
  * processed methods logic. This class is initialized from index.php
  */
-class ShopControl extends Base
+class ShopControl extends \OxidEsales\EshopCommunity\Core\Base
 {
     /**
      * Used to force handling, it allows other place like widget controller to skip it.

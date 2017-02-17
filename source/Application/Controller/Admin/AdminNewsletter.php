@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
  * and "newsletter_main.tpl") to frame.
  * Admin Menu: Customer Info -> Newsletter.
  */
-class AdminNewsletter extends AdminController
+class AdminNewsletter extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
 
     /**

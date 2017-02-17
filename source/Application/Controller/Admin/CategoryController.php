@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
  * and "category_main.tpl") to frame.
  * Admin Menu: Manage Products -> Categories.
  */
-class CategoryController extends AdminController
+class CategoryController extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
 
     /**

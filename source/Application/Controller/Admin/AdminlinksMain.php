@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Creates form for submitting new admin links or modifying old ones.
  * Admin Menu: Customer Info -> Links.
  */
-class AdminlinksMain extends AdminDetailsController
+class AdminlinksMain extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

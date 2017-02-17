@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Core\Contract\IDisplayError;
 /**
  * simple class to add a error message to display
  */
-class DisplayError implements IDisplayError
+class DisplayError implements \OxidEsales\EshopCommunity\Core\Contract\IDisplayError
 {
     /**
      * Error message

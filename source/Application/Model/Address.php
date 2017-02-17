@@ -27,7 +27,7 @@ use OxidEsales\Eshop\Core\Model\BaseModel;
 /**
  * Address handler
  */
-class Address extends BaseModel
+class Address extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
 {
 
     /**

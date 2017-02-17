@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Core\Model\ListModel;
  * Simple variant list.
  *
  */
-class SimpleVariantList extends ListModel
+class SimpleVariantList extends \OxidEsales\EshopCommunity\Core\Model\ListModel
 {
 
     /**

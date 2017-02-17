@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Application\Controller\FrontendController;
 /**
  * CMS - loads pages and displays it
  */
-class ClearCookiesController extends FrontendController
+class ClearCookiesController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
     /**
      * Current view template

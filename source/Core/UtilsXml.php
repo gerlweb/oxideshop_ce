@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Core\Base;
 /**
  * XML document handler
  */
-class UtilsXml extends Base
+class UtilsXml extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /**

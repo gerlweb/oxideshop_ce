@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Collects user payment settings, updates it on user submit, etc.
  * Admin Menu: User Administration -> Users -> Payment.
  */
-class UserPayment extends AdminDetailsController
+class UserPayment extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
  * Creates plaintext and HTML format newsletter preview.
  * Admin Menu: Customer Info -> Newsletter -> Preview.
  */
-class NewsletterPreview extends AdminDetailsController
+class NewsletterPreview extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminDetailsController
 {
 
     /**

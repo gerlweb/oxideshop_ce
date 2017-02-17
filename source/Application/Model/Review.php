@@ -32,7 +32,7 @@ use OxidEsales\Eshop\Core\Model\BaseModel;
  * Performs loading, updating, inserting of article review.
  *
  */
-class Review extends BaseModel
+class Review extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
 {
 
     /**

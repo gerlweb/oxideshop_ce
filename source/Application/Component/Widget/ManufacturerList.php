@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Application\Component\Widget\WidgetController;
  * Manufacturer list widget.
  * Forms Manufacturer list.
  */
-class ManufacturerList extends WidgetController
+class ManufacturerList extends \OxidEsales\EshopCommunity\Application\Component\Widget\WidgetController
 {
 
     /**

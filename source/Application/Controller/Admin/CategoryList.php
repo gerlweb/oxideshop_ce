@@ -33,7 +33,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
  * filter them by sorting, title or delete them.
  * Admin Menu: Manage Products -> Categories.
  */
-class CategoryList extends AdminListController
+class CategoryList extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminListController
 {
 
     /**

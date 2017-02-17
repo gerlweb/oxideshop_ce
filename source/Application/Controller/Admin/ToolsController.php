@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
  * Returns template, that arranges two other templates ("delivery_list.tpl"
  * and "delivery_main.tpl") to frame.
  */
-class ToolsController extends AdminController
+class ToolsController extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
 
     /**

@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
  * Base class for user groups. Does nothing special yet.
  *
  */
-class Groups extends MultiLanguageModel
+class Groups extends \OxidEsales\EshopCommunity\Core\Model\MultiLanguageModel
 {
 
     /**

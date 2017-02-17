@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
  * Checks Version of System files.
  * Admin Menu: Service -> Version Checker.
  */
-class DiagnosticsList extends AdminListController
+class DiagnosticsList extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminListController
 {
 
     /**

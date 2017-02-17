@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Core\Base;
  *
  * @internal This class should not be directly extended, instead of it ajaxListComponent class should be used.
  */
-class ListComponentAjax extends Base
+class ListComponentAjax extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /**

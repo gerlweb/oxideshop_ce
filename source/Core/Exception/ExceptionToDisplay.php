@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Core\Contract\IDisplayError;
  * simplified Exception classes for simply displaying errors
  * saves resources when exception functionality is not needed
  */
-class ExceptionToDisplay implements IDisplayError
+class ExceptionToDisplay implements \OxidEsales\EshopCommunity\Core\Contract\IDisplayError
 {
 
     /**

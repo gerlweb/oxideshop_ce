@@ -28,7 +28,7 @@ use OxidEsales\Eshop\Application\Component\Widget\WidgetController;
  * List of shop services widget.
  * Forms service list.
  */
-class ServiceList extends WidgetController
+class ServiceList extends \OxidEsales\EshopCommunity\Application\Component\Widget\WidgetController
 {
 
     /**

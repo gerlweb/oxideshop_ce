@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
  * Performs Wrapping data/objects loading, deleting.
  *
  */
-class Wrapping extends MultiLanguageModel
+class Wrapping extends \OxidEsales\EshopCommunity\Core\Model\MultiLanguageModel
 {
 
     /**

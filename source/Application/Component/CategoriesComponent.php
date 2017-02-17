@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\Controller\BaseController;
  *
  * @subpackage oxcmp
  */
-class CategoriesComponent extends BaseController
+class CategoriesComponent extends \OxidEsales\EshopCommunity\Core\Controller\BaseController
 {
 
     /**

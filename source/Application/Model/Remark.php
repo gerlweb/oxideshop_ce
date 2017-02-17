@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\Model\BaseModel;
  * Remark manager.
  *
  */
-class Remark extends BaseModel
+class Remark extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
 {
 
     /**

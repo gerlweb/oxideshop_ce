@@ -31,7 +31,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
  *
  * @deprecated since v5.3 (2016-05-20); Dynpages will be removed.
  */
-class DynamicScreenLocal extends AdminController
+class DynamicScreenLocal extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
 
     /**

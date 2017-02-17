@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\Base;
 /**
  * Language related utility class
  */
-class Language extends Base
+class Language extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /**

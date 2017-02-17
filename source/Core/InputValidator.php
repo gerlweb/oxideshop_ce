@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Core\Base;
 /**
  * Class for validating input
  */
-class InputValidator extends Base
+class InputValidator extends \OxidEsales\EshopCommunity\Core\Base
 {
 
     /**

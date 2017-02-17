@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
  * and "attribute_main.tpl") to frame.
  * Admin Menu: Manage Products -> Attributes.
  */
-class AttributeController extends AdminController
+class AttributeController extends \OxidEsales\EshopCommunity\Application\Controller\Admin\AdminController
 {
 
     /**

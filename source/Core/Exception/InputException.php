@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Core\Exception\StandardException;
  * - not valid email adress
  * - negative value
  */
-class InputException extends StandardException
+class InputException extends \OxidEsales\EshopCommunity\Core\Exception\StandardException
 {
     /**
      * Exception type, currently old class name is used.

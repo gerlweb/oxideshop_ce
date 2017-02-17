@@ -30,7 +30,7 @@ use OxidEsales\Eshop\Application\Controller\FrontendController;
  * Collects some article base information, sets default recommendation text,
  * sends suggestion mail to user.
  */
-class InviteController extends FrontendController
+class InviteController extends \OxidEsales\EshopCommunity\Application\Controller\FrontendController
 {
     /**
      * Current class template name.

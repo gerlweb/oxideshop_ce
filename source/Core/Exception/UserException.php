@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Core\Exception\StandardException;
  * - user doesn't exist
  * - wrong password
  */
-class UserException extends StandardException
+class UserException extends \OxidEsales\EshopCommunity\Core\Exception\StandardException
 {
     /**
      * Exception type, currently old class name is used.

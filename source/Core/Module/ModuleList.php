@@ -33,7 +33,7 @@ use OxidEsales\Eshop\Core\Base;
  * @internal Do not make a module extension for this class.
  * @see      http://oxidforge.org/en/core-oxid-eshop-classes-must-not-be-extended.html
  */
-class ModuleList extends Base
+class ModuleList extends \OxidEsales\EshopCommunity\Core\Base
 {
     const MODULE_KEY_PATHS = 'Paths';
     const MODULE_KEY_EVENTS = 'Events';

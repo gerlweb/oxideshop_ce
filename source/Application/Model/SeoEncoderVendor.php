@@ -29,7 +29,7 @@ use OxidEsales\Eshop\Core\SeoEncoder;
  * Seo encoder base
  *
  */
-class SeoEncoderVendor extends SeoEncoder
+class SeoEncoderVendor extends \OxidEsales\EshopCommunity\Core\SeoEncoder
 {
 
     /**
