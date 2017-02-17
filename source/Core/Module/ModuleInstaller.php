@@ -627,7 +627,7 @@ class ModuleInstaller extends \OxidEsales\Eshop\Core\Base
     /**
      * @return \OxidEsales\EshopCommunity\Core\Contract\ControllerMapProviderInterface
      */
-    protected function getShopControllerProvider()
+    protected function getShopControllerMapProvider()
     {
         return oxNew(\OxidEsales\Eshop\Core\Routing\ShopControllerMapProvider::class);
     }
@@ -653,10 +653,10 @@ class ModuleInstaller extends \OxidEsales\Eshop\Core\Base
     protected function validateModuleMetadataControllersOnActivation($moduleControllers)
     {
         $moduleControllerMapProvider = $this->getModuleControllerMapProvider();
-        $shopControllerProvider = $this->getShopControllerProvider();
+        $shopControllerMapProvider = $this->getShopControllerMapProvider();
 
         $moduleControllerMap = $moduleControllerMapProvider->getControllerMap();
-        $shopControllerMap = $shopControllerProvider->getControllerMap();
+        $shopControllerMap = $shopControllerMapProvider->getControllerMap();
 
         $existingMaps = array_merge($moduleControllerMap, $shopControllerMap);
 
