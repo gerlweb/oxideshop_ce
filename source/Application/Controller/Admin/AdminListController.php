@@ -29,7 +29,6 @@ use stdClass;
 use oxList;
 use oxBase;
 use oxI18n;
-use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
 
 /**
  * Admin selectlist list manager.
