@@ -26,7 +26,6 @@ use oxRegistry;
 use oxConfig;
 use oxAdminDetails;
 use oxException;
-use OxidEsales\Eshop\Application\Controller\Admin\ShopConfiguration;
 
 /**
  * Admin article main deliveryset manager.
