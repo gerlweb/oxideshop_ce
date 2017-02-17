@@ -26,7 +26,6 @@ use oxRegistry;
 use oxDb;
 use stdClass;
 use oxField;
-use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article RDFa payment manager.

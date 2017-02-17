@@ -28,7 +28,6 @@ use oxField;
 use oxUtilsObject;
 use stdClass;
 use OxidEsales\Eshop\Application\Model\Article;
-use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article main manager.

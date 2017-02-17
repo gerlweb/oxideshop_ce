@@ -26,7 +26,6 @@ use oxUtilsDate;
 use oxRegistry;
 use oxField;
 use oxPaymentList;
-use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article main order manager.

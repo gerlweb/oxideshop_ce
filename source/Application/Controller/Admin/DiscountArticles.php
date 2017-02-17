@@ -23,7 +23,6 @@
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
-use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article main discount manager.

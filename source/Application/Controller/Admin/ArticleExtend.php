@@ -27,7 +27,6 @@ use oxDb;
 use oxField;
 use stdClass;
 use Exception;
-use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article extended parameters manager.
