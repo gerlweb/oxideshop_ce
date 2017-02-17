@@ -28,7 +28,7 @@ use oxStrRegular;
 /**
  * URL utility class
  */
-class UtilsUrl extends \OxidEsales\EshopCommunity\Core\Base
+class UtilsUrl extends \OxidEsales\Eshop\Core\Base
 {
     const PARAMETER_SEPARATOR = '&amp;';
 

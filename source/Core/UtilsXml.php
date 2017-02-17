@@ -27,7 +27,7 @@ use DOMDocument;
 /**
  * XML document handler
  */
-class UtilsXml extends \OxidEsales\EshopCommunity\Core\Base
+class UtilsXml extends \OxidEsales\Eshop\Core\Base
 {
 
     /**

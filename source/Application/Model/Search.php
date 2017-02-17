@@ -24,13 +24,12 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxRegistry;
 use oxDb;
-use OxidEsales\Eshop\Core\Base;
 
 /**
  * Implements search
  *
  */
-class Search extends \OxidEsales\EshopCommunity\Core\Base
+class Search extends \OxidEsales\Eshop\Core\Base
 {
 
     /**

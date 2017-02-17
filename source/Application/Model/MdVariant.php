@@ -23,13 +23,12 @@
 namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxRegistry;
-use OxidEsales\Eshop\Core\Base;
 
 /**
  * Defines an element of multidimentional variant name tree structure. Contains article id, variant name, URL, price, price text, and a subset of MD variants.
  *
  */
-class MdVariant extends \OxidEsales\EshopCommunity\Core\Base
+class MdVariant extends \OxidEsales\Eshop\Core\Base
 {
 
     /**

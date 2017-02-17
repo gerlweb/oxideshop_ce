@@ -41,7 +41,7 @@ define('MAX_64BIT_INTEGER', '18446744073709551615');
  * @mixin \OxidEsales\EshopEnterprise\Core\Config
  * @mixin \OxidEsales\EshopProfessional\Core\Config
  */
-class Config extends \OxidEsales\EshopCommunity\Core\Base
+class Config extends \OxidEsales\Eshop\Core\Base
 {
     const DEFAULT_CONFIG_KEY = 'fq45QS09_fqyx09239QQ';
 

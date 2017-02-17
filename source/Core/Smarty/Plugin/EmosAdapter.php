@@ -50,7 +50,7 @@ use oxRegistry;
  * The smarty tempaltes should include s tag like
  * [{insert name="oxid_tracker" title=$template_title}]
  */
-class EmosAdapter extends \OxidEsales\EshopCommunity\Core\Base
+class EmosAdapter extends \OxidEsales\Eshop\Core\Base
 {
     /**
      * Current view category path

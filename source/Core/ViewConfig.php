@@ -30,7 +30,7 @@ use oxRegistry;
  * of getters needed for formatting various urls,
  * config parameters, session information etc.
  */
-class ViewConfig extends \OxidEsales\EshopCommunity\Core\Base
+class ViewConfig extends \OxidEsales\Eshop\Core\Base
 {
 
     /**

@@ -27,7 +27,7 @@ use oxRegistry;
 /**
  * class for pictures processing
  */
-class PictureHandler extends \OxidEsales\EshopCommunity\Core\Base
+class PictureHandler extends \OxidEsales\Eshop\Core\Base
 {
 
     /**

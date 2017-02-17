@@ -32,13 +32,12 @@ use stdClass;
 use oxPrice;
 use oxDb;
 use oxVoucherException;
-use OxidEsales\Eshop\Core\Base;
 
 /**
  * Basket manager
  *
  */
-class Basket extends \OxidEsales\EshopCommunity\Core\Base
+class Basket extends \OxidEsales\Eshop\Core\Base
 {
 
     /**

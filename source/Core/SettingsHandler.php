@@ -27,7 +27,7 @@ use oxUtilsObject;
 /**
  * Settings handler class.
  */
-class SettingsHandler extends \OxidEsales\EshopCommunity\Core\Base
+class SettingsHandler extends \OxidEsales\Eshop\Core\Base
 {
     /**
      * Module type.

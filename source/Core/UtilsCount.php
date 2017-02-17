@@ -28,7 +28,7 @@ use oxRegistry;
 /**
  * Date manipulation utility class
  */
-class UtilsCount extends \OxidEsales\EshopCommunity\Core\Base
+class UtilsCount extends \OxidEsales\Eshop\Core\Base
 {
 
     /**
