@@ -25,7 +25,6 @@ namespace OxidEsales\EshopCommunity\Application\Controller;
 use oxRegistry;
 use oxUBase;
 use oxVendorList;
-use OxidEsales\Eshop\Application\Controller\ArticleListController;
 
 /**
  * List of articles for a selected vendor.
