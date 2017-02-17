@@ -22,8 +22,6 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
-use OxidEsales\Eshop\Application\Controller\Admin\AdminListController;
-
 /**
  * Admin delivery list manager.
  * Collects delivery base information (description), there is ability to
