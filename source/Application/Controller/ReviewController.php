@@ -31,7 +31,7 @@ use oxUser;
  * Review of chosen article.
  * Collects article review data, saves new review to DB.
  */
-class ReviewController extends \OxidEsales\EshopCommunity\Application\Controller\ArticleDetailsController
+class ReviewController extends \OxidEsales\Eshop\Application\Controller\ArticleDetailsController
 {
 
     /**
@@ -176,7 +176,8 @@ class ReviewController extends \OxidEsales\EshopCommunity\Application\Controller
             oxRegistry::getUtils()->redirect($oConfig->getShopHomeUrl());
         }
 
-        oxUBase::render();
+        $frontendController = oxNew(FrontendController::class);
+        $frontendController->render();
         if (!($this->getReviewUser())) {
             $this->_sThisTemplate = $this->_sThisLoginTemplate;
         } else {
