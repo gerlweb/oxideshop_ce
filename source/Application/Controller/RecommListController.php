@@ -27,7 +27,6 @@ use oxrecommlist;
 use oxUBase;
 use oxRssFeed;
 use oxField;
-use OxidEsales\Eshop\Application\Controller\ArticleListController;
 
 /**
  * Article suggestion page.
