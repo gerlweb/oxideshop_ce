@@ -25,7 +25,6 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 use oxRegistry;
 use oxDb;
 use oxField;
-use OxidEsales\Eshop\Application\Controller\Admin\ObjectSeo;
 
 /**
  * Article seo config class
