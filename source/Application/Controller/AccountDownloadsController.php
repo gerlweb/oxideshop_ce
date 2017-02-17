@@ -24,7 +24,6 @@ namespace OxidEsales\EshopCommunity\Application\Controller;
 use oxArticleList;
 use oxOrderFileList;
 use oxRegistry;
-use OxidEsales\Eshop\Application\Controller\AccountController;
 
 /**
  * Account article file download page.

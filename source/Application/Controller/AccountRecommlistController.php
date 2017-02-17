@@ -25,7 +25,6 @@ namespace OxidEsales\EshopCommunity\Application\Controller;
 use oxField;
 use oxObjectException;
 use oxRegistry;
-use OxidEsales\Eshop\Application\Controller\AccountController;
 
 /**
  * Current user recommlist manager.
