@@ -24,7 +24,6 @@ namespace OxidEsales\EshopCommunity\Application\Component\Widget;
 
 use oxRegistry;
 use oxArticle;
-use OxidEsales\Eshop\Application\Component\Widget\WidgetController;
 
 /**
  * Article box widget

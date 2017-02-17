@@ -23,7 +23,6 @@ namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxRegistry;
 use oxUtilsUrl;
-use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * Current user "My account" window.

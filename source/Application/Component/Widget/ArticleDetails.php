@@ -25,7 +25,6 @@ namespace OxidEsales\EshopCommunity\Application\Component\Widget;
 use oxRegistry;
 use stdClass;
 use oxCategory;
-use OxidEsales\Eshop\Application\Component\Widget\WidgetController;
 
 /**
  * Article detailed information widget.
