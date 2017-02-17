@@ -24,7 +24,6 @@ namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxBasket;
 use oxRegistry;
-use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * Payment manager.

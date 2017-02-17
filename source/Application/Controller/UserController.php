@@ -22,7 +22,6 @@
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxRegistry;
-use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * User details.

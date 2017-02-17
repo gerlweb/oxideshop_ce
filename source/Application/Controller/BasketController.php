@@ -27,7 +27,6 @@ use oxRegistry;
 use oxList;
 use oxBasketContentMarkGenerator;
 use oxBasket;
-use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * Current session shopping cart (basket item list).

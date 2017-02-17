@@ -26,7 +26,6 @@ use oxArticleList;
 use oxCategory;
 use oxField;
 use oxRegistry;
-use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * List of articles for a selected product group.

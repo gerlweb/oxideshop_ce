@@ -24,7 +24,6 @@ namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxList;
 use oxRegistry;
-use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * Managing Gift Wrapping
