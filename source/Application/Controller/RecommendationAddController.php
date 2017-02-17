@@ -23,7 +23,6 @@
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxUBase;
-use OxidEsales\Eshop\Application\Controller\ArticleDetailsController;
 
 /**
  * Handles adding article to recommendation list process.

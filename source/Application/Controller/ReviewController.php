@@ -26,7 +26,6 @@ use oxField;
 use oxRegistry;
 use oxUBase;
 use oxUser;
-use OxidEsales\Eshop\Application\Controller\ArticleDetailsController;
 
 /**
  * Review of chosen article.
