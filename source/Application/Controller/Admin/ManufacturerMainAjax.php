@@ -23,7 +23,6 @@
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxDb;
-use OxidEsales\Eshop\Application\Controller\Admin\ListComponentAjax;
 
 /**
  * Class manages manufacturer assignment to articles
