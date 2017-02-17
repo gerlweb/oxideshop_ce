@@ -26,7 +26,6 @@ use oxRegistry;
 use oxDb;
 use oxField;
 use oxAdminDetails;
-use OxidEsales\Eshop\Application\Controller\Admin\NewsletterSelection;
 
 /**
  * Newsletter sending manager.
