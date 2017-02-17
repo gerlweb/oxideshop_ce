@@ -24,7 +24,6 @@ namespace Unit\Application\Controller\Admin;
 use \oxField;
 use \oxGroups;
 use \oxDb;
-use OxidEsales\Eshop\Application\Controller\Admin\NewsletterSend;
 use \oxTestModules;
 
 /**
@@ -88,7 +87,7 @@ class NewsletterSendTest extends \OxidTestCase
         $oNewsSubscribed->save();
 
         // testing..
-        $oView = $this->getMock(NewsletterSend::class, array("_setupNavigation"));
+        $oView = $this->getMock("Newsletter_Send", array("_setupNavigation"));
         $oView->expects($this->once())->method("_setupNavigation");
         $this->assertEquals('newsletter_send.tpl', $oView->render());
 
