@@ -31,7 +31,6 @@ use oxPaymentList;
 use oxRegistry;
 use oxField;
 use oxVariantSelectList;
-use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * Article details information page.

@@ -31,7 +31,6 @@ use OxidEsales\Eshop\Application\Model\Shop;
 use OxidEsales\Eshop\Core\Exception\DatabaseConnectionException;
 use OxidEsales\Eshop\Core\Module\ModuleTemplatePathCalculator;
 use stdClass;
-use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 //max integer
 define('MAX_64BIT_INTEGER', '18446744073709551615');

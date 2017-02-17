@@ -31,7 +31,6 @@ use oxOrder;
 use oxOutOfStockException;
 use oxRegistry;
 use oxUtilsObject;
-use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * Order manager. Arranges user ordering data, checks/validates

@@ -25,7 +25,6 @@ namespace OxidEsales\EshopCommunity\Application\Controller;
 use oxException;
 use oxExceptionToDisplay;
 use oxRegistry;
-use OxidEsales\Eshop\Application\Controller\FrontendController;
 
 /**
  * Article file download page.
