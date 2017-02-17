@@ -22,6 +22,7 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
+use OxidEsales\Eshop\Application\Controller\FrontendController;
 use oxManufacturer;
 use oxRegistry;
 use oxUBase;
@@ -32,7 +33,7 @@ use oxUBase;
  * metatags (for search engines). Result - "manufacturerlist.tpl" template.
  * OXID eShop -> (Any selected shop product category).
  */
-class ManufacturerListController extends \OxidEsales\EshopCommunity\Application\Controller\ArticleListController
+class ManufacturerListController extends \OxidEsales\Eshop\Application\Controller\ArticleListController
 {
 
     /**
@@ -112,7 +113,8 @@ class ManufacturerListController extends \OxidEsales\EshopCommunity\Application\
      */
     public function render()
     {
-        oxUBase::render();
+        $frontendController = oxNew(FrontendController::class);
+        $frontendController->render();
 
         // load Manufacturer
         if ($this->getManufacturerTree()) {

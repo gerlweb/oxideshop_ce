@@ -35,7 +35,7 @@ use oxField;
  *
  * @deprecated since v5.3 (2016-06-17); Listmania will be moved to an own module.
  */
-class RecommListController extends \OxidEsales\EshopCommunity\Application\Controller\ArticleListController
+class RecommListController extends \OxidEsales\Eshop\Application\Controller\ArticleListController
 {
 
     /**
@@ -122,7 +122,8 @@ class RecommListController extends \OxidEsales\EshopCommunity\Application\Contro
      */
     public function render()
     {
-        oxUBase::render();
+        $frontendController = oxNew(FrontendController::class);
+        $frontendController->render();
         $myConfig = $this->getConfig();
 
         $this->_iAllArtCnt = 0;
