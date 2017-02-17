@@ -24,7 +24,6 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxDb;
 use OxidEsales\EshopCommunity\Core\Database\Adapter\Doctrine\Database;
-use OxidEsales\Eshop\Core\Exception\StandardException;
 use OxidEsales\Eshop\Core\Model\MultiLanguageModel;
 use stdClass;
 
