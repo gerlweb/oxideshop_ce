@@ -23,7 +23,6 @@
 namespace OxidEsales\EshopCommunity\Core;
 
 use DOMDocument;
-use OxidEsales\Eshop\Core\Base;
 
 /**
  * XML document handler

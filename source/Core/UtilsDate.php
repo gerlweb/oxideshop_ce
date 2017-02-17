@@ -25,7 +25,6 @@ namespace OxidEsales\EshopCommunity\Core;
 use oxRegistry;
 use oxField;
 use DateTime;
-use OxidEsales\Eshop\Core\Base;
 
 /**
  * Date manipulation utility class

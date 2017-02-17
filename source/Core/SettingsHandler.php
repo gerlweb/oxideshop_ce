@@ -23,7 +23,6 @@ namespace OxidEsales\EshopCommunity\Core;
 
 use oxDb;
 use oxUtilsObject;
-use OxidEsales\Eshop\Core\Base;
 
 /**
  * Settings handler class.

@@ -23,7 +23,6 @@
 namespace OxidEsales\EshopCommunity\Core;
 
 use oxRegistry;
-use OxidEsales\Eshop\Core\Base;
 
 /**
  * File manipulation utility class

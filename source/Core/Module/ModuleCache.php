@@ -23,7 +23,6 @@
 namespace OxidEsales\EshopCommunity\Core\Module;
 
 use OxidEsales\Eshop\Core\Registry;
-use OxidEsales\Eshop\Core\Base;
 use oxModule;
 
 /**

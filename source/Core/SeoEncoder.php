@@ -27,7 +27,6 @@ use oxRegistry;
 use oxDb;
 use oxStr;
 use OxidEsales\Eshop\Core\Exception\StandardException;
-use OxidEsales\Eshop\Core\Base;
 
 /**
  * Seo encoder base

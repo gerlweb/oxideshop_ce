@@ -24,7 +24,6 @@ namespace OxidEsales\EshopCommunity\Core;
 
 use oxException;
 use oxRegistry;
-use OxidEsales\Eshop\Core\Base;
 
 /**
  * Themes handler class.

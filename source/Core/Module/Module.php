@@ -24,7 +24,6 @@ namespace OxidEsales\EshopCommunity\Core\Module;
 
 use oxDb;
 use oxRegistry;
-use OxidEsales\Eshop\Core\Base;
 
 
 /**

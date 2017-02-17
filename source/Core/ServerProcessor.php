@@ -26,7 +26,6 @@ use oxServersManager;
 use oxServerChecker;
 use oxUtilsServer;
 use oxUtilsDate;
-use OxidEsales\Eshop\Core\Base;
 
 /**
  * @internal Do not make a module extension for this class.

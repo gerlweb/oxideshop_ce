@@ -22,7 +22,6 @@
 namespace OxidEsales\EshopCommunity\Core\Module;
 
 use OxidEsales\Eshop\Core\SettingsHandler;
-use OxidEsales\Eshop\Core\Base;
 use oxModuleCache;
 use oxModule;
 use oxDb;
