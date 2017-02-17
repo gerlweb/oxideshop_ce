@@ -31,7 +31,6 @@ use oxDb;
 use OxidEsales\Eshop\Core\Registry;
 use OxidEsales\Eshop\Core\Request;
 use OxidEsales\Eshop\Core\Str;
-use OxidEsales\Eshop\Core\Controller\BaseController;
 use oxManufacturer;
 use oxManufacturerList;
 use oxPrice;
@@ -53,7 +52,7 @@ define('VIEW_INDEXSTATE_NOINDEXFOLLOW', 2); //  no index / follow
  * Class is responsible for managing of components that must be
  * loaded and executed before any regular operation.
  */
-class FrontendController extends \OxidEsales\EshopCommunity\Core\Controller\BaseController
+class FrontendController extends \OxidEsales\Eshop\Core\Controller\BaseController
 {
     /**
      * Characters which should be removed while preparing meta keywords

@@ -23,7 +23,6 @@
 namespace OxidEsales\EshopCommunity\Application\Component;
 
 use oxRegistry;
-use OxidEsales\Eshop\Core\Controller\BaseController;
 
 /**
  * Translarent shop manager (executed automatically), sets
@@ -31,7 +30,7 @@ use OxidEsales\Eshop\Core\Controller\BaseController;
  *
  * @subpackage oxcmp
  */
-class ShopComponent extends \OxidEsales\EshopCommunity\Core\Controller\BaseController
+class ShopComponent extends \OxidEsales\Eshop\Core\Controller\BaseController
 {
 
     /**
