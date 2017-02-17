@@ -29,7 +29,6 @@ use oxSystemComponentException;
 use oxUtilsObject;
 use oxView;
 use oxViewConfig;
-use OxidEsales\Eshop\Core\Base;
 
 /**
  * Base view class. Collects and passes data to template engine, sets some global

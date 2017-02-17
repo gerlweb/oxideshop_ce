@@ -26,7 +26,6 @@ use OxidEsales\Eshop\Core\Routing\Module\ClassProviderStorage;
 use OxidEsales\EshopCommunity\Core\Exception\ModuleValidationException;
 use OxidEsales\EshopCommunity\Core\Exception\StandardException;
 use OxidEsales\Eshop\Core\SettingsHandler;
-use OxidEsales\Eshop\Core\Base;
 use oxModuleCache;
 use oxDb;
 use OxidEsales\Eshop\Core\Module\ModuleExtensionsCleaner;

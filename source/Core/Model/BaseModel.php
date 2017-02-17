@@ -37,7 +37,6 @@ use oxRegistry;
 use oxField;
 use oxDb;
 use oxUtilsObject;
-use OxidEsales\Eshop\Core\Base;
 
 class BaseModel extends \OxidEsales\EshopCommunity\Core\Base
 {

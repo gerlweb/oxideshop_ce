@@ -42,7 +42,6 @@ namespace OxidEsales\EshopCommunity\Core\Smarty\Plugin;
 use oxDb;
 use OxidEsales\Eshop\Application\Controller\ContentController;
 use oxRegistry;
-use OxidEsales\Eshop\Core\Base;
 
 /**
  * This class is a reference implementation of a PHP Function to include

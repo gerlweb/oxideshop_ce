@@ -25,7 +25,6 @@ namespace OxidEsales\EshopCommunity\Core;
 use oxRegistry;
 use oxUtilsObject;
 use oxBasket;
-use OxidEsales\Eshop\Core\Base;
 
 /**
  * Session manager.

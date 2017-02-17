@@ -23,7 +23,6 @@
 namespace OxidEsales\EshopCommunity\Core\Model;
 
 use oxDb;
-use OxidEsales\Eshop\Core\Base;
 
 /**
  * List manager.

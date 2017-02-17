@@ -24,7 +24,6 @@ namespace OxidEsales\EshopCommunity\Core;
 
 use oxDb;
 use oxRegistry;
-use OxidEsales\Eshop\Core\Base;
 
 /**
  * Including pictures generator functions file

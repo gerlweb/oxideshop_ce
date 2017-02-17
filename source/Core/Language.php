@@ -25,7 +25,6 @@ namespace OxidEsales\EshopCommunity\Core;
 use oxRegistry;
 use oxDb;
 use stdClass;
-use OxidEsales\Eshop\Core\Base;
 
 /**
  * Language related utility class

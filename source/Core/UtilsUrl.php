@@ -24,7 +24,6 @@ namespace OxidEsales\EshopCommunity\Core;
 
 use oxRegistry;
 use oxStrRegular;
-use OxidEsales\Eshop\Core\Base;
 
 /**
  * URL utility class
