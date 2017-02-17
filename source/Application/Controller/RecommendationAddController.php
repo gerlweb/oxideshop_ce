@@ -31,7 +31,7 @@ use oxUBase;
  *
  * @deprecated since v5.3 (2016-06-17); Listmania will be moved to an own module.
  */
-class RecommendationAddController extends \OxidEsales\EshopCommunity\Application\Controller\ArticleDetailsController
+class RecommendationAddController extends \OxidEsales\Eshop\Application\Controller\ArticleDetailsController
 {
     /**
      * Template name
@@ -54,7 +54,8 @@ class RecommendationAddController extends \OxidEsales\EshopCommunity\Application
      */
     public function render()
     {
-        oxUBase::render();
+        $frontendController = oxNew(FrontendController::class);
+        $frontendController->render();
 
         return $this->_sThisTemplate;
     }
