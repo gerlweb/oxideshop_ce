@@ -26,7 +26,7 @@ namespace OxidEsales\EshopCommunity\Application\Component\Widget;
  * Recomendation list.
  * Forms recomendation list.
  */
-class ServiceMenu extends \OxidEsales\EshopCommunity\Application\Component\Widget\WidgetController
+class ServiceMenu extends \OxidEsales\Eshop\Application\Component\Widget\WidgetController
 {
 
     /**
