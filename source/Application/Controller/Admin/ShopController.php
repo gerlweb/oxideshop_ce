@@ -23,7 +23,6 @@
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use OxidEsales\EshopCommunity\Core\ShopIdCalculator;
-use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
 
 /**
  * Admin shop manager.

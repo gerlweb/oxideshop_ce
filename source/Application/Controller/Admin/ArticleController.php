@@ -22,8 +22,6 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
-use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
-
 /**
  * Sets template, that arranges two other templates ("article_list.tpl"
  * and "article_main.tpl") to frame.

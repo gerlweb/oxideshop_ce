@@ -22,8 +22,6 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
-use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
-
 /**
  * Admin article categories text manager.
  * Returns template, that arranges two other templates ("category_list.tpl"

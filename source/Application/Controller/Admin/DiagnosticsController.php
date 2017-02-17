@@ -22,8 +22,6 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
-use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
-
 /**
  * Checks Version of System files.
  * Admin Menu: Service -> Diagnostics Tool.

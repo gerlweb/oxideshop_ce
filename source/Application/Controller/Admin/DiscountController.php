@@ -22,8 +22,6 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
-use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
-
 /**
  * Admin article discount manager.
  * Returns template, that arranges two other templates ("discount_list.tpl"

@@ -22,8 +22,6 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
-use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
-
 /**
  * Admin voucherserie manager.
  * Returns template, that arranges two other templates ("voucherserie_list.tpl"
