@@ -27,7 +27,6 @@ use stdClass;
 use oxOutOfStockException;
 use oxArticleInputException;
 use oxNoArticleException;
-use OxidEsales\Eshop\Core\Controller\BaseController;
 
 /**
  * Main shopping basket manager. Arranges shopping basket
@@ -35,7 +34,7 @@ use OxidEsales\Eshop\Core\Controller\BaseController;
  *
  * @subpackage oxcmp
  */
-class BasketComponent extends \OxidEsales\EshopCommunity\Core\Controller\BaseController
+class BasketComponent extends \OxidEsales\Eshop\Core\Controller\BaseController
 {
 
     /**

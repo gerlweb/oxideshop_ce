@@ -23,7 +23,6 @@
 namespace OxidEsales\EshopCommunity\Application\Component;
 
 use oxRegistry;
-use OxidEsales\Eshop\Core\Controller\BaseController;
 
 /**
  * Shop language manager.
@@ -31,7 +30,7 @@ use OxidEsales\Eshop\Core\Controller\BaseController;
  *
  * @subpackage oxcmp
  */
-class LanguageComponent extends \OxidEsales\EshopCommunity\Core\Controller\BaseController
+class LanguageComponent extends \OxidEsales\Eshop\Core\Controller\BaseController
 {
 
     /**
