@@ -24,7 +24,7 @@ namespace OxidEsales\EshopCommunity\Application\Component\Widget;
 /**
  * Currency selection list widget
  */
-class CurrencyList extends \OxidEsales\EshopCommunity\Application\Component\Widget\WidgetController
+class CurrencyList extends \OxidEsales\Eshop\Application\Component\Widget\WidgetController
 {
 
     /**

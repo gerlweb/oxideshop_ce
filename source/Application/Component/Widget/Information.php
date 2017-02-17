@@ -25,7 +25,7 @@ namespace OxidEsales\EshopCommunity\Application\Component\Widget;
  * List of additional shop information links widget.
  * Forms info link list.
  */
-class Information extends \OxidEsales\EshopCommunity\Application\Component\Widget\WidgetController
+class Information extends \OxidEsales\Eshop\Application\Component\Widget\WidgetController
 {
 
     /**

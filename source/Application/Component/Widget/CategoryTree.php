@@ -23,13 +23,11 @@
 
 namespace  OxidEsales\EshopCommunity\Application\Component\Widget;
 
-use OxidEsales\Eshop\Application\Component\Widget\WidgetController;
-
 /**
  * Category tree widget.
  * Forms category tree.
  */
-class CategoryTree extends \OxidEsales\EshopCommunity\Application\Component\Widget\WidgetController
+class CategoryTree extends \OxidEsales\Eshop\Application\Component\Widget\WidgetController
 {
 
     /**

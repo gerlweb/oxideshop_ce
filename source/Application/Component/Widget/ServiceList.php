@@ -26,7 +26,7 @@ namespace OxidEsales\EshopCommunity\Application\Component\Widget;
  * List of shop services widget.
  * Forms service list.
  */
-class ServiceList extends \OxidEsales\EshopCommunity\Application\Component\Widget\WidgetController
+class ServiceList extends \OxidEsales\Eshop\Application\Component\Widget\WidgetController
 {
 
     /**

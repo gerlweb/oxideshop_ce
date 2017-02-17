@@ -25,7 +25,7 @@ namespace OxidEsales\EshopCommunity\Application\Component\Widget;
 /**
  * Language selection list widget
  */
-class LanguageList extends \OxidEsales\EshopCommunity\Application\Component\Widget\WidgetController
+class LanguageList extends \OxidEsales\Eshop\Application\Component\Widget\WidgetController
 {
 
     /**

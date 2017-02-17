@@ -26,7 +26,7 @@ namespace OxidEsales\EshopCommunity\Application\Component\Widget;
  * Actions widget.
  * Access actions in tpl.
  */
-class Actions extends \OxidEsales\EshopCommunity\Application\Component\Widget\WidgetController
+class Actions extends \OxidEsales\Eshop\Application\Component\Widget\WidgetController
 {
     /**
      * Current class template name.
