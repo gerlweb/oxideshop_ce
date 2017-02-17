@@ -25,7 +25,6 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 use oxConfig;
 use oxRegistry;
 use oxException;
-use OxidEsales\Eshop\Application\Controller\Admin\ShopConfiguration;
 
 /**
  * Admin article main deliveryset manager.

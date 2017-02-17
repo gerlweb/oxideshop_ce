@@ -22,8 +22,6 @@
 
 namespace OxidEsales\EshopCommunity\Core\Exception;
 
-use OxidEsales\Eshop\Core\Exception\StandardException;
-
 /**
  * exception class for all kind of exceptions connected to a user e.g.:
  * - user doesn't exist

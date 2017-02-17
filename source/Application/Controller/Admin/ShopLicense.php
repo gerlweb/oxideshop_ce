@@ -24,7 +24,6 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use oxSystemComponentException;
-use OxidEsales\Eshop\Application\Controller\Admin\ShopConfiguration;
 
 /**
  * Admin shop license setting manager.

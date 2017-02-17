@@ -22,8 +22,6 @@
 
 namespace OxidEsales\EshopCommunity\Core\Exception;
 
-use OxidEsales\Eshop\Core\Exception\StandardException;
-
 /**
  * exception class for all kind of connection problems to external servers, e.g.:
  * - no connection, proxy problem, wrong configuration, etc.

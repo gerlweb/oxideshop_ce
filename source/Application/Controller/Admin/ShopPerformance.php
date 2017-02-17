@@ -22,8 +22,6 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
-use OxidEsales\Eshop\Application\Controller\Admin\ShopConfiguration;
-
 /**
  * Admin shop system setting manager.
  * Collects shop system settings, updates it on user submit, etc.
