@@ -29,7 +29,6 @@ use oxUtilsObject;
 use oxInputValidator;
 use oxUserException;
 use oxConnectionException;
-use OxidEsales\Eshop\Core\Model\BaseModel;
 
 /**
  * User manager.
@@ -37,7 +36,7 @@ use OxidEsales\Eshop\Core\Model\BaseModel;
  * information, deletion and other.
  *
  */
-class User extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
+class User extends \OxidEsales\Eshop\Core\Model\BaseModel
 {
 
     /**

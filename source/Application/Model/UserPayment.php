@@ -24,7 +24,6 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 
 use oxRegistry;
 use oxDb;
-use OxidEsales\Eshop\Core\Model\BaseModel;
 
 /**
  * User payment manager.
@@ -32,7 +31,7 @@ use OxidEsales\Eshop\Core\Model\BaseModel;
  * user payment.
  *
  */
-class UserPayment extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
+class UserPayment extends \OxidEsales\Eshop\Core\Model\BaseModel
 {
 
     // you can change this if you want more security

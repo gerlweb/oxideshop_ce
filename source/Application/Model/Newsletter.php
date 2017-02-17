@@ -25,7 +25,6 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 use oxRegistry;
 use oxField;
 use oxDb;
-use OxidEsales\Eshop\Core\Model\BaseModel;
 
 /**
  * Newsletter manager.
@@ -33,7 +32,7 @@ use OxidEsales\Eshop\Core\Model\BaseModel;
  * deletes and etc.
  *
  */
-class Newsletter extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
+class Newsletter extends \OxidEsales\Eshop\Core\Model\BaseModel
 {
 
     /**

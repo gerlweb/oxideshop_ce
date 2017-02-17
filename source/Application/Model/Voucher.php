@@ -26,7 +26,6 @@ use oxDb;
 use stdClass;
 use oxRegistry;
 use oxField;
-use OxidEsales\Eshop\Core\Model\BaseModel;
 
 /**
  * Voucher manager.
@@ -34,7 +33,7 @@ use OxidEsales\Eshop\Core\Model\BaseModel;
  * managing functions.
  *
  */
-class Voucher extends \OxidEsales\EshopCommunity\Core\Model\BaseModel
+class Voucher extends \OxidEsales\Eshop\Core\Model\BaseModel
 {
 
     protected $_oSerie = null;
