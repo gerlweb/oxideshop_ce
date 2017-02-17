@@ -24,7 +24,6 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxRegistry;
 use oxField;
-use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin user extended settings manager.

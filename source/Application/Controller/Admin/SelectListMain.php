@@ -25,7 +25,6 @@ namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 use oxRegistry;
 use oxField;
 use stdClass;
-use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 DEFINE("ERR_SUCCESS", 1);
 DEFINE("ERR_REQUIREDMISSING", -1);

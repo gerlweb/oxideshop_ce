@@ -23,7 +23,6 @@
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
 use oxSysRequirements;
-use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Collects System information.

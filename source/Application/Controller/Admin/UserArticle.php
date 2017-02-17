@@ -22,8 +22,6 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
-use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
-
 /**
  * Admin user articles setting manager.
  * Collects user articles settings, updates it on user submit, etc.

@@ -26,7 +26,6 @@ use oxRegistry;
 use oxDb;
 use oxField;
 use stdClass;
-use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article inventory manager.

@@ -27,7 +27,6 @@ use oxException;
 use oxModule;
 use oxModuleCache;
 use oxModuleInstaller;
-use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article main deliveryset manager.

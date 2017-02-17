@@ -32,7 +32,6 @@ use oxExceptionToDisplay;
 use oxDbMetaDataHandler;
 use oxUtilsView;
 use category_main_ajax;
-use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article main categories manager.

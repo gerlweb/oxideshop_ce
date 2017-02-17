@@ -22,8 +22,6 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller\Admin;
 
-use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
-
 /**
  * Admin article categories thumbnail manager.
  * Category thumbnail manager (Previews assigned pictures).

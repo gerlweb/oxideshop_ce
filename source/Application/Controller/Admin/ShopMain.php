@@ -26,7 +26,6 @@ use oxRegistry;
 use oxDb;
 use oxUtilsObject;
 use oxException;
-use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin article main shop manager.

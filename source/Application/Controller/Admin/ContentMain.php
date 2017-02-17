@@ -27,7 +27,6 @@ use oxDb;
 use oxField;
 use oxUtilsObject;
 use stdClass;
-use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
 
 /**
  * Admin content manager.
