@@ -29,7 +29,7 @@ use oxDb;
  * Class for handling database related operations
  *
  */
-class DbMetaDataHandler extends \OxidEsales\EshopCommunity\Core\Base
+class DbMetaDataHandler extends \OxidEsales\Eshop\Core\Base
 {
     /**
      *

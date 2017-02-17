@@ -28,7 +28,7 @@ use oxRegistry;
  * class for output processing
  *
  */
-class Output extends \OxidEsales\EshopCommunity\Core\Base
+class Output extends \OxidEsales\Eshop\Core\Base
 {
 
     const OUTPUT_FORMAT_HTML = 'html';

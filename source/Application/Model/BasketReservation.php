@@ -28,13 +28,12 @@ use oxUtilsObject;
 use oxField;
 use oxDb;
 use oxuserbasket;
-use OxidEsales\Eshop\Core\Base;
 
 /**
  * Basket reservations handler class
  *
  */
-class BasketReservation extends \OxidEsales\EshopCommunity\Core\Base
+class BasketReservation extends \OxidEsales\Eshop\Core\Base
 {
 
     /**

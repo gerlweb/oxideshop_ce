@@ -32,7 +32,7 @@ use oxRegistry;
  * @internal Do not make a module extension for this class.
  * @see      http://oxidforge.org/en/core-oxid-eshop-classes-must-not-be-extended.html
  */
-class Module extends \OxidEsales\EshopCommunity\Core\Base
+class Module extends \OxidEsales\Eshop\Core\Base
 {
 
     /**

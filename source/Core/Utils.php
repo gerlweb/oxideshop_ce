@@ -32,7 +32,7 @@ use Exception;
  * General utils class
  *
  */
-class Utils extends \OxidEsales\EshopCommunity\Core\Base
+class Utils extends \OxidEsales\Eshop\Core\Base
 {
 
     /**

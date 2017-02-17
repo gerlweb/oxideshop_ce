@@ -24,7 +24,6 @@ namespace OxidEsales\EshopCommunity\Application\Model;
 
 use OxidEsales\Eshop\Core\Edition\EditionSelector;
 use OxidEsales\Eshop\Core\Registry;
-use OxidEsales\Eshop\Core\Base;
 use stdClass;
 
 /**
@@ -32,7 +31,7 @@ use stdClass;
  * loads needed rss data
  *
  */
-class RssFeed extends \OxidEsales\EshopCommunity\Core\Base
+class RssFeed extends \OxidEsales\Eshop\Core\Base
 {
 
     /**
