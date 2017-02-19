@@ -22,7 +22,6 @@
 
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
-use OxidEsales\Eshop\Application\Controller\FrontendController;
 use oxManufacturer;
 use oxRegistry;
 use oxUBase;
@@ -113,7 +112,7 @@ class ManufacturerListController extends \OxidEsales\Eshop\Application\Controlle
      */
     public function render()
     {
-        $frontendController = oxNew(FrontendController::class);
+        $frontendController = oxNew(\OxidEsales\Eshop\Application\Controller\FrontendController::class);
         $frontendController->render();
 
         // load Manufacturer
