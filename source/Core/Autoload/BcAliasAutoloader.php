@@ -35,10 +35,11 @@ class BcAliasAutoloader
     private $backwardsCompatibilityClassMap;
     private $reverseBackwardsCompatibilityClassMap; // real class name => lowercase(old class name)
     private $virtualClassMap; // virtual class name => real class name
+    private $composerAutoloader;
 
-
-    public function __construct()
+    public function __construct(\Composer\Autoload\ClassLoader $composerAutoloader)
     {
+        $this->composerAutoloader = $composerAutoloader;
         $classMap = include_once __DIR__ . DIRECTORY_SEPARATOR . 'BackwardsCompatibilityClassMap.php';
         $this->backwardsCompatibilityClassMap = array_map('strtolower', $classMap);
     }
@@ -59,10 +60,13 @@ class BcAliasAutoloader
         if ($this->isRealClassRequest($class)) {
             $search = ['OxidEsales\\EshopCommunity\\', 'OxidEsales\\EshopProfessional\\', 'OxidEsales\\EshopEnterprise\\',];
             $replace = ['OxidEsales\\Eshop\\'];
-            $virtualClass = str_replace($search, $replace, $class);
-            if (array_key_exists($virtualClass, $this->backwardsCompatibilityClassMap)) {
-                $backwardsCompatibleClassName = $this->backwardsCompatibilityClassMap[$virtualClass];
-                class_alias('\\' . $class, $backwardsCompatibleClassName, false);
+            $virtualAlias = str_replace($search, $replace, $class);
+            if (array_key_exists($virtualAlias, $this->backwardsCompatibilityClassMap)) {
+                $this->composerAutoloader->loadClass($class);
+                $realClass = '\\' . $class;
+                $bcAlias = $this->backwardsCompatibilityClassMap[$virtualAlias];
+                $this->createClassAlias($realClass, $bcAlias);
+                $this->createClassAlias($realClass, $virtualAlias);
             }
 
             return false;
@@ -78,27 +82,15 @@ class BcAliasAutoloader
             $bcAlias = $this->getBcAliasForVirtualAlias($class);
         }
 
-        if ($virtualAlias) {
-            $realClass = $this->getRealClassForVirtualAlias($virtualAlias);
-        }
-
-        if (!$realClass) {
+        if (!$realClass = $this->getRealClassForVirtualAlias($virtualAlias)) {
             return false;
         }
 
         $this->forceClassLoading($realClass);
+        $this->createClassAlias($realClass, $bcAlias);
+        $this->createClassAlias($realClass, $virtualAlias);
 
-        $declaredClasses = get_declared_classes();
-        if ($bcAlias && !in_array(strtolower($bcAlias), $declaredClasses)) {
-            class_alias($realClass, $bcAlias);
-        }
-        if ($virtualAlias && !in_array(strtolower($virtualAlias), $declaredClasses)) {
-            class_alias($realClass, $virtualAlias);
-
-            return true; // Implies also generating of $bcAlias
-        }
-
-        return false;
+        return true; // Implies also generating of $bcAlias
     }
 
     /**
@@ -108,7 +100,7 @@ class BcAliasAutoloader
      */
     public function isRealClassRequest($class)
     {
-        $pattern = '/^(?i:oxidesales\\eshopcommunity|oxidesales\\eshopprofessional|oxidesales\\eshopenterprise)/';
+        $pattern = '/^(?i:oxidesales\\\\eshopcommunity|oxidesales\\\\eshopprofessional|oxidesales\\\\eshopenterprise)/';
         $result = preg_match($pattern, $class) === 1 ? true : false;
 
         return $result;
@@ -158,26 +150,14 @@ class BcAliasAutoloader
      */
     private function getRealClassForVirtualAlias($class)
     {
-        /*$eeName = str_replace('\\Eshop\\', '\\EshopEnterprise\\', $class);
-        if (class_exists($eeName) || interface_exists($eeName)) {
-            return $eeName;
-        }
-        $peName = str_replace('\\Eshop\\', '\\EshopProfessional\\', $class);
-        if (class_exists($peName) || interface_exists($peName)) {
-            return $peName;
-        }
-        $ceName = str_replace('\\Eshop\\', '\\EshopCommunity\\', $class);
-        if (class_exists($ceName) || interface_exists($ceName)) {
-            return $ceName;
-        }
-        throw  new \Exception("No class found for virtual class name " . $class . "!");*/
+        $realClass = '';
         $virtualClassMap = $this->getVirtualClassMap();
 
         if (key_exists($class, $virtualClassMap)) {
-            return $virtualClassMap[$class];
-        } else {
-            return null;
+            $realClass = $virtualClassMap[$class];
         }
+
+        return $realClass;
     }
 
     /**
@@ -235,6 +215,23 @@ class BcAliasAutoloader
         return $this->virtualClassMap;
     }
 
+    /**
+     * @return array
+     */
+    private function getDeclaredClasses()
+    {
+        return array_merge(get_declared_classes(), get_declared_interfaces(), get_declared_traits());
+    }
+
+    /**
+     * @param $realClass
+     * @param $alias
+     */
+    private function createClassAlias($realClass, $alias)
+    {
+        if ($alias && !in_array(strtolower($alias), $this->getDeclaredClasses())) {
+            class_alias($realClass, $alias);
+        }
+    }
+
 }
-// Uncomment to debug:  echo __CLASS__ . '::' . __FUNCTION__  . ' TRYING TO LOAD ' . $class . PHP_EOL;
-spl_autoload_register([new BcAliasAutoloader(), 'autoload'], true, true);

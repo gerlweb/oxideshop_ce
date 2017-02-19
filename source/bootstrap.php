@@ -31,7 +31,7 @@ define('OX_BASE_PATH', INSTALLATION_ROOT_PATH . DIRECTORY_SEPARATOR . 'source' .
 define('VENDOR_PATH', INSTALLATION_ROOT_PATH . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR);
 
 // Require and register composer autoloader
-require_once VENDOR_PATH . 'autoload.php';
+$composerAutoLoader = include VENDOR_PATH . 'autoload.php';
 
 // custom functions file
 if (file_exists(OX_BASE_PATH . 'modules/functions.php')) {
@@ -53,7 +53,11 @@ registerVirtualNamespaceAutoLoad();
 registerModuleAutoload();
 
 // Require and register backwards compatible autoloader
-require_once OX_BASE_PATH . DIRECTORY_SEPARATOR . 'Core' . DIRECTORY_SEPARATOR . 'Autoload' . DIRECTORY_SEPARATOR . 'BcAliasAutoloader.php';
+include OX_BASE_PATH . DIRECTORY_SEPARATOR . 'Core' . DIRECTORY_SEPARATOR . 'Autoload' . DIRECTORY_SEPARATOR . 'BcAliasAutoloader.php';
+// Uncomment to debug:  echo __CLASS__ . '::' . __FUNCTION__  . ' TRYING TO LOAD ' . $class . PHP_EOL;
+spl_autoload_register([new \OxidEsales\EshopCommunity\Core\Autoload\BcAliasAutoloader($composerAutoLoader), 'autoload'], true, true);
+
+
 
 //sets default PHP ini params
 ini_set('session.name', 'sid');
