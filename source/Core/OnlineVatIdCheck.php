@@ -31,12 +31,11 @@ use DOMDocument;
 use Exception;
 use SoapClient;
 use SoapFault;
-use OxidEsales\Eshop\Core\CompanyVatInChecker;
 
 /**
  * Online VAT id checker class.
  */
-class OnlineVatIdCheck extends \OxidEsales\EshopCommunity\Core\CompanyVatInChecker
+class OnlineVatIdCheck extends \OxidEsales\Eshop\Core\CompanyVatInChecker
 {
 
     /**

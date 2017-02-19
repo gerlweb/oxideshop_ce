@@ -23,14 +23,13 @@
 namespace OxidEsales\EshopCommunity\Core;
 
 use oxRegistry;
-use OxidEsales\Eshop\Core\ShopControl;
 
 /**
  * Main shop actions controller. Processes user actions, logs
  * them (if needed), controls output, redirects according to
  * processed methods logic. This class is initialized from index.php
  */
-class WidgetControl extends \OxidEsales\EshopCommunity\Core\ShopControl
+class WidgetControl extends \OxidEsales\Eshop\Core\ShopControl
 {
     /**
      * Skip handler set for widget as it already set in oxShopControl.

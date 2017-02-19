@@ -22,8 +22,6 @@
 
 namespace OxidEsales\EshopCommunity\Core;
 
-use OxidEsales\Eshop\Core\OnlineRequest;
-
 /**
  * Online module notifier request class and used as entity.
  *
@@ -32,7 +30,7 @@ use OxidEsales\Eshop\Core\OnlineRequest;
  *
  * @ignore   This class will not be included in documentation.
  */
-class OnlineModulesNotifierRequest extends \OxidEsales\EshopCommunity\Core\OnlineRequest
+class OnlineModulesNotifierRequest extends \OxidEsales\Eshop\Core\OnlineRequest
 {
 
     /**

@@ -27,7 +27,6 @@ use oxRegistry;
 use oxUtilsXml;
 use oxException;
 use oxOnlineLicenseCheckResponse ;
-use OxidEsales\Eshop\Core\OnlineCaller;
 
 /**
  * Class makes call to given URL address and sends request parameter.
@@ -37,7 +36,7 @@ use OxidEsales\Eshop\Core\OnlineCaller;
  *
  * @ignore   This class will not be included in documentation.
  */
-class OnlineLicenseCheckCaller extends \OxidEsales\EshopCommunity\Core\OnlineCaller
+class OnlineLicenseCheckCaller extends \OxidEsales\Eshop\Core\OnlineCaller
 {
 
     /** Online License Key Check web service url. */

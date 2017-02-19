@@ -23,7 +23,7 @@
 namespace OxidEsales\EshopCommunity\Application\Controller;
 
 use oxRegistry;
-use oxUBase;
+use \OxidEsales\Eshop\Application\Controller\FrontendController as oxUBase;
 use oxVendorList;
 
 /**
