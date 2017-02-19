@@ -22,14 +22,13 @@
 
 namespace OxidEsales\EshopCommunity\Core\Exception;
 
-
 /**
  * e.g.:
  * - not existing object
  * - wrong type
  * - ID not set
  */
-class ObjectException extends \OxidEsales\EshopCommunity\Core\Exception\StandardException
+class ObjectException extends \OxidEsales\Eshop\Core\Exception\StandardException
 {
     /**
      * Exception type, currently old class name is used.

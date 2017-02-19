@@ -29,7 +29,7 @@ namespace OxidEsales\EshopCommunity\Core\Exception;
  * - online vat id check
  * - db server
  */
-class ConnectionException extends \OxidEsales\EshopCommunity\Core\Exception\StandardException
+class ConnectionException extends \OxidEsales\Eshop\Core\Exception\StandardException
 {
     /**
      * Exception type, currently old class name is used.

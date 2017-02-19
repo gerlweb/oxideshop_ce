@@ -22,12 +22,10 @@
 
 namespace OxidEsales\EshopCommunity\Core\Exception;
 
-use OxidEsales\Eshop\Core\Exception\StandardException;
-
 /**
  * exception class covering voucher exceptions
  */
-class VoucherException extends \OxidEsales\EshopCommunity\Core\Exception\StandardException
+class VoucherException extends \OxidEsales\Eshop\Core\Exception\StandardException
 {
     /**
      * Exception type, currently old class name is used.
