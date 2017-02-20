@@ -22,8 +22,6 @@
 
 namespace OxidEsales\EshopCommunity\Core\Exception;
 
-use OxidEsales\Eshop\Core\Exception\StandardException;
-
 /**
  * e.g.:
  * - shop is not active

@@ -22,7 +22,6 @@
 
 namespace OxidEsales\EshopCommunity\Core\Exception;
 
-
 /**
  * e.g.:
  * - not existing object

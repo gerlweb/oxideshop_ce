@@ -22,8 +22,6 @@ namespace OxidEsales\EshopCommunity\Core\Exception;
  * @version   OXID eShop CE
  */
 
-use OxidEsales\Eshop\Core\Exception\StandardException;
-
 /**
  * Exception to be thrown on database connection errors
  */

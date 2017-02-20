@@ -22,8 +22,6 @@
 
 namespace OxidEsales\EshopCommunity\Core\Exception;
 
-use OxidEsales\Eshop\Core\Exception\StandardException;
-
 /**
  * exception for invalid or non existin external files, e.g.:
  * - file does not exist
